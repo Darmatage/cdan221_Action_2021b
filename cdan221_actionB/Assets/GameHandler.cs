@@ -78,10 +78,6 @@ public class GameHandler : MonoBehaviour{
                 SceneManager.LoadScene("Scene1");
         }
 
-        public void RestartGame(){
-                SceneManager.LoadScene("MainMenu");
-        }
-
         public void QuitGame(){
                 #if UNITY_EDITOR
                 UnityEditor.EditorApplication.isPlaying = false;
