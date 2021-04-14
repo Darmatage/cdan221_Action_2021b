@@ -1,88 +1,88 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
-using UnityEngine.UI;
 
-public class GameHandler : MonoBehaviour{
 
-        public static int playerStat;
-        //public GameObject textGameObject;
-		
-		public static bool GameisPaused = false;
-        public GameObject pauseMenuUI;
-        public AudioMixer mixer;
-        public static float volumeLevel = 1.0f;
-        private Slider sliderVolumeCtrl;
-        //void Start () { UpdateScore (); }
+public class GameHandler : MonoBehaviour {
 
-		void Awake(){
-                SetLevel (volumeLevel);
-                GameObject sliderTemp = GameObject.FindWithTag("PauseMenuSlider");
-                if (sliderTemp != null){
-                        sliderVolumeCtrl = sliderTemp.GetComponent<Slider>();
-                        sliderVolumeCtrl.value = volumeLevel;
-                }
-        }
-		
-		void Start(){
-                pauseMenuUI.SetActive(false);
-        }	
+      private GameObject player;
+      public static int playerHealth;
+      public int StartPlayerHealth = 100;
+      public GameObject healthText;
 
-        void Update(){
-                 if (Input.GetKeyDown(KeyCode.Escape)){
-                        if (GameisPaused){
-                                Resume();
-                        }
-                        else{
-                                Pause();
-                        }
-                }
-        }
-		
-		void Pause(){
-                pauseMenuUI.SetActive(true);
-                Time.timeScale = 0f;
-                GameisPaused = true;
-        }
+      public static int gotTokens = 0;
+      public GameObject tokensText;
 
-        public void Resume(){
-                pauseMenuUI.SetActive(false);
-                Time.timeScale = 1f;
-                GameisPaused = false;
-        }
+      public bool isDefending = false;
 
-        public void RestartGame(){
-                Time.timeScale = 1f;
-                //restart the game:
-                //SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
-				SceneManager.LoadScene ("MainMenu");
-        }
-		public void SetLevel (float sliderValue){
-                mixer.SetFloat("MusicVolume", Mathf.Log10 (sliderValue) * 20);
-                volumeLevel = sliderValue;
-        }
-		
-        public void AddPlayerStat(int amount){
-                playerStat += amount;
-                Debug.Log("Current Player Stat = " + playerStat);
-        //      UpdateScore ();
-        }
+      void Start(){
+            player = GameObject.FindWithTag("Player");
+            playerHealth = StartPlayerHealth;
+            updateStatsDisplay();       
+      }
 
-        //void UpdateScore () {
-        //        Text scoreTemp = textGameObject.GetComponent<Text>();
-        //        scoreTemp.text = "Score: " + score; }
+      public void playerGetTokens(int newTokens){
+            gotTokens += newTokens;
+            updateStatsDisplay();
+      }
 
-        public void StartGame(){
-                SceneManager.LoadScene("Level1");
-        }
+      public void playerGetHit(int damage){
+           if (isDefending == false){
+                  playerHealth -= damage;
+                  updateStatsDisplay();
+                  player.GetComponent<PlayerHurt>().playerHit();
+            }
 
-        public void QuitGame(){
+           if (playerHealth >= 100){
+                  playerHealth = 100;
+            }
+
+           if (playerHealth <= 0){
+                  playerHealth = 0;
+                  playerDies();
+            }
+      }
+
+      public void updateStatsDisplay(){
+            Text healthTextTemp = healthText.GetComponent<Text>();
+            healthTextTemp.text = "HEALTH: " + playerHealth;
+
+            Text tokensTextTemp = tokensText.GetComponent<Text>();
+            tokensTextTemp.text = "GOLD: " + gotTokens;
+      }
+
+      public void playerDies(){
+            player.GetComponent<PlayerHurt>().playerDead();
+            StartCoroutine(DeathPause());
+      }
+
+      IEnumerator DeathPause(){
+            player.GetComponent<PlayerMove>().isAlive = false;
+            player.GetComponent<PlayerJump>().isAlive = false;
+            yield return new WaitForSeconds(1.0f);
+            SceneManager.LoadScene("EndLose");
+      }
+
+      public void StartGame() {
+            SceneManager.LoadScene("Level1");
+      }
+
+      public void RestartGame() {
+            SceneManager.LoadScene("MainMenu");
+      }
+
+      public void QuitGame() {
                 #if UNITY_EDITOR
                 UnityEditor.EditorApplication.isPlaying = false;
                 #else
                 Application.Quit();
                 #endif
-        }
+      }
+
+      public void Credits() {
+            SceneManager.LoadScene("Credits");
+      }
 }
