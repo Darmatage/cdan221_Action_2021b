@@ -1,0 +1,1214 @@
+fileFormatVersion: 2
+guid: d4b6eeaf572a07a47bcdd15a778ed8fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5429066729343759229
+    second: DraftTitleMap_0
+  - first:
+      213: 5905277487789678559
+    second: DraftTitleMap_1
+  - first:
+      213: 2313450259738884520
+    second: DraftTitleMap_2
+  - first:
+      213: 1736146046689652352
+    second: DraftTitleMap_3
+  - first:
+      213: 4173728452732569606
+    second: DraftTitleMap_4
+  - first:
+      213: -5763237812910875549
+    second: DraftTitleMap_5
+  - first:
+      213: 8860426154270322245
+    second: DraftTitleMap_6
+  - first:
+      213: -5879194381741620479
+    second: DraftTitleMap_7
+  - first:
+      213: 5323317774216172516
+    second: DraftTitleMap_8
+  - first:
+      213: -26552539246756900
+    second: DraftTitleMap_9
+  - first:
+      213: -5021551862826302761
+    second: DraftTitleMap_10
+  - first:
+      213: -2005096863555730327
+    second: DraftTitleMap_11
+  - first:
+      213: 6351992657504151609
+    second: DraftTitleMap_12
+  - first:
+      213: 7132482282464076477
+    second: DraftTitleMap_13
+  - first:
+      213: 2763414013947267039
+    second: DraftTitleMap_14
+  - first:
+      213: -2425074641421025303
+    second: DraftTitleMap_15
+  - first:
+      213: 8236741611909089343
+    second: DraftTitleMap_16
+  - first:
+      213: 2713128111018478526
+    second: DraftTitleMap_17
+  - first:
+      213: -5179840076054777935
+    second: DraftTitleMap_18
+  - first:
+      213: 2836216429102160803
+    second: DraftTitleMap_19
+  - first:
+      213: -5481567425374966486
+    second: DraftTitleMap_20
+  - first:
+      213: -3841208686975462426
+    second: DraftTitleMap_21
+  - first:
+      213: -2113544930057097249
+    second: DraftTitleMap_22
+  - first:
+      213: -8805385169766179809
+    second: DraftTitleMap_23
+  - first:
+      213: -8589360898914684591
+    second: DraftTitleMap_24
+  - first:
+      213: 8730477190865666205
+    second: DraftTitleMap_25
+  - first:
+      213: -4565310463780753636
+    second: DraftTitleMap_26
+  - first:
+      213: 4500574711606088571
+    second: DraftTitleMap_27
+  - first:
+      213: -8286165525606295993
+    second: DraftTitleMap_28
+  - first:
+      213: 5227973853034154690
+    second: DraftTitleMap_29
+  - first:
+      213: 5202392042080869173
+    second: DraftTitleMap_30
+  - first:
+      213: -5074200941322301762
+    second: DraftTitleMap_31
+  - first:
+      213: 7665388910629291661
+    second: DraftTitleMap_32
+  - first:
+      213: -4225893206248393970
+    second: DraftTitleMap_33
+  - first:
+      213: 581141606528846773
+    second: DraftTitleMap_34
+  - first:
+      213: 5441859348666744225
+    second: DraftTitleMap_35
+  - first:
+      213: 581292375729901491
+    second: DraftTitleMap_36
+  - first:
+      213: -6455387248838484017
+    second: DraftTitleMap_37
+  - first:
+      213: 2884614380234241472
+    second: DraftTitleMap_38
+  - first:
+      213: -2807094458228142150
+    second: DraftTitleMap_39
+  - first:
+      213: -5706056561998141773
+    second: DraftTitleMap_40
+  - first:
+      213: 6609395745789012705
+    second: DraftTitleMap_41
+  - first:
+      213: 92428157600742639
+    second: DraftTitleMap_42
+  - first:
+      213: -1382410458811320350
+    second: DraftTitleMap_43
+  - first:
+      213: -2316203755300861155
+    second: DraftTitleMap_44
+  - first:
+      213: -3926017895378731230
+    second: DraftTitleMap_45
+  - first:
+      213: 7298286342458911895
+    second: DraftTitleMap_46
+  - first:
+      213: -2635322309806204984
+    second: DraftTitleMap_47
+  - first:
+      213: -1501727879559044822
+    second: DraftTitleMap_48
+  - first:
+      213: -5377917373970110411
+    second: DraftTitleMap_49
+  - first:
+      213: 7034767707567821731
+    second: DraftTitleMap_50
+  - first:
+      213: -6733763898244670326
+    second: DraftTitleMap_51
+  - first:
+      213: -7674830973546737613
+    second: DraftTitleMap_52
+  - first:
+      213: 7512800501661406831
+    second: DraftTitleMap_53
+  - first:
+      213: -3152639307632765032
+    second: DraftTitleMap_54
+  - first:
+      213: 3818900360753885637
+    second: DraftTitleMap_55
+  - first:
+      213: 921489708302635905
+    second: DraftTitleMap_56
+  - first:
+      213: -4189930718672673319
+    second: DraftTitleMap_57
+  - first:
+      213: -519584024626267335
+    second: DraftTitleMap_58
+  - first:
+      213: 741143087727800826
+    second: DraftTitleMap_59
+  - first:
+      213: -1411949962105930956
+    second: DraftTitleMap_60
+  - first:
+      213: -4614835637733845430
+    second: DraftTitleMap_61
+  - first:
+      213: -940780225839771447
+    second: DraftTitleMap_62
+  - first:
+      213: 940866417085141010
+    second: DraftTitleMap_63
+  - first:
+      213: -4138396177982194094
+    second: DraftTitleMap_64
+  - first:
+      213: -6555331416740279657
+    second: DraftTitleMap_65
+  - first:
+      213: 7481314646555438111
+    second: DraftTitleMap_66
+  - first:
+      213: 4219844832937486566
+    second: DraftTitleMap_67
+  - first:
+      213: 7516607869117180037
+    second: DraftTitleMap_68
+  - first:
+      213: -767863136269180894
+    second: DraftTitleMap_69
+  - first:
+      213: 5066951793856053232
+    second: DraftTitleMap_70
+  - first:
+      213: -6028183244488929946
+    second: DraftTitleMap_71
+  - first:
+      213: 4370113209545677244
+    second: DraftTitleMap_72
+  - first:
+      213: 6444530974342613879
+    second: DraftTitleMap_73
+  - first:
+      213: -7366549843129504062
+    second: DraftTitleMap_74
+  - first:
+      213: -3949372142031028599
+    second: DraftTitleMap_75
+  - first:
+      213: -8475448792037303502
+    second: DraftTitleMap_76
+  - first:
+      213: 9026423460808925789
+    second: DraftTitleMap_77
+  - first:
+      213: 5372029289932955507
+    second: DraftTitleMap_78
+  - first:
+      213: 4455230342269281994
+    second: DraftTitleMap_79
+  - first:
+      213: -7754297692912404136
+    second: DraftTitleMap_80
+  - first:
+      213: 5308499378470808158
+    second: DraftTitleMap_81
+  - first:
+      213: -3493479018601261083
+    second: DraftTitleMap_82
+  - first:
+      213: 1478679860323880200
+    second: DraftTitleMap_83
+  - first:
+      213: -4071380464618979476
+    second: DraftTitleMap_84
+  - first:
+      213: -6571524111856364302
+    second: DraftTitleMap_85
+  - first:
+      213: -2063329396806433550
+    second: DraftTitleMap_86
+  - first:
+      213: -8349886002149762868
+    second: DraftTitleMap_87
+  - first:
+      213: 6129788605244426697
+    second: DraftTitleMap_88
+  - first:
+      213: -1693798468873563552
+    second: DraftTitleMap_89
+  - first:
+      213: 4698158242099099126
+    second: DraftTitleMap_90
+  - first:
+      213: -1356083600492641283
+    second: DraftTitleMap_91
+  - first:
+      213: -7527060575365273140
+    second: DraftTitleMap_92
+  - first:
+      213: 8474299065101941704
+    second: DraftTitleMap_93
+  - first:
+      213: -1263193957765025927
+    second: DraftTitleMap_94
+  - first:
+      213: -4726904373696284364
+    second: DraftTitleMap_95
+  - first:
+      213: 165667407585284725
+    second: DraftTitleMap_96
+  - first:
+      213: 1499945179696115197
+    second: DraftTitleMap_97
+  - first:
+      213: -4411127690755855797
+    second: DraftTitleMap_98
+  - first:
+      213: 7324466452649515837
+    second: DraftTitleMap_99
+  - first:
+      213: 1318020795396599076
+    second: DraftTitleMap_100
+  - first:
+      213: 6681772874156445904
+    second: DraftTitleMap_101
+  - first:
+      213: 2766870583866027808
+    second: DraftTitleMap_102
+  - first:
+      213: -6668568512895273704
+    second: DraftTitleMap_103
+  - first:
+      213: -1319896519047893505
+    second: DraftTitleMap_104
+  - first:
+      213: 2104601140031900530
+    second: DraftTitleMap_105
+  - first:
+      213: -6096561244973017706
+    second: DraftTitleMap_106
+  - first:
+      213: -8713896868684218670
+    second: DraftTitleMap_107
+  - first:
+      213: 591699765103830168
+    second: DraftTitleMap_108
+  - first:
+      213: 3176434854914873976
+    second: DraftTitleMap_109
+  - first:
+      213: -6665470280528308497
+    second: DraftTitleMap_110
+  - first:
+      213: 4249913233286583507
+    second: DraftTitleMap_111
+  - first:
+      213: 2860487654058028164
+    second: DraftTitleMap_112
+  - first:
+      213: 6988292591791243903
+    second: DraftTitleMap_113
+  - first:
+      213: -5653755294081856655
+    second: DraftTitleMap_114
+  - first:
+      213: -361382817855523161
+    second: DraftTitleMap_115
+  - first:
+      213: 3791502438674629972
+    second: DraftTitleMap_116
+  - first:
+      213: -5269733230229209653
+    second: DraftTitleMap_117
+  - first:
+      213: 2653360598458613627
+    second: Tilemap_Daniel_0
+  - first:
+      213: 2659270323371460928
+    second: Tilemap_Daniel_1
+  - first:
+      213: 3456795154458583345
+    second: Tilemap_Daniel_2
+  - first:
+      213: -8626210528240329066
+    second: Tilemap_Daniel_3
+  - first:
+      213: -6699977201853308018
+    second: Tilemap_Daniel_4
+  - first:
+      213: 7898687716317007987
+    second: Tilemap_Daniel_5
+  - first:
+      213: -1280750307044555679
+    second: Tilemap_Daniel_6
+  - first:
+      213: 4521227335932958653
+    second: Tilemap_Daniel_7
+  - first:
+      213: 5103350860837609172
+    second: Tilemap_Daniel_8
+  - first:
+      213: 2610242339969617889
+    second: Tilemap_Daniel_9
+  - first:
+      213: 8199294463639394047
+    second: Tilemap_Daniel_10
+  - first:
+      213: -3189812517164387720
+    second: Tilemap_Daniel_11
+  - first:
+      213: 9010265234760345139
+    second: Tilemap_Daniel_12
+  - first:
+      213: 3642362978010097122
+    second: Tilemap_Daniel_13
+  - first:
+      213: -4006161922670889098
+    second: Tilemap_Daniel_14
+  - first:
+      213: -4141798027632237046
+    second: Tilemap_Daniel_15
+  - first:
+      213: -2515441620582860140
+    second: Tilemap_Daniel_16
+  - first:
+      213: -5238826773159909534
+    second: Tilemap_Daniel_17
+  - first:
+      213: -4790258716509416985
+    second: Tilemap_Daniel_18
+  - first:
+      213: -2055672983539910784
+    second: Tilemap_Daniel_19
+  - first:
+      213: -4496064842791506058
+    second: Tilemap_Daniel_20
+  - first:
+      213: 3311114733852686689
+    second: Tilemap_Daniel_21
+  - first:
+      213: -4781534938607526934
+    second: Tilemap_Daniel_22
+  - first:
+      213: 683464156739007344
+    second: Tilemap_Daniel_23
+  - first:
+      213: -4866011923466817894
+    second: Tilemap_Daniel_24
+  - first:
+      213: 4611769404596778931
+    second: Tilemap_Daniel_25
+  - first:
+      213: -1668061717576015957
+    second: Tilemap_Daniel_26
+  - first:
+      213: -8953097159996709366
+    second: Tilemap_Daniel_27
+  - first:
+      213: -2376418287183922174
+    second: Tilemap_Daniel_28
+  - first:
+      213: -3404419814848459511
+    second: Tilemap_Daniel_29
+  - first:
+      213: 3938390800374055114
+    second: Tilemap_Daniel_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tilemap_Daniel_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fb42cf761a2d420800000000000000
+      internalID: 2653360598458613627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0494b4a0540a7e420800000000000000
+      internalID: 2659270323371460928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131abcac0e009ff20800000000000000
+      internalID: 3456795154458583345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e108a6a3b894880800000000000000
+      internalID: -8626210528240329066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e836150ab36e403a0800000000000000
+      internalID: -6699977201853308018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37011d201a6cd9d60800000000000000
+      internalID: 7898687716317007987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16403a6a16cd93ee0800000000000000
+      internalID: -1280750307044555679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7d11bbe40aebe30800000000000000
+      internalID: 4521227335932958653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ded868b19eb2d640800000000000000
+      internalID: 5103350860837609172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efc29b1491793420800000000000000
+      internalID: 2610242339969617889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff69d0a7fdeb9c170800000000000000
+      internalID: 8199294463639394047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872725e7a628bb3d0800000000000000
+      internalID: -3189812517164387720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33621f91e74ea0d70800000000000000
+      internalID: 9010265234760345139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5635794d54c8230800000000000000
+      internalID: 3642362978010097122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6777186f4f04768c0800000000000000
+      internalID: -4006161922670889098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06219753a06586c0800000000000000
+      internalID: -4141798027632237046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49afce76c2b571dd0800000000000000
+      internalID: -2515441620582860140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2676ff96ec2fb47b0800000000000000
+      internalID: -5238826773159909534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1dc34c315958db0800000000000000
+      internalID: -4790258716509416985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0877cb91058c873e0800000000000000
+      internalID: -2055672983539910784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f2a4eb8d4ca91c0800000000000000
+      internalID: -4496064842791506058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_21
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169f9d1be4173fd20800000000000000
+      internalID: 3311114733852686689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebdd279e4394adb0800000000000000
+      internalID: -4781534938607526934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073f32787072c7900800000000000000
+      internalID: 683464156739007344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ee1f4dfe3787cb0800000000000000
+      internalID: -4866011923466817894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7710bd6db400040800000000000000
+      internalID: 4611769404596778931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf1474a4bad9d8e0800000000000000
+      internalID: -1668061717576015957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0666da819530c380800000000000000
+      internalID: -8953097159996709366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cf8aa9824450fd0800000000000000
+      internalID: -2376418287183922174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d08ad373211c0d0800000000000000
+      internalID: -3404419814848459511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac046f20199f7a630800000000000000
+      internalID: 3938390800374055114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
