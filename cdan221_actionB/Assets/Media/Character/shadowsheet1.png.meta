@@ -1,0 +1,530 @@
+fileFormatVersion: 2
+guid: f7dee189e6ba0a0449c8da9418404399
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7577606375115208527
+    second: shadowsheet1_0
+  - first:
+      213: -4789656048552763042
+    second: shadowsheet1_1
+  - first:
+      213: -2647784285523165960
+    second: shadowsheet1_2
+  - first:
+      213: 5594519816657813780
+    second: shadowsheet1_3
+  - first:
+      213: -838157882824355099
+    second: shadowsheet1_4
+  - first:
+      213: -8536457305279340864
+    second: shadowsheet1_5
+  - first:
+      213: -965872708717623872
+    second: shadowsheet1_6
+  - first:
+      213: -8093332133839258314
+    second: shadowsheet1_7
+  - first:
+      213: 7534504238251709671
+    second: shadowsheet1_8
+  - first:
+      213: 8001651104562426988
+    second: shadowsheet1_9
+  - first:
+      213: 6005422039252675088
+    second: shadowsheet1_10
+  - first:
+      213: 7501194592555297626
+    second: shadowsheet1_11
+  - first:
+      213: -6412600955434341030
+    second: shadowsheet1_12
+  - first:
+      213: -1974497576447935020
+    second: shadowsheet1_13
+  - first:
+      213: -625831688451380539
+    second: shadowsheet1_14
+  - first:
+      213: 1202278716508568530
+    second: shadowsheet1_15
+  - first:
+      213: 2345504151275637643
+    second: shadowsheet1_16
+  - first:
+      213: 709344033949975278
+    second: shadowsheet1_17
+  - first:
+      213: -6877853603343848154
+    second: shadowsheet1_18
+  - first:
+      213: 1314659382575982160
+    second: shadowsheet1_19
+  - first:
+      213: -4020312308076397589
+    second: shadowsheet1_20
+  - first:
+      213: -2820717176589084520
+    second: shadowsheet1_21
+  - first:
+      213: -9194619956079978425
+    second: shadowsheet1_22
+  - first:
+      213: -2014590256739873219
+    second: shadowsheet1_23
+  - first:
+      213: -3439859243225001596
+    second: shadowsheet1_24
+  - first:
+      213: -3224640155792533664
+    second: shadowsheet1_25
+  - first:
+      213: -2485704866317921339
+    second: shadowsheet1_26
+  - first:
+      213: 3463762480702697024
+    second: shadowsheet1_27
+  - first:
+      213: -3288868311562104411
+    second: shadowsheet1_28
+  - first:
+      213: 7960855667599160723
+    second: shadowsheet1_29
+  - first:
+      213: -6581959203707688687
+    second: shadowsheet1_30
+  - first:
+      213: -1760321875212056343
+    second: shadowsheet1_0
+  - first:
+      213: 4312994914827956173
+    second: shadowsheet1_1
+  - first:
+      213: 3986716750925487543
+    second: shadowsheet1_2
+  - first:
+      213: 1480611163741033544
+    second: shadowsheet1_3
+  - first:
+      213: 460020933639636679
+    second: shadowsheet1_4
+  - first:
+      213: 468079909262027706
+    second: shadowsheet1_5
+  - first:
+      213: 7575304849511405379
+    second: shadowsheet1_6
+  - first:
+      213: 2221899733072974218
+    second: shadowsheet1_7
+  - first:
+      213: 5345076341504848469
+    second: shadowsheet1_8
+  - first:
+      213: -3784364384003622177
+    second: shadowsheet1_9
+  - first:
+      213: 5620780563247402599
+    second: shadowsheet1_10
+  - first:
+      213: 1267465794062347564
+    second: shadowsheet1_11
+  - first:
+      213: 6495009361947202054
+    second: shadowsheet1_12
+  - first:
+      213: 649806801528699464
+    second: shadowsheet1_13
+  - first:
+      213: 5203836745608914300
+    second: shadowsheet1_14
+  - first:
+      213: -2799118259304051988
+    second: shadowsheet1_15
+  - first:
+      213: -8054893440586004223
+    second: shadowsheet1_16
+  - first:
+      213: -2830754318577530207
+    second: shadowsheet1_17
+  - first:
+      213: 5539714902703030205
+    second: shadowsheet1_18
+  - first:
+      213: 4972189448359318525
+    second: shadowsheet1_19
+  - first:
+      213: -175954542396807830
+    second: shadowsheet1_20
+  - first:
+      213: 6982225773539400085
+    second: shadowsheet1_21
+  - first:
+      213: -5890538946343299227
+    second: shadowsheet1_22
+  - first:
+      213: -8891021191151201207
+    second: shadowsheet1_23
+  - first:
+      213: 1051737003403981230
+    second: shadowsheet1_24
+  - first:
+      213: 2427096745157927310
+    second: shadowsheet1_25
+  - first:
+      213: 6472013382269083504
+    second: shadowsheet1_26
+  - first:
+      213: 8984023742800187340
+    second: shadowsheet1_27
+  - first:
+      213: 6568154167469017417
+    second: shadowsheet1_28
+  - first:
+      213: -6115877996672624495
+    second: shadowsheet1_29
+  - first:
+      213: 5488046431675813941
+    second: shadowsheet1_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shadowsheet1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8c2a1c4941297e0800000000000000
+      internalID: -1760321875212056343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowsheet1_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfe2681606dadb30800000000000000
+      internalID: 4312994914827956173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowsheet1_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd530f23c9a35730800000000000000
+      internalID: 3986716750925487543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowsheet1_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844134142003c8410800000000000000
+      internalID: 1480611163741033544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowsheet1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c685d21a92526600800000000000000
+      internalID: 460020933639636679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowsheet1_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb6f0e8234fe7600800000000000000
+      internalID: 468079909262027706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowsheet1_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347db6cff93e02960800000000000000
+      internalID: 7575304849511405379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowsheet1_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81995cf806c5de10800000000000000
+      internalID: 2221899733072974218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
