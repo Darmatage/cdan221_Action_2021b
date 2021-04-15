@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 267cfa50e27049244a455a761b5c09cf
+guid: 5cab6503fa820644da00c92b37f547d1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -285228925876516658
-    second: phantomsheet1_0
+      213: 9101641714611219211
+    second: phantomsheet2_0
   - first:
-      213: -658991388058805319
-    second: phantomsheet1_1
+      213: 2421235327684503715
+    second: phantomsheet2_1
   - first:
-      213: 5003968899382875653
-    second: phantomsheet1_2
+      213: 2122281240543756581
+    second: phantomsheet2_2
   - first:
-      213: 1130410828287602803
-    second: phantomsheet1_3
+      213: 2527159687274623147
+    second: phantomsheet2_3
   - first:
-      213: -10347080152228797
-    second: phantomsheet1_4
+      213: 9025595924532044191
+    second: phantomsheet2_4
   - first:
-      213: -5898477883624859635
-    second: phantomsheet1_5
+      213: 3581822457477852303
+    second: phantomsheet2_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -177,7 +177,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: phantomsheet1_0
+      name: phantomsheet2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -191,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec8c6799dc9aa0cf0800000000000000
-      internalID: -285228925876516658
+      spriteID: b0b6748bae68f4e70800000000000000
+      internalID: 9101641714611219211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phantomsheet1_1
+      name: phantomsheet2_1
       rect:
         serializedVersion: 2
         x: 32
@@ -212,14 +212,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bb96b4f2dacad6f0800000000000000
-      internalID: -658991388058805319
+      spriteID: 3a8e248c3b4f99120800000000000000
+      internalID: 2421235327684503715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phantomsheet1_2
+      name: phantomsheet2_2
       rect:
         serializedVersion: 2
         x: 64
@@ -233,14 +233,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50691daa33ba17540800000000000000
-      internalID: 5003968899382875653
+      spriteID: 52106104b8bd37d10800000000000000
+      internalID: 2122281240543756581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phantomsheet1_3
+      name: phantomsheet2_3
       rect:
         serializedVersion: 2
         x: 0
@@ -254,14 +254,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 370765eb8a600bf00800000000000000
-      internalID: 1130410828287602803
+      spriteID: ba0f0ba9856421320800000000000000
+      internalID: 2527159687274623147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phantomsheet1_4
+      name: phantomsheet2_4
       rect:
         serializedVersion: 2
         x: 32
@@ -275,14 +275,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34c501ba26d3bdff0800000000000000
-      internalID: -10347080152228797
+      spriteID: f9122f77cab514d70800000000000000
+      internalID: 9025595924532044191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phantomsheet1_5
+      name: phantomsheet2_5
       rect:
         serializedVersion: 2
         x: 64
@@ -296,8 +296,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d08da07cd95642ea0800000000000000
-      internalID: -5898477883624859635
+      spriteID: f8ceb7a3c8035b130800000000000000
+      internalID: 3581822457477852303
       vertices: []
       indices: 
       edges: []

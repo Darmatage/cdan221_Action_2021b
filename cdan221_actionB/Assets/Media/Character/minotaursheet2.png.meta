@@ -1,28 +1,25 @@
 fileFormatVersion: 2
-guid: 23712ac14d02cd648af671d0a98d197b
+guid: f0937262f5142134a8ec903a2e37c8e5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2467266175167085190
-    second: minotaursheet1_0
+      213: 4530722412210289116
+    second: minotaursheet2_0
   - first:
-      213: -2304001892038448759
-    second: minotaursheet1_1
+      213: -3546880157125115374
+    second: minotaursheet2_1
   - first:
-      213: -220152644801268563
-    second: minotaursheet1_2
+      213: -5137016515888049293
+    second: minotaursheet2_2
   - first:
-      213: 7923978799972333328
-    second: minotaursheet1_3
+      213: 872389006134440718
+    second: minotaursheet2_3
   - first:
-      213: -7420188284399936231
-    second: minotaursheet1_4
+      213: -2767788881322841707
+    second: minotaursheet2_4
   - first:
-      213: 7341156510037143319
-    second: minotaursheet1_5
-  - first:
-      213: 8697506311005390881
-    second: minotaursheet1_6
+      213: 2633568737528974867
+    second: minotaursheet2_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -180,7 +177,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: minotaursheet1_0
+      name: minotaursheet2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -194,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68abb21a38d7d3220800000000000000
-      internalID: 2467266175167085190
+      spriteID: cd9f1b3770c50ee30800000000000000
+      internalID: 4530722412210289116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: minotaursheet1_1
+      name: minotaursheet2_1
       rect:
         serializedVersion: 2
         x: 32
@@ -215,14 +212,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 989683f7c7a8600e0800000000000000
-      internalID: -2304001892038448759
+      spriteID: 2120dad0a43f6cec0800000000000000
+      internalID: -3546880157125115374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: minotaursheet1_2
+      name: minotaursheet2_2
       rect:
         serializedVersion: 2
         x: 64
@@ -236,35 +233,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da4f142065cd1fcf0800000000000000
-      internalID: -220152644801268563
+      spriteID: 3739d2522b6a5b8b0800000000000000
+      internalID: -5137016515888049293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: minotaursheet1_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 017b31c4cb0a7fd60800000000000000
-      internalID: 7923978799972333328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: minotaursheet1_4
+      name: minotaursheet2_3
       rect:
         serializedVersion: 2
         x: 0
@@ -278,14 +254,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91d93d5b112360990800000000000000
-      internalID: -7420188284399936231
+      spriteID: e037990dd295b1c00800000000000000
+      internalID: 872389006134440718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: minotaursheet1_5
+      name: minotaursheet2_4
       rect:
         serializedVersion: 2
         x: 32
@@ -299,14 +275,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71f6f4563f601e560800000000000000
-      internalID: 7341156510037143319
+      spriteID: 599e9734da6d699d0800000000000000
+      internalID: -2767788881322841707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: minotaursheet1_6
+      name: minotaursheet2_5
       rect:
         serializedVersion: 2
         x: 64
@@ -320,8 +296,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 128c13398efb3b870800000000000000
-      internalID: 8697506311005390881
+      spriteID: 31e0df340d05c8420800000000000000
+      internalID: 2633568737528974867
       vertices: []
       indices: 
       edges: []
