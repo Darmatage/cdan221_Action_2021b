@@ -8,15 +8,22 @@ using UnityEngine.Audio;
 
 public class GameHandler : MonoBehaviour {
 
-      private GameObject player;
-      public static int playerHealth;
-      public int StartPlayerHealth = 100;
-      public GameObject healthText;
+	private GameObject player;
+	public static int playerHealth;
+	public int StartPlayerHealth = 100;
+	public GameObject healthText;
 
-      public static int gotTokens = 0;
-      public GameObject tokensText;
+	public static int gotTokens = 0;
+	public GameObject tokensText;
 
-      public bool isDefending = false;
+	public bool canInvisible = false;
+	public bool canSpeed = false;
+	public bool canDefend = false;
+
+    public bool isDefending = false;
+	public bool isInvisible = false;
+	public bool isSpeedy = false;
+
 
       void Start(){
             player = GameObject.FindWithTag("Player");

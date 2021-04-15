@@ -10,6 +10,8 @@ public class PlayerMove : MonoBehaviour {
       public static float runSpeed = 10f;
       public float startSpeed = 10f;
       public bool isAlive = true;
+	  public AudioSource walkSFX;
+	  //public AudioSource turnSFX;
 
       void Start(){
            //animator = gameObject.GetComponentInChildren<Animator>();
@@ -24,9 +26,13 @@ public class PlayerMove : MonoBehaviour {
                   transform.position = transform.position + hMove * runSpeed * Time.deltaTime;
             }
 
-            // if (Input.GetAxis("Horizontal") != 0){
+            if (Input.GetAxis("Horizontal") != 0){
+				PlaySound();
             //       animator.SetBool ("Walk", true);
-            // } else {animator.SetBool ("Walk", false);}
+            } else {
+				StopSound();
+				//animator.SetBool ("Walk", false);
+			}
 
             // NOTE: if input is moving the Player right and Player faces left, turn, and vice-versa
            if ((hMove.x <0 && !FaceRight) || (hMove.x >0 && FaceRight)){
@@ -37,10 +43,24 @@ public class PlayerMove : MonoBehaviour {
       private void playerTurn(){
             // NOTE: Switch player facing label
             FaceRight = !FaceRight;
-
+			
             // NOTE: Multiply player's x local scale by -1.
             Vector3 theScale = transform.localScale;
             theScale.x *= -1;
             transform.localScale = theScale;
+			
+			//turnSFX.Play();
       }
+	  
+	  public void PlaySound(){
+		  walkSFX.Play();
+		  
+	  }
+	  
+	  public void StopSound(){
+		  walkSFX.Stop();
+		  
+	  }
+	  
+	  
 }
