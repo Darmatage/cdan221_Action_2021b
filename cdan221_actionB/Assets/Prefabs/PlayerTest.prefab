@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 4322602367061065102}
   - component: {fileID: 2380462834205018295}
   - component: {fileID: 5175736389853959206}
+  - component: {fileID: 6220758400666124618}
   m_Layer: 0
   m_Name: PlayerTest
   m_TagString: Player
@@ -345,3 +346,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6220758400666124618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4322602367061065109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f81f551d4c6e5946ba5a57aa015ac08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb2D: {fileID: 0}
+  shieldArt: {fileID: 0}
+  defendTime: 2
