@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  jumpForce: 10
+  jumpForce: 5
   feet: {fileID: 4322602366731717278}
   groundLayer:
     serializedVersion: 2
