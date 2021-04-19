@@ -24,8 +24,8 @@ public class PlayerBottomRespawn : MonoBehaviour
             {
                 //instantiate a particle effect
                 Debug.Log("I am going back to the start");
-                gameHandler.TakeDamage(damage);
-                Vector3 pSpn2 = new Vector3(pSpawn.position.x, pSpawn.position.y, pPos.position.z);
+                gameHandler.playerGetHit(damage);
+                Vector3 pSpn2 = new Vector3(pSpawn.position.x, pSpawn.position.y, playerPos.position.z);
                 playerPos.position = pSpn2;
             }
         }

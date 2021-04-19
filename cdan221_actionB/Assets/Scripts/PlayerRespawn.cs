@@ -10,18 +10,18 @@ public class PlayerRespawn : MonoBehaviour
 
     void Start()
     {
-        gameHandler = GameObject.FindWithTag("GameHandler").GetComponent();
+        gameHandler = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
     }
 
     void Update()
     {
         if (pSpawn != null)
         {
-            if (gameHandler.CurrentHealth < = 0)
+            if (gameHandler.CurrentHealth() <= 0)
             {
                 //comment out lines from GameHandler abotu EndLose screen
                 Debug.Log("I am going back to the last spawn point");
-                Vector3 pSpn2 = new Vector3(pSpawn.position.x, pSpawn.position.y, pPos.position.z);
+                Vector3 pSpn2 = new Vector3(pSpawn.position.x, pSpawn.position.y, transform.position.z);
                 gameObject.transform.position = pSpn2;
             }
         }
@@ -31,7 +31,7 @@ public class PlayerRespawn : MonoBehaviour
     {
         if (other.gameObject.tag == "CheckPoint")
         {
-            playerSpawn = other.gameObject.transform;
+            pSpawn = other.gameObject.transform;
             GameObject thisCheckpoint = other.gameObject;
             StopCoroutine(changeColor(thisCheckpoint));
             StartCoroutine(changeColor(thisCheckpoint));

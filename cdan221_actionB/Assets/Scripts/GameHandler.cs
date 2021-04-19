@@ -24,21 +24,54 @@ public class GameHandler : MonoBehaviour {
 	public bool isInvisible = false;
 	public bool isSpeedy = false;
 
+	public int costInvis = 1;
+	public int costShield = 1;
+	public int costSpeed = 1;
 
-      void Start(){
+
+	void Start(){
             player = GameObject.FindWithTag("Player");
             playerHealth = StartPlayerHealth;
             updateStatsDisplay();       
-      }
+	}
 
 
-		public void playerGetBlood(int newBlood){
+	public void playerGetBlood(int newBlood){
 			myBlood += newBlood;
             updateStatsDisplay();
 		
-		}
+	}
 
-      public void playerGetHit(int damage){
+	public int CurrentHealth(){
+		return playerHealth;
+	}
+
+
+    void Update(){
+
+		if (myBlood >= costInvis){canInvisible = true;}
+		else {canInvisible = false;}
+
+		if (myBlood >= costShield){canDefend = true;}
+		else {canDefend = false;}
+
+		if (myBlood >= costSpeed){canSpeed = true;}
+		else {canSpeed = false;}
+
+
+        // if (Input.GetKeyDown(KeyCode.P))
+        // {
+            // if (gameObject.GetComponent<GameInventory>().item1bool == true)
+            // {
+                // gameObject.GetComponent<GameInventory>().InventoryRemove(item1);
+                // player.speedBoost(2f, 5f);
+            // }
+        // }
+
+    }
+
+
+	public void playerGetHit(int damage){
            if (isDefending == false){
                   playerHealth -= damage;
                   updateStatsDisplay();
@@ -53,9 +86,9 @@ public class GameHandler : MonoBehaviour {
                   playerHealth = 0;
                   playerDies();
             }
-      }
+	}
 
-      public void updateStatsDisplay(){
+	public void updateStatsDisplay(){
             Text healthTextTemp = healthText.GetComponent<Text>();
             healthTextTemp.text = "HEALTH: " + playerHealth;
 
@@ -91,20 +124,7 @@ public class GameHandler : MonoBehaviour {
                 #endif
       }
 
-    void Update()
-    {
 
-
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            if (gameObject.GetComponent<GameInventory>().item1bool == true)
-            {
-                gameObject.GetComponent<GameInventory>().InventoryRemove(item1);
-                player.speedBoost(2f, 5f);
-            }
-        }
-
-    }
 
     public void Credits() {
             SceneManager.LoadScene("Credits");

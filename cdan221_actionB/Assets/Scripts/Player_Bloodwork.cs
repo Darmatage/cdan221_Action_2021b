@@ -11,9 +11,14 @@ public class Player_Bloodwork : MonoBehaviour
 	public GameObject playerArt;
 	public GameObject playerArtInvisible;
 	
-	public float defendTime = 2f;
-	public float invisibleTime = 2f;
-	public float speedTime = 2f;
+	public float defendTime = 5f;
+	public float invisibleTime = 5f;
+	public float speedTime = 5f;
+	
+	private int costInvis;
+	private int costShield;
+	private int costSpeed;
+	
 	
     // Start is called before the first frame update
     void Start(){
@@ -25,21 +30,26 @@ public class Player_Bloodwork : MonoBehaviour
 		playerArt.SetActive(true);
 		playerArtInvisible.SetActive(false);
 		
+		costInvis = gameHandler.costInvis;
+		costShield = gameHandler.costShield;
+		costSpeed = gameHandler.costSpeed;
     }
 
     // Update is called once per frame
     void Update()
     {
         if (gameHandler.canDefend == true){
-			if (Input.GetButtonDown("BloodDefend")){
+			if (Input.GetButtonDown("BloodShield")){
 				StartCoroutine(DefendTimer());
+				gameHandler.playerGetBlood(costShield * -1);
 			}
 			
 		}
 
 		if (gameHandler.canInvisible == true){
-			if (Input.GetButtonDown("BloodDefend")){
+			if (Input.GetButtonDown("BloodInvis")){
 				StartCoroutine(InvisibleTimer());
+				gameHandler.playerGetBlood(costInvis * -1);
 			}
 			
 		}
@@ -47,19 +57,20 @@ public class Player_Bloodwork : MonoBehaviour
 		if (gameHandler.canSpeed == true){
 			if (Input.GetButtonDown("BloodSpeed")){
 				StartCoroutine(SpeedTimer());
+				gameHandler.playerGetBlood(costSpeed * -1);
 			}
 			
 		}
 		
 		IEnumerator DefendTimer(){
 			//turn on defense things
-			Debug.Log("I am defending!");
+			//Debug.Log("I am defending!");
 			gameHandler.isDefending = true;
 			playerShield.SetActive(true);
 			yield return new WaitForSeconds(defendTime);
 			
 			//turn off defense things
-			Debug.Log("I am not defending!");
+			//Debug.Log("I am not defending!");
 			gameHandler.isDefending = false;
 			playerShield.SetActive(false);
 		}
@@ -67,14 +78,14 @@ public class Player_Bloodwork : MonoBehaviour
 		
 		IEnumerator InvisibleTimer(){
 			//turn on defense things
-			Debug.Log("I am invisible!");
+			//Debug.Log("I am invisible!");
 			gameHandler.isInvisible = true;
 			playerArt.SetActive(false);
 			playerArtInvisible.SetActive(true);
 			yield return new WaitForSeconds(invisibleTime);
 			
 			//turn off defense things
-			Debug.Log("I am not invisible!");
+			//Debug.Log("I am not invisible!");
 			gameHandler.isInvisible = false;
 			playerArt.SetActive(true);
 			playerArtInvisible.SetActive(false);
@@ -83,14 +94,16 @@ public class Player_Bloodwork : MonoBehaviour
 		
 		IEnumerator SpeedTimer(){
 			//turn on defense things
-			Debug.Log("I am speedy!");
-			gameHandler.isInvisible = true;
+			//Debug.Log("I am speedy!");
+			gameHandler.isSpeedy = true;
+			gameObject.GetComponent<PlayerMove>().isSpeedBoost = true;
 			speedArt.SetActive(true);
 			yield return new WaitForSeconds(speedTime);
 			
 			//turn off defense things
-			Debug.Log("I am not speedy!");
-			gameHandler.isInvisible = false;
+			//Debug.Log("I am not speedy!");
+			gameHandler.isSpeedy = false;
+			gameObject.GetComponent<PlayerMove>().isSpeedBoost = false;
 			speedArt.SetActive(false);
 		}
 		

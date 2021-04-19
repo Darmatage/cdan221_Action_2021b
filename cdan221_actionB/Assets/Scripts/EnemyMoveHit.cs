@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyMoveHit : MonoBehaviour
 {
 
-    //public Animator anim;
+    public Animator anim;
     public float speed = 4f;
     private Transform target;
     public int damage = 10;

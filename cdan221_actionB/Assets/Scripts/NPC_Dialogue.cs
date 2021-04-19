@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class NPC_Dialogue : MonoBehaviour
 {
-    //public Animator anim;
+    public Animator anim;
     public GameObject dialogueBox;
     public Text dialogueText;
     public bool playerInRange = false;
@@ -20,7 +20,7 @@ public class NPC_Dialogue : MonoBehaviour
     void Start()
     {
         dialogueBox.SetActive(false);
-        anim.SetBool("Chat", false)
+        anim.SetBool("Chat", false);
        }
 
     void Update()
@@ -79,7 +79,7 @@ public class NPC_Dialogue : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.ObjectTag("Player"))
+        if (other.gameObject.tag == "Player")
         {
             playerInRange = true;
             primeInt = -1;
@@ -89,7 +89,7 @@ public class NPC_Dialogue : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.ObjectTag("Player"))
+        if (other.gameObject.tag == "Player")
         {
             playerInRange = false;
             dialogueBox.SetActive(false);

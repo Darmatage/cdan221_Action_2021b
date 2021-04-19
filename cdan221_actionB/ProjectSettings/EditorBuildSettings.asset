@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 23fb48fae10d4da46b1931fee29ab461
   - enabled: 1
+    path: Assets/Scenes/LevelTemplate.unity
+    guid: 3e764a4a8bc5fef42bb98aaf84944640
+  - enabled: 1
+    path: Assets/Scenes/Treachery.unity
+    guid: fa9bf3cacc7b8f44ebea7a75eada542d
+  - enabled: 1
+    path: Assets/Scenes/SceneWin.unity
+    guid: 920c31f4fddb50a4e9c5c3ecd519d8fb
+  - enabled: 1
     path: Assets/Scenes/SceneLose.unity
     guid: 24bd5575f4547014ea167966a4787eb6
   m_configObjects: {}

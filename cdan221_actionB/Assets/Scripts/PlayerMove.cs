@@ -7,19 +7,27 @@ public class PlayerMove : MonoBehaviour {
       public Animator animator;
       public Rigidbody2D rb2D;
       private bool FaceRight = true; // determine which way player is facing.
-      public static float runSpeed = 10f;
+      public static float runSpeed;
       public float startSpeed = 10f;
+	  public float boostSpeed = 20f;
       public bool isAlive = true;
 	  public AudioSource walkSFX;
 	  //public AudioSource turnSFX;
 
+	public bool isSpeedBoost = false;
+
+
       void Start(){
            animator = gameObject.GetComponentInChildren<Animator>();
            rb2D = transform.GetComponent<Rigidbody2D>();
+		   runSpeed = startSpeed;
       }
 
       void Update(){
-            //NOTE: Horizontal axis: [a] / left arrow is -1, [d] / right arrow is 1
+            if (isSpeedBoost == true) {runSpeed = boostSpeed;}
+			else {runSpeed = startSpeed;}
+			
+			//NOTE: Horizontal axis: [a] / left arrow is -1, [d] / right arrow is 1
             Vector3 hMove = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
            if (isAlive == true){
                  

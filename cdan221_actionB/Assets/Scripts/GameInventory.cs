@@ -42,7 +42,7 @@ public class GameInventory : MonoBehaviour
         if (item4bool == true) { item4image.SetActive(true); } else { item4image.SetActive(false); }
         if (item5bool == true) { item5image.SetActive(true); } else { item5image.SetActive(false); }
 
-        Text coinTextB = coinText.GetComponent();
+        Text coinTextB = coinText.GetComponent<Text>();
         coinTextB.text = ("COINS: " + coins);
     }
 
