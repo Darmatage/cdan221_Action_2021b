@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerCrouch : MonoBehaviour {
 
-      //public Animator animator;
+      public Animator animator;
 	  public Rigidbody2D rb2D;
       public GameObject torso;
       public Transform feet;
@@ -13,17 +13,17 @@ public class PlayerCrouch : MonoBehaviour {
       public bool isAlive = true;
 
       void Start(){
-            //animator = gameObject.GetComponentInChildren<Animator>();
+            animator = gameObject.GetComponentInChildren<Animator>();
             rb2D = GetComponent<Rigidbody2D>();
       }
 
      void Update() {
-           if ((Input.GetButtonDown("Crouch")) && (IsGrounded()) && (isAlive==true)) {
+           if ((Input.GetButton("Crouch")) && (IsGrounded()) && (isAlive==true)) {
                   torso.SetActive(false);
-                  //animator.SetBool("Crouch", true);
+                  animator.SetBool("Crouch", true);
             } else {
                   torso.SetActive(true);
-                  //animator.SetBool("Crouch", false);
+                  animator.SetBool("Crouch", false);
             }
       }
 

@@ -13,8 +13,8 @@ public class GameHandler : MonoBehaviour {
 	public int StartPlayerHealth = 100;
 	public GameObject healthText;
 
-	public static int gotTokens = 0;
-	public GameObject tokensText;
+	public static int myBlood = 0;
+	public GameObject bloodText;
 
 	public bool canInvisible = false;
 	public bool canSpeed = false;
@@ -31,10 +31,12 @@ public class GameHandler : MonoBehaviour {
             updateStatsDisplay();       
       }
 
-      public void playerGetTokens(int newTokens){
-            gotTokens += newTokens;
+
+		public void playerGetBlood(int newBlood){
+			myBlood += newBlood;
             updateStatsDisplay();
-      }
+		
+		}
 
       public void playerGetHit(int damage){
            if (isDefending == false){
@@ -57,8 +59,8 @@ public class GameHandler : MonoBehaviour {
             Text healthTextTemp = healthText.GetComponent<Text>();
             healthTextTemp.text = "HEALTH: " + playerHealth;
 
-            Text tokensTextTemp = tokensText.GetComponent<Text>();
-            tokensTextTemp.text = "GOLD: " + gotTokens;
+            Text bloodTextTemp = bloodText.GetComponent<Text>();
+            bloodTextTemp.text = "BLOODS: " + myBlood;
       }
 
       public void playerDies(){
