@@ -91,7 +91,22 @@ public class GameHandler : MonoBehaviour {
                 #endif
       }
 
-      public void Credits() {
+    void Update()
+    {
+
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            if (gameObject.GetComponent<GameInventory>().item1bool == true)
+            {
+                gameObject.GetComponent<GameInventory>().InventoryRemove(item1);
+                player.speedBoost(2f, 5f);
+            }
+        }
+
+    }
+
+    public void Credits() {
             SceneManager.LoadScene("Credits");
       }
 }
