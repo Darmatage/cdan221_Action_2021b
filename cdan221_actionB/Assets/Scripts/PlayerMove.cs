@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour {
 
-      //public Animator animator;
+      public Animator animator;
       public Rigidbody2D rb2D;
       private bool FaceRight = true; // determine which way player is facing.
       public static float runSpeed = 10f;
@@ -14,7 +14,7 @@ public class PlayerMove : MonoBehaviour {
 	  //public AudioSource turnSFX;
 
       void Start(){
-           //animator = gameObject.GetComponentInChildren<Animator>();
+           animator = gameObject.GetComponentInChildren<Animator>();
            rb2D = transform.GetComponent<Rigidbody2D>();
       }
 
@@ -28,14 +28,14 @@ public class PlayerMove : MonoBehaviour {
 
             if (Input.GetAxis("Horizontal") != 0){
 				PlaySound();
-            //       animator.SetBool ("Walk", true);
+                   animator.SetBool ("Walk", true);
             } else {
 				StopSound();
-				//animator.SetBool ("Walk", false);
+				animator.SetBool ("Walk", false);
 			}
 
             // NOTE: if input is moving the Player right and Player faces left, turn, and vice-versa
-           if ((hMove.x <0 && !FaceRight) || (hMove.x >0 && FaceRight)){
+           if ((hMove.x >0 && !FaceRight) || (hMove.x <0 && FaceRight)){
                   playerTurn();
             }
       }
