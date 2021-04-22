@@ -20,4 +20,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SceneLose.unity
     guid: 24bd5575f4547014ea167966a4787eb6
+  - enabled: 1
+    path: Assets/Scenes/Violence.unity
+    guid: 0df36184a0bf6194ba43d3ca715459a1
+  - enabled: 1
+    path: Assets/Scenes/Treachery.unity
+    guid: 2475cd6c642ba1f46ac0e8c5af164e56
+  - enabled: 1
+    path: Assets/Scenes/Lust.unity
+    guid: d51f768ce28bdd24d9ccaa689b6ea17c
+  - enabled: 1
+    path: Assets/Scenes/Limbo.unity
+    guid: f5f33af053703d949931781df9d1f8f2
   m_configObjects: {}
