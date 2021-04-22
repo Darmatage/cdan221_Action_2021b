@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyPatrol : MonoBehaviour {
 
+	public Animator animator;
 	private GameHandler gameHandler;
 	public int damage = 1;
 
@@ -41,6 +42,7 @@ public class EnemyPatrol : MonoBehaviour {
 	public void OnCollisionEnter2D(Collision2D other){
 		if (other.gameObject.tag == "Player"){
 			gameHandler.playerGetHit(damage);
+			animator.SetTrigger ("Attack");
 		}
 	}
 	
