@@ -562,8 +562,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c2427adeb746b46a377037408624d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  rb2D: {fileID: 0}
   gameHandler: {fileID: 0}
   playerShield: {fileID: 6641172040694360011}
   speedArt: {fileID: 2806968528691605059}
@@ -670,7 +668,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3676400553214809589
 Transform:
   m_ObjectHideFlags: 0
