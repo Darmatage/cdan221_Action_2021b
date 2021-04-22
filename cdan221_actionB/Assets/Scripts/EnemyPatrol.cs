@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyPatrol : MonoBehaviour {
 
-	public Animator animator;
+	private Animator animator;
 	private GameHandler gameHandler;
 	public int damage = 1;
 
@@ -17,7 +17,7 @@ public class EnemyPatrol : MonoBehaviour {
 
 	void Start(){
 		rb = GetComponent<Rigidbody2D>();
-		
+		animator = gameObject.GetComponentInChildren<Animator>();
 		gameHandler = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
 	}
 
