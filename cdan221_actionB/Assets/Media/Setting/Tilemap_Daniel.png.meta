@@ -449,6 +449,486 @@ TextureImporter:
   - first:
       213: 3938390800374055114
     second: Tilemap_Daniel_30
+  - first:
+      213: -2191125698203715194
+    second: Tilemap_Daniel_0
+  - first:
+      213: -8648879655588588941
+    second: Tilemap_Daniel_1
+  - first:
+      213: 6954388680272236296
+    second: Tilemap_Daniel_2
+  - first:
+      213: 240537453586723811
+    second: Tilemap_Daniel_3
+  - first:
+      213: 3368846890344801363
+    second: Tilemap_Daniel_4
+  - first:
+      213: 955198207245880750
+    second: Tilemap_Daniel_5
+  - first:
+      213: -473852090412178713
+    second: Tilemap_Daniel_6
+  - first:
+      213: -2023747911588221594
+    second: Tilemap_Daniel_7
+  - first:
+      213: -5426201569758409908
+    second: Tilemap_Daniel_8
+  - first:
+      213: 6568427994137821354
+    second: Tilemap_Daniel_9
+  - first:
+      213: 5996542500832603024
+    second: Tilemap_Daniel_10
+  - first:
+      213: -664933518458293105
+    second: Tilemap_Daniel_11
+  - first:
+      213: -1981537071329449112
+    second: Tilemap_Daniel_12
+  - first:
+      213: -460103289086106638
+    second: Tilemap_Daniel_13
+  - first:
+      213: 1019811700515899818
+    second: Tilemap_Daniel_14
+  - first:
+      213: 4784471197974079537
+    second: Tilemap_Daniel_15
+  - first:
+      213: 1631201496382619114
+    second: Tilemap_Daniel_16
+  - first:
+      213: -2009072510167416683
+    second: Tilemap_Daniel_17
+  - first:
+      213: 700933279008343325
+    second: Tilemap_Daniel_18
+  - first:
+      213: 1013345246482985117
+    second: Tilemap_Daniel_19
+  - first:
+      213: -932165612488762169
+    second: Tilemap_Daniel_20
+  - first:
+      213: 4407728088494529320
+    second: Tilemap_Daniel_21
+  - first:
+      213: 4726712993161200426
+    second: Tilemap_Daniel_22
+  - first:
+      213: -4866496400962614986
+    second: Tilemap_Daniel_23
+  - first:
+      213: -2516375845289945439
+    second: Tilemap_Daniel_24
+  - first:
+      213: 2348473244293027236
+    second: Tilemap_Daniel_25
+  - first:
+      213: 5388468655340718500
+    second: Tilemap_Daniel_26
+  - first:
+      213: -1956476929367260236
+    second: Tilemap_Daniel_27
+  - first:
+      213: -4257001179057436154
+    second: Tilemap_Daniel_28
+  - first:
+      213: 1890905652597002029
+    second: Tilemap_Daniel_29
+  - first:
+      213: 1333260679894588274
+    second: Tilemap_Daniel_30
+  - first:
+      213: 7599987437855973350
+    second: Tilemap_Daniel_31
+  - first:
+      213: 7273440937755727667
+    second: Tilemap_Daniel_32
+  - first:
+      213: -6378182457914985896
+    second: Tilemap_Daniel_33
+  - first:
+      213: -9167792823501475351
+    second: Tilemap_Daniel_34
+  - first:
+      213: 6375518642252984560
+    second: Tilemap_Daniel_35
+  - first:
+      213: 8198220879434546014
+    second: Tilemap_Daniel_36
+  - first:
+      213: 9219811965098565335
+    second: Tilemap_Daniel_37
+  - first:
+      213: 5976682695926308208
+    second: Tilemap_Daniel_38
+  - first:
+      213: -5360357299063789587
+    second: Tilemap_Daniel_39
+  - first:
+      213: -307796029042506162
+    second: Tilemap_Daniel_40
+  - first:
+      213: 8134855087005916855
+    second: Tilemap_Daniel_41
+  - first:
+      213: 461234308035930136
+    second: Tilemap_Daniel_42
+  - first:
+      213: 6067099293771092175
+    second: Tilemap_Daniel_43
+  - first:
+      213: -6982882522512421719
+    second: Tilemap_Daniel_44
+  - first:
+      213: -4952295590980857026
+    second: Tilemap_Daniel_45
+  - first:
+      213: -4414940878303177805
+    second: Tilemap_Daniel_46
+  - first:
+      213: 5376521290978018608
+    second: Tilemap_Daniel_47
+  - first:
+      213: 4851435140650961428
+    second: Tilemap_Daniel_48
+  - first:
+      213: 5346807385958226107
+    second: Tilemap_Daniel_49
+  - first:
+      213: 1695231881940876378
+    second: Tilemap_Daniel_50
+  - first:
+      213: -3881190128556022402
+    second: Tilemap_Daniel_51
+  - first:
+      213: -3071557236872470785
+    second: Tilemap_Daniel_52
+  - first:
+      213: 5916021265623104108
+    second: Tilemap_Daniel_53
+  - first:
+      213: -790658695395127337
+    second: Tilemap_Daniel_54
+  - first:
+      213: 2832840499330504569
+    second: Tilemap_Daniel_55
+  - first:
+      213: -4095948608390866862
+    second: Tilemap_Daniel_56
+  - first:
+      213: 7056957416919980754
+    second: Tilemap_Daniel_57
+  - first:
+      213: -8074442936943709990
+    second: Tilemap_Daniel_58
+  - first:
+      213: -6351758331052202325
+    second: Tilemap_Daniel_59
+  - first:
+      213: 1388713791910156376
+    second: Tilemap_Daniel_60
+  - first:
+      213: 2326430423908129094
+    second: Tilemap_Daniel_61
+  - first:
+      213: -7633735489129765225
+    second: Tilemap_Daniel_62
+  - first:
+      213: -2608114276222483242
+    second: Tilemap_Daniel_63
+  - first:
+      213: 7176254909391245048
+    second: Tilemap_Daniel_64
+  - first:
+      213: 3677619129173476792
+    second: Tilemap_Daniel_65
+  - first:
+      213: 8906307374258471838
+    second: Tilemap_Daniel_66
+  - first:
+      213: -1212467364345499667
+    second: Tilemap_Daniel_67
+  - first:
+      213: 3036109969687668156
+    second: Tilemap_Daniel_68
+  - first:
+      213: 175054267282473601
+    second: Tilemap_Daniel_69
+  - first:
+      213: -4681158236807133401
+    second: Tilemap_Daniel_70
+  - first:
+      213: 316372895729961047
+    second: Tilemap_Daniel_71
+  - first:
+      213: 3088921922861725673
+    second: Tilemap_Daniel_72
+  - first:
+      213: 3370383369360616406
+    second: Tilemap_Daniel_73
+  - first:
+      213: -5354697626371650603
+    second: Tilemap_Daniel_74
+  - first:
+      213: 1900250160935621900
+    second: Tilemap_Daniel_75
+  - first:
+      213: -9167115267084102097
+    second: Tilemap_Daniel_76
+  - first:
+      213: 2439872764973908401
+    second: Tilemap_Daniel_77
+  - first:
+      213: 4741868753461654287
+    second: Tilemap_Daniel_78
+  - first:
+      213: -4646692658337632975
+    second: Tilemap_Daniel_79
+  - first:
+      213: -709914135336518073
+    second: Tilemap_Daniel_80
+  - first:
+      213: -8301452282480102336
+    second: Tilemap_Daniel_81
+  - first:
+      213: -5979612744510111271
+    second: Tilemap_Daniel_82
+  - first:
+      213: 900147384458089462
+    second: Tilemap_Daniel_83
+  - first:
+      213: -7563480166149594888
+    second: Tilemap_Daniel_84
+  - first:
+      213: -8199035732574010307
+    second: Tilemap_Daniel_85
+  - first:
+      213: 871849913770154869
+    second: Tilemap_Daniel_86
+  - first:
+      213: 7898510372931326369
+    second: Tilemap_Daniel_87
+  - first:
+      213: 711223102609450135
+    second: Tilemap_Daniel_88
+  - first:
+      213: -3338186974178639890
+    second: Tilemap_Daniel_89
+  - first:
+      213: 290692032343836797
+    second: Tilemap_Daniel_90
+  - first:
+      213: -4240674256696865201
+    second: Tilemap_Daniel_91
+  - first:
+      213: -4747693244413128695
+    second: Tilemap_Daniel_92
+  - first:
+      213: 2887200444665298447
+    second: Tilemap_Daniel_93
+  - first:
+      213: -8541087937670210198
+    second: Tilemap_Daniel_94
+  - first:
+      213: 8317879617385328176
+    second: Tilemap_Daniel_95
+  - first:
+      213: 4477822543461571890
+    second: Tilemap_Daniel_96
+  - first:
+      213: 2143710950701012985
+    second: Tilemap_Daniel_97
+  - first:
+      213: -2035488464692332958
+    second: Tilemap_Daniel_98
+  - first:
+      213: -2228998403042638350
+    second: Tilemap_Daniel_99
+  - first:
+      213: -2998631284219842831
+    second: Tilemap_Daniel_100
+  - first:
+      213: 2581649589868322548
+    second: Tilemap_Daniel_101
+  - first:
+      213: -451160236546458423
+    second: Tilemap_Daniel_102
+  - first:
+      213: -3674561514969870445
+    second: Tilemap_Daniel_103
+  - first:
+      213: 6782927757068745485
+    second: Tilemap_Daniel_104
+  - first:
+      213: 1737250816775036261
+    second: Tilemap_Daniel_105
+  - first:
+      213: -2263963265965307632
+    second: Tilemap_Daniel_106
+  - first:
+      213: -1607332734617153115
+    second: Tilemap_Daniel_107
+  - first:
+      213: 4125875991937357098
+    second: Tilemap_Daniel_108
+  - first:
+      213: 6366184508176661789
+    second: Tilemap_Daniel_109
+  - first:
+      213: -8491407999138501871
+    second: Tilemap_Daniel_110
+  - first:
+      213: 2088067992806204918
+    second: Tilemap_Daniel_111
+  - first:
+      213: 4815642624342563564
+    second: Tilemap_Daniel_112
+  - first:
+      213: -6858051586320716063
+    second: Tilemap_Daniel_113
+  - first:
+      213: 7295035484165018540
+    second: Tilemap_Daniel_114
+  - first:
+      213: -391894008870347044
+    second: Tilemap_Daniel_115
+  - first:
+      213: 5087807503869717392
+    second: Tilemap_Daniel_116
+  - first:
+      213: -3683633442563983919
+    second: Tilemap_Daniel_117
+  - first:
+      213: 339052276421811548
+    second: Tilemap_Daniel_118
+  - first:
+      213: -1102274365867598626
+    second: Tilemap_Daniel_119
+  - first:
+      213: -5901384545033072482
+    second: Tilemap_Daniel_120
+  - first:
+      213: -4762102539314361911
+    second: Tilemap_Daniel_121
+  - first:
+      213: -3942102321519009755
+    second: Tilemap_Daniel_122
+  - first:
+      213: -1446723767190545167
+    second: Tilemap_Daniel_123
+  - first:
+      213: 2309924749650819279
+    second: Tilemap_Daniel_124
+  - first:
+      213: -3060172786391789336
+    second: Tilemap_Daniel_125
+  - first:
+      213: -7185289993720643448
+    second: Tilemap_Daniel_126
+  - first:
+      213: 4284465941563065631
+    second: Tilemap_Daniel_127
+  - first:
+      213: -4690079865069411766
+    second: Tilemap_Daniel_128
+  - first:
+      213: 2393809158709444315
+    second: Tilemap_Daniel_129
+  - first:
+      213: 3935217976028121804
+    second: Tilemap_Daniel_130
+  - first:
+      213: -1395202280676748559
+    second: Tilemap_Daniel_131
+  - first:
+      213: -7890382649410453990
+    second: Tilemap_Daniel_132
+  - first:
+      213: -4105969380687038270
+    second: Tilemap_Daniel_133
+  - first:
+      213: -5472269885166802870
+    second: Tilemap_Daniel_134
+  - first:
+      213: 8744014478710344745
+    second: Tilemap_Daniel_135
+  - first:
+      213: 7892803763477972278
+    second: Tilemap_Daniel_136
+  - first:
+      213: 7510957571304842976
+    second: Tilemap_Daniel_137
+  - first:
+      213: 5912339098747803397
+    second: Tilemap_Daniel_138
+  - first:
+      213: 2364245705253398094
+    second: Tilemap_Daniel_139
+  - first:
+      213: 6627093364063148204
+    second: Tilemap_Daniel_140
+  - first:
+      213: 7301131071192158815
+    second: Tilemap_Daniel_141
+  - first:
+      213: -8878526447049699369
+    second: Tilemap_Daniel_142
+  - first:
+      213: 1537645645432351551
+    second: Tilemap_Daniel_143
+  - first:
+      213: -2033299459453792416
+    second: Tilemap_Daniel_144
+  - first:
+      213: -8685844195714074357
+    second: Tilemap_Daniel_145
+  - first:
+      213: 5832886110547462497
+    second: Tilemap_Daniel_146
+  - first:
+      213: 1506512567485222382
+    second: Tilemap_Daniel_147
+  - first:
+      213: 4595127438173296453
+    second: Tilemap_Daniel_148
+  - first:
+      213: -8063632891685793659
+    second: Tilemap_Daniel_149
+  - first:
+      213: -3189863299196768508
+    second: Tilemap_Daniel_150
+  - first:
+      213: 9210056364139767860
+    second: Tilemap_Daniel_151
+  - first:
+      213: -2051941719642811768
+    second: Tilemap_Daniel_152
+  - first:
+      213: -2121007114745941185
+    second: Tilemap_Daniel_153
+  - first:
+      213: 7234328500234204027
+    second: Tilemap_Daniel_154
+  - first:
+      213: 2558186508883832231
+    second: Tilemap_Daniel_155
+  - first:
+      213: 8037337589228229965
+    second: Tilemap_Daniel_156
+  - first:
+      213: 1268434799355494224
+    second: Tilemap_Daniel_157
+  - first:
+      213: 6818098800678770591
+    second: Tilemap_Daniel_158
+  - first:
+      213: -4607792213323128853
+    second: Tilemap_Daniel_159
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -560,8 +1040,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7fb42cf761a2d420800000000000000
-      internalID: 2653360598458613627
+      spriteID: 689765c59ce8791e0800000000000000
+      internalID: -2191125698203715194
       vertices: []
       indices: 
       edges: []
@@ -581,8 +1061,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0494b4a0540a7e420800000000000000
-      internalID: 2659270323371460928
+      spriteID: 3721a87e6c109f780800000000000000
+      internalID: -8648879655588588941
       vertices: []
       indices: 
       edges: []
@@ -602,8 +1082,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 131abcac0e009ff20800000000000000
-      internalID: 3456795154458583345
+      spriteID: 80fcf95a8a3f28060800000000000000
+      internalID: 6954388680272236296
       vertices: []
       indices: 
       edges: []
@@ -623,8 +1103,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69e108a6a3b894880800000000000000
-      internalID: -8626210528240329066
+      spriteID: 3e3b6342a8f865300800000000000000
+      internalID: 240537453586723811
       vertices: []
       indices: 
       edges: []
@@ -644,8 +1124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e836150ab36e403a0800000000000000
-      internalID: -6699977201853308018
+      spriteID: 3546ea9d56c80ce20800000000000000
+      internalID: 3368846890344801363
       vertices: []
       indices: 
       edges: []
@@ -665,8 +1145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37011d201a6cd9d60800000000000000
-      internalID: 7898687716317007987
+      spriteID: ead0bf865bb814d00800000000000000
+      internalID: 955198207245880750
       vertices: []
       indices: 
       edges: []
@@ -675,8 +1155,8 @@ TextureImporter:
       name: Tilemap_Daniel_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
+        x: 192
+        y: 224
         width: 32
         height: 32
       alignment: 0
@@ -686,8 +1166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16403a6a16cd93ee0800000000000000
-      internalID: -1280750307044555679
+      spriteID: 7e2e7eac80a8c69f0800000000000000
+      internalID: -473852090412178713
       vertices: []
       indices: 
       edges: []
@@ -696,8 +1176,8 @@ TextureImporter:
       name: Tilemap_Daniel_7
       rect:
         serializedVersion: 2
-        x: 32
-        y: 192
+        x: 224
+        y: 224
         width: 32
         height: 32
       alignment: 0
@@ -707,8 +1187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db7d11bbe40aebe30800000000000000
-      internalID: 4521227335932958653
+      spriteID: 66d68d62ff33ae3e0800000000000000
+      internalID: -2023747911588221594
       vertices: []
       indices: 
       edges: []
@@ -717,7 +1197,7 @@ TextureImporter:
       name: Tilemap_Daniel_8
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 192
         width: 32
         height: 32
@@ -728,8 +1208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ded868b19eb2d640800000000000000
-      internalID: 5103350860837609172
+      spriteID: c4b02eaeb6242b4b0800000000000000
+      internalID: -5426201569758409908
       vertices: []
       indices: 
       edges: []
@@ -738,6 +1218,48 @@ TextureImporter:
       name: Tilemap_Daniel_9
       rect:
         serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0015ba57eb72b50800000000000000
+      internalID: 6568427994137821354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09be8aa22aff73350800000000000000
+      internalID: 5996542500832603024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_11
+      rect:
+        serializedVersion: 2
         x: 96
         y: 192
         width: 32
@@ -749,14 +1271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1efc29b1491793420800000000000000
-      internalID: 2610242339969617889
+      spriteID: f84fa09ec7ea5c6f0800000000000000
+      internalID: -664933518458293105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_10
+      name: Tilemap_Daniel_12
       rect:
         serializedVersion: 2
         x: 128
@@ -770,14 +1292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff69d0a7fdeb9c170800000000000000
-      internalID: 8199294463639394047
+      spriteID: 86be322488a2084e0800000000000000
+      internalID: -1981537071329449112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_11
+      name: Tilemap_Daniel_13
       rect:
         serializedVersion: 2
         x: 160
@@ -791,14 +1313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 872725e7a628bb3d0800000000000000
-      internalID: -3189812517164387720
+      spriteID: 2f3a80e0f726d99f0800000000000000
+      internalID: -460103289086106638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_12
+      name: Tilemap_Daniel_14
       rect:
         serializedVersion: 2
         x: 192
@@ -812,14 +1334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33621f91e74ea0d70800000000000000
-      internalID: 9010265234760345139
+      spriteID: aa98903a659172e00800000000000000
+      internalID: 1019811700515899818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_13
+      name: Tilemap_Daniel_15
       rect:
         serializedVersion: 2
         x: 224
@@ -833,14 +1355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e5635794d54c8230800000000000000
-      internalID: 3642362978010097122
+      spriteID: 1382551943bd56240800000000000000
+      internalID: 4784471197974079537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_14
+      name: Tilemap_Daniel_16
       rect:
         serializedVersion: 2
         x: 0
@@ -854,14 +1376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6777186f4f04768c0800000000000000
-      internalID: -4006161922670889098
+      spriteID: aedb8f45e1133a610800000000000000
+      internalID: 1631201496382619114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_15
+      name: Tilemap_Daniel_17
       rect:
         serializedVersion: 2
         x: 32
@@ -875,14 +1397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a06219753a06586c0800000000000000
-      internalID: -4141798027632237046
+      spriteID: 590087f42375e14e0800000000000000
+      internalID: -2009072510167416683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_16
+      name: Tilemap_Daniel_18
       rect:
         serializedVersion: 2
         x: 64
@@ -896,14 +1418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49afce76c2b571dd0800000000000000
-      internalID: -2515441620582860140
+      spriteID: d15ca828a173ab900800000000000000
+      internalID: 700933279008343325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_17
+      name: Tilemap_Daniel_19
       rect:
         serializedVersion: 2
         x: 96
@@ -917,14 +1439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2676ff96ec2fb47b0800000000000000
-      internalID: -5238826773159909534
+      spriteID: d90f27bf120201e00800000000000000
+      internalID: 1013345246482985117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_18
+      name: Tilemap_Daniel_20
       rect:
         serializedVersion: 2
         x: 128
@@ -938,14 +1460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e1dc34c315958db0800000000000000
-      internalID: -4790258716509416985
+      spriteID: 7ccd5c370584013f0800000000000000
+      internalID: -932165612488762169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_19
+      name: Tilemap_Daniel_21
       rect:
         serializedVersion: 2
         x: 160
@@ -959,14 +1481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0877cb91058c873e0800000000000000
-      internalID: -2055672983539910784
+      spriteID: 82b5a35e7556b2d30800000000000000
+      internalID: 4407728088494529320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_20
+      name: Tilemap_Daniel_22
       rect:
         serializedVersion: 2
         x: 192
@@ -980,14 +1502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67f2a4eb8d4ca91c0800000000000000
-      internalID: -4496064842791506058
+      spriteID: a23c8909c68a89140800000000000000
+      internalID: 4726712993161200426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_21
+      name: Tilemap_Daniel_23
       rect:
         serializedVersion: 2
         x: 224
@@ -1001,14 +1523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 169f9d1be4173fd20800000000000000
-      internalID: 3311114733852686689
+      spriteID: 63908ef9e4bb67cb0800000000000000
+      internalID: -4866496400962614986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_22
+      name: Tilemap_Daniel_24
       rect:
         serializedVersion: 2
         x: 0
@@ -1022,14 +1544,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aebdd279e4394adb0800000000000000
-      internalID: -4781534938607526934
+      spriteID: 1a69e144089041dd0800000000000000
+      internalID: -2516375845289945439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_23
+      name: Tilemap_Daniel_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5589219f3779020800000000000000
+      internalID: 2348473244293027236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a909e451bfa7ca40800000000000000
+      internalID: 5388468655340718500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_27
       rect:
         serializedVersion: 2
         x: 96
@@ -1043,14 +1607,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 073f32787072c7900800000000000000
-      internalID: 683464156739007344
+      spriteID: 4b341dd399239d4e0800000000000000
+      internalID: -1956476929367260236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_24
+      name: Tilemap_Daniel_28
       rect:
         serializedVersion: 2
         x: 128
@@ -1064,14 +1628,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9ee1f4dfe3787cb0800000000000000
-      internalID: -4866011923466817894
+      spriteID: 60accd17bf71ce4c0800000000000000
+      internalID: -4257001179057436154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_25
+      name: Tilemap_Daniel_29
       rect:
         serializedVersion: 2
         x: 160
@@ -1085,14 +1649,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b7710bd6db400040800000000000000
-      internalID: 4611769404596778931
+      spriteID: d2f82de2ca8dd3a10800000000000000
+      internalID: 1890905652597002029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_26
+      name: Tilemap_Daniel_30
       rect:
         serializedVersion: 2
         x: 192
@@ -1106,14 +1670,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baf1474a4bad9d8e0800000000000000
-      internalID: -1668061717576015957
+      spriteID: 27bdc124681b08210800000000000000
+      internalID: 1333260679894588274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_27
+      name: Tilemap_Daniel_31
       rect:
         serializedVersion: 2
         x: 224
@@ -1127,14 +1691,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0666da819530c380800000000000000
-      internalID: -8953097159996709366
+      spriteID: 6ef16daee44987960800000000000000
+      internalID: 7599987437855973350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_28
+      name: Tilemap_Daniel_32
       rect:
         serializedVersion: 2
         x: 0
@@ -1148,14 +1712,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20cf8aa9824450fd0800000000000000
-      internalID: -2376418287183922174
+      spriteID: 337d6bd1ff370f460800000000000000
+      internalID: 7273440937755727667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_29
+      name: Tilemap_Daniel_33
       rect:
         serializedVersion: 2
         x: 32
@@ -1169,14 +1733,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90d08ad373211c0d0800000000000000
-      internalID: -3404419814848459511
+      spriteID: 852795bf8d42c77a0800000000000000
+      internalID: -6378182457914985896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap_Daniel_30
+      name: Tilemap_Daniel_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1b1d4000575c080800000000000000
+      internalID: -9167792823501475351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_35
       rect:
         serializedVersion: 2
         x: 96
@@ -1190,8 +1775,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac046f20199f7a630800000000000000
-      internalID: 3938390800374055114
+      spriteID: 0f0be5a1d646a7850800000000000000
+      internalID: 6375518642252984560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bf2ec247ee5c170800000000000000
+      internalID: 8198220879434546014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de9893322a53ff70800000000000000
+      internalID: 9219811965098565335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d59e10f3171f250800000000000000
+      internalID: 5976682695926308208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de76128df6f2c95b0800000000000000
+      internalID: -5360357299063789587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4645a1742d7abbf0800000000000000
+      internalID: -307796029042506162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be5440f99fc4e070800000000000000
+      internalID: 8134855087005916855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81864b0d822a66600800000000000000
+      internalID: 461234308035930136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_Daniel_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0df3ea9aaa23450800000000000000
+      internalID: 6067099293771092175
       vertices: []
       indices: 
       edges: []
