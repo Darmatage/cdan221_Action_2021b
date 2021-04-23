@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4658442961350517944}
   - component: {fileID: 4658442961350517945}
   - component: {fileID: 4658442961350517950}
+  - component: {fileID: 3407830547617174658}
   m_Layer: 0
   m_Name: PickUp_Blood
   m_TagString: Untagged
@@ -95,6 +96,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameHandler: {fileID: 0}
   bloodValue: 1
+--- !u!114 &3407830547617174658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4658442961350517946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32b41c44d5160404faf871a04e968898, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedUpDown: 1
+  distanceUpDown: 1
+  randBottom: 0.6
+  randTop: 1
+  SinWaveMove: 1
+  randomizeSin: 1
 --- !u!1 &4658442961989302176
 GameObject:
   m_ObjectHideFlags: 0
