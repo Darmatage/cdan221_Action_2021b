@@ -522,7 +522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1ee64c3fadf1f44a6c00681b9fe7a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isSlippery: 1
+  isSlippery: 0
   slipperyMultiplier: 100
   stickyMultiplier: 0.01
 --- !u!61 &1057867706
