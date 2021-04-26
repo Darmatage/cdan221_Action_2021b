@@ -21,11 +21,26 @@ EditorBuildSettings:
     path: Assets/Scenes/SceneLose.unity
     guid: 24bd5575f4547014ea167966a4787eb6
   - enabled: 1
+    path: Assets/Scenes/Treachery.unity
+    guid: 2475cd6c642ba1f46ac0e8c5af164e56
+  - enabled: 1
+    path: Assets/Scenes/Fraud.unity
+    guid: 10128b7d5a71a754f974e462a101850f
+  - enabled: 1
     path: Assets/Scenes/Violence.unity
     guid: 0df36184a0bf6194ba43d3ca715459a1
   - enabled: 1
-    path: Assets/Scenes/Treachery.unity
-    guid: 2475cd6c642ba1f46ac0e8c5af164e56
+    path: Assets/Scenes/Heresy.unity
+    guid: c337ccb5082733b4eb077cdb9d2a44bd
+  - enabled: 1
+    path: Assets/Scenes/Anger.unity
+    guid: 6eb644da161b31f439b2193ba3e8a077
+  - enabled: 1
+    path: Assets/Scenes/Greed.unity
+    guid: df892b0120c656f4bbf61abb2cd070c8
+  - enabled: 1
+    path: Assets/Scenes/Gluttony.unity
+    guid: 2e0abfb8209fc894bad359ff86ed74e5
   - enabled: 1
     path: Assets/Scenes/Lust.unity
     guid: d51f768ce28bdd24d9ccaa689b6ea17c
