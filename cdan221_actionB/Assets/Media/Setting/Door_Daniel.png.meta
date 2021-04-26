@@ -8,6 +8,18 @@ TextureImporter:
   - first:
       213: -5843196868182812374
     second: Door_Daniel_1
+  - first:
+      213: -458661964645425767
+    second: Door_Daniel_0
+  - first:
+      213: -1839885536302178817
+    second: Door_Daniel_1
+  - first:
+      213: -7255788154947603791
+    second: Door_Daniel_2
+  - first:
+      213: -8381906217320852471
+    second: Door_Daniel_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -110,8 +122,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c19c38169cd097ee0800000000000000
-      internalID: -1262963061925099236
+      spriteID: 99d935d8f5182a9f0800000000000000
+      internalID: -458661964645425767
       vertices: []
       indices: 
       edges: []
@@ -129,10 +141,10 @@ TextureImporter:
       name: Door_Daniel_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 64
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +152,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a29d94f286bc8eea0800000000000000
-      internalID: -5843196868182812374
+      spriteID: ffd54555ad96776e0800000000000000
+      internalID: -1839885536302178817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Daniel_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904d3ff54bc7dab80800000000000000
+      internalID: -8381906217320852471
       vertices: []
       indices: 
       edges: []
