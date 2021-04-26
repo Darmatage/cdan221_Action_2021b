@@ -15,6 +15,10 @@ public class GameHandler : MonoBehaviour {
 
 	public static int myBlood = 0;
 	public GameObject bloodText;
+	
+	public static bool gotitem1 = false;
+    public static bool gotitem2 = false;
+    public static bool gotitem3 = false;
 
 	public bool canInvisible = false;
 	public bool canSpeed = false;
@@ -49,13 +53,16 @@ public class GameHandler : MonoBehaviour {
 
     void Update(){
 
-		if (myBlood >= costInvis){canInvisible = true;}
+		if ((myBlood >= costInvis)&&(gotitem1==true)){
+			canInvisible = true;}
 		else {canInvisible = false;}
 
-		if (myBlood >= costShield){canDefend = true;}
+		if ((myBlood >= costShield)&&(gotitem2==true)){
+			canDefend = true;}
 		else {canDefend = false;}
 
-		if (myBlood >= costSpeed){canSpeed = true;}
+		if ((myBlood >= costSpeed)&&(gotitem3==true)){
+			canSpeed = true;}
 		else {canSpeed = false;}
 
 
@@ -78,14 +85,24 @@ public class GameHandler : MonoBehaviour {
                   player.GetComponent<PlayerHurt>().playerHit();
             }
 
-           if (playerHealth >= 100){
-                  playerHealth = 100;
+           if (playerHealth >= StartPlayerHealth){
+                  playerHealth = StartPlayerHealth;
             }
 
            if (playerHealth <= 0){
                   playerHealth = 0;
-                  playerDies();
+                  // playerDies();
             }
+	}
+	
+	
+	
+	public void playerRespawnHealth(){
+          
+                  playerHealth = StartPlayerHealth;
+                  updateStatsDisplay();
+                
+            
 	}
 
 	public void updateStatsDisplay(){
