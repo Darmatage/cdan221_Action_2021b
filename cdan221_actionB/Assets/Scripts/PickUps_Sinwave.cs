@@ -7,7 +7,7 @@ public class PickUps_Sinwave : MonoBehaviour{
 	//initial values, can be made public
 	private Vector3 startPos;
 	
-	private float speedUpDown = 2.5f;
+	private float speedUpDown = 1.5f;
 	private float distUpDown = 0.5f;
 
 	//extra parameters for randomizing movement

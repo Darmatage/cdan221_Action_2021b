@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Limbo.unity
     guid: f5f33af053703d949931781df9d1f8f2
+  - enabled: 1
+    path: Assets/Scenes/BOSS.unity
+    guid: d7f2e2953b57a7c42a29a1693777b7ec
   m_configObjects: {}

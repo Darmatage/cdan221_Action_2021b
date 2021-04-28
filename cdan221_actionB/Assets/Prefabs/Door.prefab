@@ -9,8 +9,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4381223740210587046}
+<<<<<<< Updated upstream
   - component: {fileID: 7004621302528833397}
   - component: {fileID: 2086534859781784622}
+=======
+  - component: {fileID: 5877368742851978144}
+  - component: {fileID: 7252902599391797382}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -26,14 +31,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315572428080203845}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.73, y: 49, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 954126452454561017}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &7004621302528833397
+--- !u!61 &5877368742851978144
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,10 +48,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.006872773, y: -0.25426888}
+  m_Offset: {x: -0.010266781, y: -0.25667}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -57,9 +62,13 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.8726456, y: 3.4877076}
+  m_Size: {x: 2.8822317, y: 3.5256157}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
 --- !u!114 &2086534859781784622
+=======
+--- !u!114 &7252902599391797382
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -71,7 +80,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6133ef1a377c3b648bc6b1223cd12150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   NextLevel: Limbo
+=======
+  NextLevel: MainMenu
+>>>>>>> Stashed changes
 --- !u!1 &4511316939616618298
 GameObject:
   m_ObjectHideFlags: 0
