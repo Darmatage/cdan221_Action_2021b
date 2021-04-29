@@ -2553,7 +2553,7 @@ GameObject:
   - component: {fileID: 595768906}
   - component: {fileID: 595768905}
   m_Layer: 5
-  m_Name: InvisableIcon
+  m_Name: InvisibleIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12455,6 +12455,11 @@ PrefabInstance:
       propertyPath: item2BuyButton
       value: 
       objectReference: {fileID: 76267399}
+    - target: {fileID: 2198315722019222903, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: haveInvisibilityIcon
+      value: 
+      objectReference: {fileID: 595768903}
     - target: {fileID: 3099247769501383938, guid: ecf5eb482e2e0b948a03080765adc765,
         type: 3}
       propertyPath: m_Name
