@@ -11,7 +11,7 @@ public class ShopMenu : MonoBehaviour{
       public GameObject shopMenuUI;
       public GameObject buttonOpenShop;
 
-	  public GameObject haveInvisabilityIcon;
+	  public GameObject haveInvisibilityIcon;
 	  public GameObject haveSpeedIcon;
 	  public GameObject haveShieldIcon;
 
@@ -26,7 +26,7 @@ public class ShopMenu : MonoBehaviour{
 
       void Start (){
             shopMenuUI.SetActive(false);
-			haveInvisabilityIcon.SetActive(false);
+			haveInvisibilityIcon.SetActive(false);
 			haveShieldIcon.SetActive(false);
 			haveSpeedIcon.SetActive(false);
             gameHandler = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
@@ -64,7 +64,7 @@ public class ShopMenu : MonoBehaviour{
       public void Button_BuyItem1(){
             gameHandler.playerGetBlood((item1Cost * -1));
             GameHandler.gotitem1 = true;
-			haveInvisabilityIcon.SetActive(true);
+			haveInvisibilityIcon.SetActive(true);
             //KaChingSFX.Play();
       }
 

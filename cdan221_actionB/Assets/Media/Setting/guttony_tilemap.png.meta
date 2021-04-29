@@ -1,0 +1,929 @@
+fileFormatVersion: 2
+guid: 72592de3a0d76b247ab3d105c1f4fbfd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2600825059103640951
+    second: guttony_tilemap_0
+  - first:
+      213: -9192053481870851064
+    second: guttony_tilemap_1
+  - first:
+      213: 3632277628819707866
+    second: guttony_tilemap_2
+  - first:
+      213: -7313044100617499648
+    second: guttony_tilemap_3
+  - first:
+      213: -4026511449703161060
+    second: guttony_tilemap_4
+  - first:
+      213: -4454445577382532200
+    second: guttony_tilemap_5
+  - first:
+      213: -7890430987104372830
+    second: guttony_tilemap_6
+  - first:
+      213: 2385227955938550060
+    second: guttony_tilemap_7
+  - first:
+      213: 657790294175858413
+    second: guttony_tilemap_8
+  - first:
+      213: -3256252270186998945
+    second: guttony_tilemap_9
+  - first:
+      213: 8382124569452814310
+    second: guttony_tilemap_10
+  - first:
+      213: -8069840192077019133
+    second: guttony_tilemap_11
+  - first:
+      213: -6407111487072917590
+    second: guttony_tilemap_12
+  - first:
+      213: -7234310116225769097
+    second: guttony_tilemap_13
+  - first:
+      213: 7148182583464603616
+    second: guttony_tilemap_14
+  - first:
+      213: -8326238064441698104
+    second: guttony_tilemap_15
+  - first:
+      213: -7035073778417734719
+    second: guttony_tilemap_16
+  - first:
+      213: -9204892108866245759
+    second: guttony_tilemap_17
+  - first:
+      213: 2789242058878185121
+    second: guttony_tilemap_18
+  - first:
+      213: 5142848486583760816
+    second: guttony_tilemap_19
+  - first:
+      213: -7748774859528607782
+    second: guttony_tilemap_20
+  - first:
+      213: 4000067004409418256
+    second: guttony_tilemap_21
+  - first:
+      213: 6206601277665212574
+    second: guttony_tilemap_22
+  - first:
+      213: -4964480442218083877
+    second: guttony_tilemap_23
+  - first:
+      213: 8040939676985936789
+    second: guttony_tilemap_24
+  - first:
+      213: 2914746233259632251
+    second: guttony_tilemap_25
+  - first:
+      213: -4878281162571217586
+    second: guttony_tilemap_26
+  - first:
+      213: -506548235130374268
+    second: guttony_tilemap_27
+  - first:
+      213: -9217692413956447733
+    second: guttony_tilemap_28
+  - first:
+      213: -3540057203315552102
+    second: guttony_tilemap_29
+  - first:
+      213: 7603729174756489576
+    second: guttony_tilemap_0
+  - first:
+      213: -7501636969431211055
+    second: guttony_tilemap_1
+  - first:
+      213: -7298904775604947272
+    second: guttony_tilemap_2
+  - first:
+      213: -7159965270229542715
+    second: guttony_tilemap_3
+  - first:
+      213: 3801102900371186670
+    second: guttony_tilemap_4
+  - first:
+      213: 6184672774194887556
+    second: guttony_tilemap_5
+  - first:
+      213: -7638735340950423862
+    second: guttony_tilemap_6
+  - first:
+      213: -4388168900666782001
+    second: guttony_tilemap_7
+  - first:
+      213: 8489306296722459509
+    second: guttony_tilemap_8
+  - first:
+      213: -2019719465841287215
+    second: guttony_tilemap_9
+  - first:
+      213: -2471817515987057502
+    second: guttony_tilemap_10
+  - first:
+      213: 6796546843649651949
+    second: guttony_tilemap_11
+  - first:
+      213: 9184544168602776913
+    second: guttony_tilemap_12
+  - first:
+      213: 785579654710846226
+    second: guttony_tilemap_13
+  - first:
+      213: -8895062140465762917
+    second: guttony_tilemap_14
+  - first:
+      213: 5463656342955702056
+    second: guttony_tilemap_15
+  - first:
+      213: 4872351644396007180
+    second: guttony_tilemap_16
+  - first:
+      213: -4125006027384711535
+    second: guttony_tilemap_17
+  - first:
+      213: 6515422134251269955
+    second: guttony_tilemap_18
+  - first:
+      213: 2846860217361203033
+    second: guttony_tilemap_19
+  - first:
+      213: 7947622651224827810
+    second: guttony_tilemap_20
+  - first:
+      213: 1385074556592965006
+    second: guttony_tilemap_21
+  - first:
+      213: 3674331111563285325
+    second: guttony_tilemap_22
+  - first:
+      213: 8281951522382262065
+    second: guttony_tilemap_23
+  - first:
+      213: 1538682834846386226
+    second: guttony_tilemap_24
+  - first:
+      213: 2969154329869145915
+    second: guttony_tilemap_25
+  - first:
+      213: 7668983129620611482
+    second: guttony_tilemap_26
+  - first:
+      213: -4449364448799586369
+    second: guttony_tilemap_27
+  - first:
+      213: -1414902750146793792
+    second: guttony_tilemap_28
+  - first:
+      213: 3239706562804390452
+    second: guttony_tilemap_29
+  - first:
+      213: 7834416248335026064
+    second: guttony_tilemap_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: guttony_tilemap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86972ade56fd58960800000000000000
+      internalID: 7603729174756489576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d36d13fbe4d4e790800000000000000
+      internalID: -7501636969431211055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b63aa027c415ba90800000000000000
+      internalID: -7298904775604947272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c895d79581b2ac90800000000000000
+      internalID: -7159965270229542715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3e453e2fa30c430800000000000000
+      internalID: 3801102900371186670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b7aedce1f54d550800000000000000
+      internalID: 6184672774194887556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac67d6ddda2cdf590800000000000000
+      internalID: -7638735340950423862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce075562a71a13c0800000000000000
+      internalID: -4388168900666782001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b01ad391310d570800000000000000
+      internalID: 8489306296722459509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df9694c8d388f3e0800000000000000
+      internalID: -2019719465841287215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4c002c01752bdd0800000000000000
+      internalID: -2471817515987057502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de43a0b385f225e50800000000000000
+      internalID: 6796546843649651949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1553471724e067f70800000000000000
+      internalID: 9184544168602776913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21360d5a880f6ea00800000000000000
+      internalID: 785579654710846226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8273fa80f7ec2db40800000000000000
+      internalID: 5463656342955702056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fa30971021e9340800000000000000
+      internalID: 4872351644396007180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19693619fd801c6c0800000000000000
+      internalID: -4125006027384711535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fa3c139ed6b6a50800000000000000
+      internalID: 6515422134251269955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f710dc844128720800000000000000
+      internalID: 2846860217361203033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7aa1761b0ab4e60800000000000000
+      internalID: 7947622651224827810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85c72588f5c83310800000000000000
+      internalID: 1385074556592965006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_22
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4355e3bda8ddf230800000000000000
+      internalID: 3674331111563285325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fa99aa7076fe270800000000000000
+      internalID: 8281951522382262065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2388201d2ef7a5510800000000000000
+      internalID: 1538682834846386226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37d92bb12e843920800000000000000
+      internalID: 2969154329869145915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91008d3683bd6a60800000000000000
+      internalID: 7668983129620611482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb78c098b9ea042c0800000000000000
+      internalID: -4449364448799586369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cee6c9f1714d5ce0800000000000000
+      internalID: -1414902750146793792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a157444ffb5fc20800000000000000
+      internalID: 3239706562804390452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guttony_tilemap_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097ce80c11079bc60800000000000000
+      internalID: 7834416248335026064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
