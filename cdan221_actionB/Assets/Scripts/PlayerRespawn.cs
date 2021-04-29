@@ -34,14 +34,14 @@ public class PlayerRespawn : MonoBehaviour
         {
             pSpawn = other.gameObject.transform;
             GameObject thisCheckpoint = other.gameObject;
-            StopCoroutine(changeColor(thisCheckpoint));
-            StartCoroutine(changeColor(thisCheckpoint));
+            StopCoroutine(changeColor(other.gameObject));
+            StartCoroutine(changeColor(other.gameObject));
         }
     }
 
     IEnumerator changeColor(GameObject thisCheckpoint)
     {
-        Renderer checkRend = thisCheckpoint.GetComponent<Renderer>();
+        Renderer checkRend = thisCheckpoint.GetComponentInChildren<Renderer>();
         checkRend.material.color = new Color(2.4f, 0.9f, 0.9f, 0.5f);
         yield return new WaitForSeconds(0.5f);
         checkRend.material.color = Color.white;
