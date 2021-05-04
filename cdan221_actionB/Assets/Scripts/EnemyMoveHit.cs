@@ -33,11 +33,13 @@ public class EnemyMoveHit : MonoBehaviour
         }
     }
 
-    void Update()
-    {
+    void Update(){
+		
+		bool isPlayerInvisible = gameHandler.isInvisible;
+		
         float DistToPlayer = Vector3.Distance(transform.position, target.position);
 
-        if ((target != null) && (DistToPlayer <= attackRange))
+        if ((target != null) && (DistToPlayer <= attackRange) && (isPlayerInvisible==false))
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         }

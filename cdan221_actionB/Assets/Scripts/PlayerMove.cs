@@ -12,7 +12,6 @@ public class PlayerMove : MonoBehaviour {
 	public float boostSpeed = 20f;
     public bool isAlive = true;
 	public AudioSource walkSFX;
-	//public AudioSource turnSFX;
 
 	public bool isSpeedBoost = false;
 
