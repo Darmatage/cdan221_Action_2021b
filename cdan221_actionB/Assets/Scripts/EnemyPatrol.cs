@@ -21,11 +21,11 @@ public class EnemyPatrol : MonoBehaviour {
 		gameHandler = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
 	}
 
-	void Update(){
+	private void Update(){
 		hit = Physics2D.Raycast(groundCheck.position, -transform.up, 1f, groundLayers);
 	}
 
-	void FixedUpdate(){
+	private void FixedUpdate(){
 		if (hit.collider != false){
 			if (isFacingRight){
 				rb.velocity = new Vector2(speed, rb.velocity.y);
