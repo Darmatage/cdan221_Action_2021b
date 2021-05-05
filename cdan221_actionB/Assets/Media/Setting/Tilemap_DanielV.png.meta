@@ -314,6 +314,24 @@ TextureImporter:
   - first:
       213: 9173828709853376181
     second: Tilemap_DanielV_51
+  - first:
+      213: 6381431020601377763
+    second: Tilemap_DanielV_52
+  - first:
+      213: 3892990411225420114
+    second: Tilemap_DanielV_52
+  - first:
+      213: 536119389191315824
+    second: Tilemap_DanielV_53
+  - first:
+      213: 807719274293893493
+    second: Tilemap_DanielV_54
+  - first:
+      213: 8634123623390181002
+    second: Tilemap_DanielV_53
+  - first:
+      213: -1800768637677729795
+    second: Tilemap_DanielV_54
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -813,7 +831,7 @@ TextureImporter:
       name: Tilemap_DanielV_19
       rect:
         serializedVersion: 2
-        x: 96
+        x: 128
         y: 160
         width: 32
         height: 32
@@ -939,7 +957,7 @@ TextureImporter:
       name: Tilemap_DanielV_25
       rect:
         serializedVersion: 2
-        x: 96
+        x: 128
         y: 128
         width: 32
         height: 32
@@ -1065,7 +1083,7 @@ TextureImporter:
       name: Tilemap_DanielV_31
       rect:
         serializedVersion: 2
-        x: 96
+        x: 64
         y: 96
         width: 32
         height: 32
@@ -1086,7 +1104,7 @@ TextureImporter:
       name: Tilemap_DanielV_32
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 96
         width: 32
         height: 32
@@ -1107,7 +1125,7 @@ TextureImporter:
       name: Tilemap_DanielV_33
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 96
         width: 32
         height: 32
@@ -1128,7 +1146,7 @@ TextureImporter:
       name: Tilemap_DanielV_34
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 96
         width: 32
         height: 32
@@ -1149,8 +1167,8 @@ TextureImporter:
       name: Tilemap_DanielV_35
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 192
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -1170,8 +1188,8 @@ TextureImporter:
       name: Tilemap_DanielV_36
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
+        x: 224
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -1191,7 +1209,7 @@ TextureImporter:
       name: Tilemap_DanielV_37
       rect:
         serializedVersion: 2
-        x: 160
+        x: 0
         y: 64
         width: 32
         height: 32
@@ -1212,7 +1230,7 @@ TextureImporter:
       name: Tilemap_DanielV_38
       rect:
         serializedVersion: 2
-        x: 192
+        x: 32
         y: 64
         width: 32
         height: 32
@@ -1233,7 +1251,7 @@ TextureImporter:
       name: Tilemap_DanielV_39
       rect:
         serializedVersion: 2
-        x: 224
+        x: 128
         y: 64
         width: 32
         height: 32
@@ -1254,8 +1272,8 @@ TextureImporter:
       name: Tilemap_DanielV_40
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
+        x: 160
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -1275,8 +1293,8 @@ TextureImporter:
       name: Tilemap_DanielV_41
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
+        x: 192
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -1296,8 +1314,8 @@ TextureImporter:
       name: Tilemap_DanielV_42
       rect:
         serializedVersion: 2
-        x: 128
-        y: 32
+        x: 224
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -1317,7 +1335,7 @@ TextureImporter:
       name: Tilemap_DanielV_43
       rect:
         serializedVersion: 2
-        x: 160
+        x: 64
         y: 32
         width: 32
         height: 32
@@ -1338,7 +1356,7 @@ TextureImporter:
       name: Tilemap_DanielV_44
       rect:
         serializedVersion: 2
-        x: 192
+        x: 96
         y: 32
         width: 32
         height: 32
@@ -1359,7 +1377,7 @@ TextureImporter:
       name: Tilemap_DanielV_45
       rect:
         serializedVersion: 2
-        x: 224
+        x: 128
         y: 32
         width: 32
         height: 32
@@ -1380,8 +1398,8 @@ TextureImporter:
       name: Tilemap_DanielV_46
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
+        x: 160
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -1401,8 +1419,8 @@ TextureImporter:
       name: Tilemap_DanielV_47
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
+        x: 192
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -1422,8 +1440,8 @@ TextureImporter:
       name: Tilemap_DanielV_48
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
+        x: 224
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -1443,7 +1461,7 @@ TextureImporter:
       name: Tilemap_DanielV_49
       rect:
         serializedVersion: 2
-        x: 160
+        x: 64
         y: 0
         width: 32
         height: 32
@@ -1464,7 +1482,7 @@ TextureImporter:
       name: Tilemap_DanielV_50
       rect:
         serializedVersion: 2
-        x: 192
+        x: 96
         y: 0
         width: 32
         height: 32
@@ -1485,7 +1503,7 @@ TextureImporter:
       name: Tilemap_DanielV_51
       rect:
         serializedVersion: 2
-        x: 224
+        x: 128
         y: 0
         width: 32
         height: 32
@@ -1498,6 +1516,69 @@ TextureImporter:
       bones: []
       spriteID: 5be27194b9cff4f70800000000000000
       internalID: 9173828709853376181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_DanielV_52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251d71f272ea60630800000000000000
+      internalID: 3892990411225420114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_DanielV_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071a2f57ebda07700800000000000000
+      internalID: 536119389191315824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilemap_DanielV_54
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57916868668953b00800000000000000
+      internalID: 807719274293893493
       vertices: []
       indices: 
       edges: []
