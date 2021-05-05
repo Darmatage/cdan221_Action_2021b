@@ -523,8 +523,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isSlippery: 0
-  slipperyMultiplier: 100
-  stickyMultiplier: 0.01
+  slipperyMultiplier: 3
+  stickyMultiplier: 0.2
 --- !u!61 &1057867706
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -815,6 +815,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1411918502681940455, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1718947302136617446, guid: ecf5eb482e2e0b948a03080765adc765,
         type: 3}
       propertyPath: healthText
@@ -825,6 +830,11 @@ PrefabInstance:
       propertyPath: bloodText
       value: 
       objectReference: {fileID: 1661106063}
+    - target: {fileID: 2198315722019222903, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3099247769501383938, guid: ecf5eb482e2e0b948a03080765adc765,
         type: 3}
       propertyPath: m_Name
@@ -1630,10 +1640,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1280, y: 720}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1883,11 +1893,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4322602367061065106, guid: 08d80a357524ffc469d3ef57f148645a,
+        type: 3}
+      propertyPath: startSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4322602367061065109, guid: 08d80a357524ffc469d3ef57f148645a,
         type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5175736389853959206, guid: 08d80a357524ffc469d3ef57f148645a,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175736389853959206, guid: 08d80a357524ffc469d3ef57f148645a,
+        type: 3}
+      propertyPath: m_Pitch
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175736389853959206, guid: 08d80a357524ffc469d3ef57f148645a,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 314aa8079ccd4b24e871f4d5aaaf54ab,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08d80a357524ffc469d3ef57f148645a, type: 3}
 --- !u!1001 &4809518299134190100

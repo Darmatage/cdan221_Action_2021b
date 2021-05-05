@@ -15,16 +15,23 @@ public class PlayerMove : MonoBehaviour {
 
 	public bool isSpeedBoost = false;
 
+	private Renderer myRend;
+	private Color defaultColor;
+	private bool isSpeedChange = false;
 
     void Start(){
            animator = gameObject.GetComponentInChildren<Animator>();
            rb2D = transform.GetComponent<Rigidbody2D>();
+		   myRend = gameObject.GetComponentInChildren<Renderer>();
+		   defaultColor = myRend.material.color;
 		   runSpeed = startSpeed;
     }
 
     void Update(){
-		if (isSpeedBoost == true) {runSpeed = boostSpeed;}
-		else {runSpeed = startSpeed;}
+		if (isSpeedChange == false){
+			if (isSpeedBoost == true) {runSpeed = boostSpeed;}
+			else {runSpeed = startSpeed;}
+		}
 			
 		//NOTE: Horizontal axis: [a] / left arrow is -1, [d] / right arrow is 1
 		Vector3 hMove = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
@@ -62,10 +69,14 @@ public class PlayerMove : MonoBehaviour {
 	public void playerMoveModify(float multiplier, bool isNormal){
 		if (isNormal == true){
 			runSpeed = startSpeed;
+			isSpeedChange = false;
+			myRend.material.color = defaultColor;
 		}
 		else {
 			runSpeed = (startSpeed * multiplier);
+			isSpeedChange = true;
 			Debug.Log("Speed is now: " + runSpeed);
+			myRend.material.color = new Color(1.0f, 1.0f, 2.5f);
 		}
 		
 	}

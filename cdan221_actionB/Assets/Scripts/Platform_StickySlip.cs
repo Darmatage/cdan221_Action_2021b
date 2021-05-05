@@ -7,7 +7,7 @@ public class Platform_StickySlip : MonoBehaviour{
 	private PlayerMove pMove;
 	public bool isSlippery = false;
 	//private float normalSpeed;
-	public float slipperyMultiplier = 10f;
+	public float slipperyMultiplier = 3f;
 	public float stickyMultiplier = 0.2f;
 
     void Start(){
@@ -34,7 +34,7 @@ public class Platform_StickySlip : MonoBehaviour{
 	void OnCollisionExit2D(Collision2D other){ 
 		if(other.gameObject.tag == "Player"){
 			//PlayerMove.runSpeed = normalSpeed;
-			pMove.playerMoveModify(0, true);
+			pMove.playerMoveModify(0f, true);
 			Debug.Log("I am moving normally!");
 		} 
     }
