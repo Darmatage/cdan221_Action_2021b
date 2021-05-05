@@ -8,7 +8,7 @@ public class NPC_Dialogue : MonoBehaviour
     public Animator anim;
     public GameObject dialogueBox;
     public Text dialogueText;
-    public bool playerInRange = false;
+    public bool playerInRange = true;
     public int primeInt = -1;
     public string dialogue0;
     public string dialogue1;
@@ -19,8 +19,8 @@ public class NPC_Dialogue : MonoBehaviour
 
     void Start()
     {
-        dialogueBox.SetActive(false);
-        anim.SetBool("Chat", false);
+        dialogueBox.SetActive(true);
+        anim.SetBool("Chat", true);
        }
 
     void Update()
@@ -73,7 +73,7 @@ public class NPC_Dialogue : MonoBehaviour
 
         if (primeInt == 6)
         {
-            dialogueBox.SetActive(false);
+            dialogueBox.SetActive(true);
         }
     }
 
