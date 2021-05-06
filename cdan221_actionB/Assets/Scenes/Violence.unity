@@ -17370,7 +17370,7 @@ PrefabInstance:
     - target: {fileID: 1465728875823180026, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3336814945716600824, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
         type: 3}
@@ -17395,7 +17395,7 @@ PrefabInstance:
     - target: {fileID: 4975879670373301838, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5900754377304458476, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
         type: 3}
@@ -17420,7 +17420,12 @@ PrefabInstance:
     - target: {fileID: 8170971219500920657, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329158601170835473, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8329158601170835479, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
         type: 3}
@@ -17435,7 +17440,7 @@ PrefabInstance:
     - target: {fileID: 8329158601342220781, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8329158601464227214, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
         type: 3}
@@ -17589,6 +17594,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b4032cbb8ad26844a7df0e6043fefc0, type: 3}
+--- !u!82 &1442392056 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7369454663602181816, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1442392055}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1444426105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17766,6 +17777,11 @@ PrefabInstance:
       propertyPath: haveInvisibilityIcon
       value: 
       objectReference: {fileID: 905956724}
+    - target: {fileID: 2198315722019222903, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: KaChingSFX
+      value: 
+      objectReference: {fileID: 1442392056}
     - target: {fileID: 3099247769501383938, guid: ecf5eb482e2e0b948a03080765adc765,
         type: 3}
       propertyPath: m_Name
@@ -18573,7 +18589,7 @@ PrefabInstance:
     - target: {fileID: 4232876672669415523, guid: ad79507ae6126ee4389f0a45a54f117c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.35
+      value: -2.66
       objectReference: {fileID: 0}
     - target: {fileID: 4232876672669415523, guid: ad79507ae6126ee4389f0a45a54f117c,
         type: 3}

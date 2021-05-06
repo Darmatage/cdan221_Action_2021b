@@ -20208,6 +20208,21 @@ PrefabInstance:
       propertyPath: gameHandler
       value: 
       objectReference: {fileID: 599423884}
+    - target: {fileID: 4232876672129850667, guid: ad79507ae6126ee4389f0a45a54f117c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4232876672669415523, guid: ad79507ae6126ee4389f0a45a54f117c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4232876672669415523, guid: ad79507ae6126ee4389f0a45a54f117c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.65
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad79507ae6126ee4389f0a45a54f117c, type: 3}
 --- !u!4 &892871395 stripped

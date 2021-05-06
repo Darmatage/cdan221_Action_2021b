@@ -11285,6 +11285,11 @@ PrefabInstance:
       propertyPath: item3BuyButton
       value: 
       objectReference: {fileID: 1651465172}
+    - target: {fileID: 2198315722019222903, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: KaChingSFX
+      value: 
+      objectReference: {fileID: 1651465183}
     - target: {fileID: 3099247769501383938, guid: ecf5eb482e2e0b948a03080765adc765,
         type: 3}
       propertyPath: m_Name
@@ -11653,7 +11658,7 @@ PrefabInstance:
     - target: {fileID: 4232876672129850667, guid: ad79507ae6126ee4389f0a45a54f117c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.9799995
+      value: -8.6
       objectReference: {fileID: 0}
     - target: {fileID: 4232876672669415523, guid: ad79507ae6126ee4389f0a45a54f117c,
         type: 3}
@@ -12182,6 +12187,12 @@ GameObject:
 --- !u!1 &1651465182 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8170971219500920657, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1651465171}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1651465183 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7369454663602181816, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
     type: 3}
   m_PrefabInstance: {fileID: 1651465171}
   m_PrefabAsset: {fileID: 0}

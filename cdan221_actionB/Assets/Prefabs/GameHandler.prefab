@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91bc0442286ab4e4884a186c4c1a5642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartPlayerHealth: 100
+  StartPlayerHealth: 10
   healthText: {fileID: 0}
   bloodText: {fileID: 0}
   canInvisible: 0
@@ -72,12 +72,16 @@ MonoBehaviour:
   gameHandler: {fileID: 0}
   shopMenuUI: {fileID: 0}
   buttonOpenShop: {fileID: 0}
+  haveInvisibilityIcon: {fileID: 0}
+  haveSpeedIcon: {fileID: 0}
+  haveShieldIcon: {fileID: 0}
   item1BuyButton: {fileID: 0}
   item2BuyButton: {fileID: 0}
   item3BuyButton: {fileID: 0}
   item1Cost: 10
   item2Cost: 30
   item3Cost: 50
+  KaChingSFX: {fileID: 0}
 --- !u!114 &1411918502681940455
 MonoBehaviour:
   m_ObjectHideFlags: 0
