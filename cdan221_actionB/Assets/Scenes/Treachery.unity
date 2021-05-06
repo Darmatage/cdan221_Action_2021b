@@ -13122,6 +13122,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 986325897}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &986325909 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7369454663602181816, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 986325897}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1052236340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13867,6 +13873,11 @@ PrefabInstance:
       propertyPath: item3BuyButton
       value: 
       objectReference: {fileID: 986325898}
+    - target: {fileID: 2198315722019222903, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: KaChingSFX
+      value: 
+      objectReference: {fileID: 986325909}
     - target: {fileID: 3099247769501383938, guid: ecf5eb482e2e0b948a03080765adc765,
         type: 3}
       propertyPath: m_Name
