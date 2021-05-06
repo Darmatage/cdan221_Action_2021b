@@ -9,7 +9,7 @@ public class NPC_Dialogue : MonoBehaviour
     public GameObject dialogueBox;
     public Text dialogueText;
     public bool playerInRange = false;
-    public int primeInt = -1;
+    public int primeInt = 0;
     public string dialogue0;
     public string dialogue1;
     public string dialogue2;
