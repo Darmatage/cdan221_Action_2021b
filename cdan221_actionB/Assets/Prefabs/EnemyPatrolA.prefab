@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ca63e642af06d4a8d128b4dc4cb648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 3
   speed: 2
   rb: {fileID: 0}
   groundLayers:

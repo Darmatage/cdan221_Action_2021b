@@ -96,7 +96,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 2421637730845409191}
   speed: 4
-  damage: 3
+  damage: 2
   isAlive: 1
   EnemyLives: 3
   attackRange: 10
