@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-//using UnityEngine.Audio;
+using UnityEngine.Audio;
 
 public class ShopMenu : MonoBehaviour{
 
@@ -22,7 +22,7 @@ public class ShopMenu : MonoBehaviour{
       public int item1Cost = 3;
       public int item2Cost = 4;
       public int item3Cost = 5;
-      //public AudioSource KaChingSFX;
+      public AudioSource KaChingSFX;
 
       void Start (){
             shopMenuUI.SetActive(false);
@@ -65,20 +65,20 @@ public class ShopMenu : MonoBehaviour{
             gameHandler.playerGetBlood((item1Cost * -1));
             GameHandler.gotitem1 = true;
 			haveInvisibilityIcon.SetActive(true);
-            //KaChingSFX.Play();
+            KaChingSFX.Play();
       }
 
       public void Button_BuyItem2(){
             gameHandler.playerGetBlood((item2Cost * -1));
             GameHandler.gotitem2 = true;
 			haveShieldIcon.SetActive(true);
-            //KaChingSFX.Play();
+            KaChingSFX.Play();
       }
 
       public void Button_BuyItem3(){
             gameHandler.playerGetBlood((item3Cost * -1));
             GameHandler.gotitem3 = true;
 			haveSpeedIcon.SetActive(true);
-            //KaChingSFX.Play();
+            KaChingSFX.Play();
       }
 }

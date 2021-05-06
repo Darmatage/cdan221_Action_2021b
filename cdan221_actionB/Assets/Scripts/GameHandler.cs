@@ -79,71 +79,69 @@ public class GameHandler : MonoBehaviour {
 
 
 	public void playerGetHit(int damage){
-           if (isDefending == false){
-                  playerHealth -= damage;
-                  updateStatsDisplay();
-                  player.GetComponent<PlayerHurt>().playerHit();
-            }
+		   if (isDefending == false){
+				  playerHealth -= damage;
+				  updateStatsDisplay();
+				  player.GetComponent<PlayerHurt>().playerHit();
+			}
 
-           if (playerHealth >= StartPlayerHealth){
-                  playerHealth = StartPlayerHealth;
-            }
+		   if (playerHealth >= StartPlayerHealth){
+				  playerHealth = StartPlayerHealth;
+			}
 
-           if (playerHealth <= 0){
-                  playerHealth = 0;
-                  // playerDies();
-            }
+		   if (playerHealth <= 0){
+				  playerHealth = 0;
+				  // playerDies();
+			}
 	}
-	
-	
-	
+
+
+
 	public void playerRespawnHealth(){
-          
-                  playerHealth = StartPlayerHealth;
-                  updateStatsDisplay();
-                
-            
+		  
+				  playerHealth = StartPlayerHealth;
+				  updateStatsDisplay();
+				
+			
 	}
 
 	public void updateStatsDisplay(){
-            Text healthTextTemp = healthText.GetComponent<Text>();
-            healthTextTemp.text = "HEALTH: " + playerHealth;
+			Text healthTextTemp = healthText.GetComponent<Text>();
+			healthTextTemp.text = "HEALTH: " + playerHealth;
 
-            Text bloodTextTemp = bloodText.GetComponent<Text>();
-            bloodTextTemp.text = "BLOODS: " + myBlood;
-      }
+			Text bloodTextTemp = bloodText.GetComponent<Text>();
+			bloodTextTemp.text = "BLOODS: " + myBlood;
+	  }
 
-      public void playerDies(){
-            player.GetComponent<PlayerHurt>().playerDead();
-            StartCoroutine(DeathPause());
-      }
+	public void playerDies(){
+		player.GetComponent<PlayerHurt>().playerDead();
+		StartCoroutine(DeathPause());
+	}
 
-      IEnumerator DeathPause(){
-            player.GetComponent<PlayerMove>().isAlive = false;
-            player.GetComponent<PlayerJump>().isAlive = false;
-            yield return new WaitForSeconds(1.0f);
-            SceneManager.LoadScene("EndLose");
-      }
+	IEnumerator DeathPause(){
+		player.GetComponent<PlayerMove>().isAlive = false;
+		player.GetComponent<PlayerJump>().isAlive = false;
+		yield return new WaitForSeconds(1.0f);
+		SceneManager.LoadScene("EndLose");
+	}
 
-      public void StartGame() {
-            SceneManager.LoadScene("Level1");
-      }
+	public void StartGame() {
+		SceneManager.LoadScene("Le	");
+	}
 
-      public void RestartGame() {
-            SceneManager.LoadScene("MainMenu");
-      }
+	public void RestartGame() {
+		SceneManager.LoadScene("MainMenu");
+	}
 
-      public void QuitGame() {
-                #if UNITY_EDITOR
-                UnityEditor.EditorApplication.isPlaying = false;
-                #else
-                Application.Quit();
-                #endif
-      }
+	public void QuitGame() {
+			#if UNITY_EDITOR
+			UnityEditor.EditorApplication.isPlaying = false;
+			#else
+			Application.Quit();
+			#endif
+	}
 
-
-
-    public void Credits() {
-            SceneManager.LoadScene("Credits");
-      }
+	public void Credits() {
+		SceneManager.LoadScene("Credits");
+	}
 }
