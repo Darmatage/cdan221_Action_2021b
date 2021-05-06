@@ -126,7 +126,7 @@ public class GameHandler : MonoBehaviour {
 	}
 
 	public void StartGame() {
-		SceneManager.LoadScene("Le	");
+		SceneManager.LoadScene("Tutorial");
 	}
 
 	public void RestartGame() {
