@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SceneWin.unity
     guid: 920c31f4fddb50a4e9c5c3ecd519d8fb
   - enabled: 1
-    path: Assets/Scenes/SceneLose.unity
+    path: Assets/Scenes/EndLose.unity
     guid: 24bd5575f4547014ea167966a4787eb6
   - enabled: 1
     path: Assets/Scenes/Treachery.unity

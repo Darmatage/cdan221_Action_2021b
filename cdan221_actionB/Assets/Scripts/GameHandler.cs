@@ -32,20 +32,27 @@ public class GameHandler : MonoBehaviour {
 	public int costShield = 1;
 	public int costSpeed = 1;
 	
+	public static string SceneDied = "MainMenu";
 	
-	   public static int Lives = 5;
-       public int maxLives = 5;
-       public GameObject lifeHeart1;
-       public GameObject lifeHeart2;
-       public GameObject lifeHeart3;
-       public GameObject lifeHeart4;
-       public GameObject lifeHeart5;
+	
+	public static int Lives = 5;
+    public int maxLives = 5;
+    public GameObject lifeHeart1;
+    public GameObject lifeHeart2;
+    public GameObject lifeHeart3;
+    public GameObject lifeHeart4;
+    public GameObject lifeHeart5;
 
 
 	void Start(){
-            player = GameObject.FindWithTag("Player");
-            playerHealth = StartPlayerHealth;
-            updateStatsDisplay();       
+        player = GameObject.FindWithTag("Player");
+        playerHealth = StartPlayerHealth;
+        updateStatsDisplay();
+		
+		string thisLevel = SceneManager.GetActiveScene().name;
+		if ((thisLevel != "EndLose") && (thisLevel != "SceneWin")){
+			SceneDied = thisLevel;
+		}
 	}
 
 
@@ -154,6 +161,12 @@ public class GameHandler : MonoBehaviour {
 	public void StartGame() {
 		SceneManager.LoadScene("Tutorial");
 	}
+
+	public void ReplayGame(){
+		SceneManager.LoadScene(SceneDied);
+		
+	}
+
 
 	public void RestartGame() {
 		SceneManager.LoadScene("MainMenu");
