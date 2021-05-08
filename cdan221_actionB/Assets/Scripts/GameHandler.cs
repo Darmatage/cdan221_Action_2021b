@@ -31,6 +31,15 @@ public class GameHandler : MonoBehaviour {
 	public int costInvis = 1;
 	public int costShield = 1;
 	public int costSpeed = 1;
+	
+	
+	   public static int Lives = 5;
+       public int maxLives = 5;
+       public GameObject lifeHeart1;
+       public GameObject lifeHeart2;
+       public GameObject lifeHeart3;
+       public GameObject lifeHeart4;
+       public GameObject lifeHeart5;
 
 
 	void Start(){
@@ -79,7 +88,8 @@ public class GameHandler : MonoBehaviour {
 
 
 	public void playerGetHit(int damage){
-		   if (isDefending == false){
+          string sceneName = SceneManager.GetActiveScene().name;		  
+		  if (isDefending == false){
 				  playerHealth -= damage;
 				  updateStatsDisplay();
 				  player.GetComponent<PlayerHurt>().playerHit();
@@ -89,13 +99,28 @@ public class GameHandler : MonoBehaviour {
 				  playerHealth = StartPlayerHealth;
 			}
 
-		   if (playerHealth <= 0){
+		   if ((playerHealth <= 0) && (sceneName != "EndLose") && (Lives <= 0)){
 				  playerHealth = 0;
-				  // playerDies();
+				  playerDies();
 			}
+			else if (playerHealth <= 0){ UpdateLives(-1, "down"); }
 	}
 
-
+ public void UpdateLives(int lifeChange, string changeDir){
+              Lives += lifeChange;
+              if (changeDir == "down"){
+                     if (lifeHeart5.activeInHierarchy){lifeHeart5.SetActive(false);}
+                     else if (lifeHeart4.activeInHierarchy){lifeHeart4.SetActive(false);}
+                     else if (lifeHeart3.activeInHierarchy){lifeHeart3.SetActive(false);}
+                     else if (lifeHeart2.activeInHierarchy){lifeHeart2.SetActive(false);}
+                     else if (lifeHeart1.activeInHierarchy){lifeHeart1.SetActive(false);}
+              } else if (changeDir == "up"){
+                     if (!lifeHeart2.activeInHierarchy){lifeHeart2.SetActive(true);}
+                     else if (!lifeHeart3.activeInHierarchy){lifeHeart3.SetActive(true);}
+                     else if (!lifeHeart4.activeInHierarchy){lifeHeart4.SetActive(true);}
+                     else if (!lifeHeart5.activeInHierarchy){lifeHeart5.SetActive(true);}
+              }
+       }
 
 	public void playerRespawnHealth(){
 		  
@@ -116,6 +141,7 @@ public class GameHandler : MonoBehaviour {
 	public void playerDies(){
 		player.GetComponent<PlayerHurt>().playerDead();
 		StartCoroutine(DeathPause());
+		SceneManager.LoadScene("EndLose");
 	}
 
 	IEnumerator DeathPause(){
@@ -144,4 +170,6 @@ public class GameHandler : MonoBehaviour {
 	public void Credits() {
 		SceneManager.LoadScene("Credits");
 	}
+	
+	
 }
