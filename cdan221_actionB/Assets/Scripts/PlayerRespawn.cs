@@ -17,7 +17,7 @@ public class PlayerRespawn : MonoBehaviour
     {
         if (pSpawn != null)
         {
-            if (gameHandler.CurrentHealth() <= 0)
+            if ((gameHandler.CurrentHealth() <= 0) && (GameHandler.Lives > 0))
             {
                 //comment out lines from GameHandler abotu EndLose screen
                 Debug.Log("I am going back to the last spawn point");
