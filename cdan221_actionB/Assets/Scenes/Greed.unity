@@ -1290,7 +1290,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 95
   m_Sprite: {fileID: -1262963061925099236, guid: cf7a0534673f20044add5665992822d1,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1718,6 +1718,31 @@ PrefabInstance:
       propertyPath: StartPlayerHealth
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1718947302136617446, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: lifeHeart1
+      value: 
+      objectReference: {fileID: 1926840803}
+    - target: {fileID: 1718947302136617446, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: lifeHeart2
+      value: 
+      objectReference: {fileID: 1926840802}
+    - target: {fileID: 1718947302136617446, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: lifeHeart3
+      value: 
+      objectReference: {fileID: 1926840801}
+    - target: {fileID: 1718947302136617446, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: lifeHeart4
+      value: 
+      objectReference: {fileID: 1926840800}
+    - target: {fileID: 1718947302136617446, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: lifeHeart5
+      value: 
+      objectReference: {fileID: 1926840799}
     - target: {fileID: 2198315722019222903, guid: ecf5eb482e2e0b948a03080765adc765,
         type: 3}
       propertyPath: gameHandler
@@ -2053,6 +2078,7 @@ GameObject:
   - component: {fileID: 681957375}
   - component: {fileID: 681957374}
   - component: {fileID: 681957373}
+  - component: {fileID: 681957378}
   m_Layer: 8
   m_Name: Tilemap_Coliders
   m_TagString: Untagged
@@ -2088,7 +2114,7 @@ CompositeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths:
@@ -3335,7 +3361,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 94
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -16226,6 +16252,21 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &681957378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681957371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1ee64c3fadf1f44a6c00681b9fe7a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSlippery: 0
+  slipperyMultiplier: 0
+  stickyMultiplier: 0.5
 --- !u!4 &737019821 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9209452797764550935, guid: 323c57f83f7455244ac3bbc4a4782f21,
@@ -16302,7 +16343,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 95
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -20686,6 +20727,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae996e2f331495e47a6f8ea1b859776d, type: 3}
+--- !u!4 &1091047885 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2005973141429241049, guid: ad79507ae6126ee4389f0a45a54f117c,
+    type: 3}
+  m_PrefabInstance: {fileID: 884312867}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1095719820
 GameObject:
   m_ObjectHideFlags: 0
@@ -20733,7 +20780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameHandlerObj: {fileID: 599423884}
-  damage: 1
+  damage: 2
 --- !u!483693784 &1095719823
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -20772,7 +20819,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 95
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -24465,7 +24512,7 @@ PrefabInstance:
         type: 3}
       propertyPath: pSpawn
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1091047885}
     - target: {fileID: 4322602367061065105, guid: 08d80a357524ffc469d3ef57f148645a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26040,6 +26087,36 @@ GameObject:
 --- !u!82 &1926840798 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 7369454663602181816, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1926840786}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1926840799 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4706930976364144628, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1926840786}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1926840800 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7553000299090276459, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1926840786}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1926840801 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6824271137671264448, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1926840786}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1926840802 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5040177640849132792, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1926840786}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1926840803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2535185222189346566, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
     type: 3}
   m_PrefabInstance: {fileID: 1926840786}
   m_PrefabAsset: {fileID: 0}
