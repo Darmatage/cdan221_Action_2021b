@@ -268,7 +268,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 95
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -3164,7 +3164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameHandlerObj: {fileID: 120190835}
-  damage: 1
+  damage: 2
 --- !u!19719996 &27424210
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -4033,6 +4033,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_MoveHit (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421637730607271816, guid: ae996e2f331495e47a6f8ea1b859776d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 95
+      objectReference: {fileID: 0}
     - target: {fileID: 2421637730607271818, guid: ae996e2f331495e47a6f8ea1b859776d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4545,6 +4550,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_MoveHit (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421637730607271816, guid: ae996e2f331495e47a6f8ea1b859776d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 95
+      objectReference: {fileID: 0}
     - target: {fileID: 2421637730607271818, guid: ae996e2f331495e47a6f8ea1b859776d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5009,7 +5019,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &579804149
 Transform:
   m_ObjectHideFlags: 0
@@ -5190,6 +5200,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_MoveHit (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421637730607271816, guid: ae996e2f331495e47a6f8ea1b859776d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 95
+      objectReference: {fileID: 0}
     - target: {fileID: 2421637730607271818, guid: ae996e2f331495e47a6f8ea1b859776d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5258,6 +5273,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy_MoveHit (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421637730607271816, guid: ae996e2f331495e47a6f8ea1b859776d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 2421637730607271818, guid: ae996e2f331495e47a6f8ea1b859776d,
         type: 3}
@@ -5371,7 +5391,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 95
   m_Sprite: {fileID: -1262963061925099236, guid: cf7a0534673f20044add5665992822d1,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5865,6 +5885,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_MoveHit
       objectReference: {fileID: 0}
+    - target: {fileID: 2421637730607271816, guid: ae996e2f331495e47a6f8ea1b859776d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 95
+      objectReference: {fileID: 0}
     - target: {fileID: 2421637730607271818, guid: ae996e2f331495e47a6f8ea1b859776d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5933,6 +5958,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy_MoveHit (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421637730607271816, guid: ae996e2f331495e47a6f8ea1b859776d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 2421637730607271818, guid: ae996e2f331495e47a6f8ea1b859776d,
         type: 3}
@@ -6153,6 +6183,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_MoveHit (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421637730607271816, guid: ae996e2f331495e47a6f8ea1b859776d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 95
+      objectReference: {fileID: 0}
     - target: {fileID: 2421637730607271818, guid: ae996e2f331495e47a6f8ea1b859776d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6210,12 +6245,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae996e2f331495e47a6f8ea1b859776d, type: 3}
---- !u!4 &1066431679 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6706064855622061422, guid: 0ad4e166d75c33343987c114ea87a7e0,
-    type: 3}
-  m_PrefabInstance: {fileID: 401539560}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1074524605
 GameObject:
   m_ObjectHideFlags: 0
@@ -6279,6 +6308,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy_MoveHit (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421637730607271816, guid: ae996e2f331495e47a6f8ea1b859776d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 2421637730607271818, guid: ae996e2f331495e47a6f8ea1b859776d,
         type: 3}
@@ -6354,6 +6388,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy_MoveHit (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421637730607271816, guid: ae996e2f331495e47a6f8ea1b859776d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 2421637730607271818, guid: ae996e2f331495e47a6f8ea1b859776d,
         type: 3}
@@ -6511,6 +6550,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_MoveHit (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421637730607271816, guid: ae996e2f331495e47a6f8ea1b859776d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 95
+      objectReference: {fileID: 0}
     - target: {fileID: 2421637730607271818, guid: ae996e2f331495e47a6f8ea1b859776d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6579,6 +6623,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy_MoveHit (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421637730607271816, guid: ae996e2f331495e47a6f8ea1b859776d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 2421637730607271818, guid: ae996e2f331495e47a6f8ea1b859776d,
         type: 3}
@@ -6937,7 +6986,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 95
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -11763,6 +11812,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_MoveHit (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2421637730607271816, guid: ae996e2f331495e47a6f8ea1b859776d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 95
+      objectReference: {fileID: 0}
     - target: {fileID: 2421637730607271818, guid: ae996e2f331495e47a6f8ea1b859776d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11831,6 +11885,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy_MoveHit (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421637730607271816, guid: ae996e2f331495e47a6f8ea1b859776d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 2421637730607271818, guid: ae996e2f331495e47a6f8ea1b859776d,
         type: 3}
@@ -12052,7 +12111,7 @@ PrefabInstance:
         type: 3}
       propertyPath: pSpawn
       value: 
-      objectReference: {fileID: 1066431679}
+      objectReference: {fileID: 1852318621}
     - target: {fileID: 4322602367061065105, guid: 08d80a357524ffc469d3ef57f148645a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12120,6 +12179,12 @@ PrefabInstance:
       objectReference: {fileID: 120190835}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08d80a357524ffc469d3ef57f148645a, type: 3}
+--- !u!4 &1852318621 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2005973141429241049, guid: ad79507ae6126ee4389f0a45a54f117c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1991123550}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1863926840
 PrefabInstance:
   m_ObjectHideFlags: 0
