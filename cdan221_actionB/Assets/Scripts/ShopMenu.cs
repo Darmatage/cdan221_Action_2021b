@@ -7,6 +7,7 @@ using UnityEngine.Audio;
 public class ShopMenu : MonoBehaviour{
 
       public GameHandler gameHandler;
+	  public NPC_Dialogue_Shop shopScript;
       public static bool ShopisOpen = false;
       public GameObject shopMenuUI;
       public GameObject buttonOpenShop;
@@ -23,6 +24,10 @@ public class ShopMenu : MonoBehaviour{
       public int item2Cost = 4;
       public int item3Cost = 5;
       public AudioSource KaChingSFX;
+
+	void Awake(){
+		shopScript = GameObject.FindWithTag("ShopExplain").GetComponent<NPC_Dialogue_Shop>();
+	}
 
       void Start (){
             shopMenuUI.SetActive(false);
@@ -52,6 +57,10 @@ public class ShopMenu : MonoBehaviour{
            buttonOpenShop.SetActive(false);
            ShopisOpen = true;
            Time.timeScale = 0f;
+		   shopScript.startExplain = true; 
+		   if ((GameHandler.gotitem1 == true)&& (GameHandler.gotitem2 == true) && (GameHandler.gotitem3 == true)){
+				shopScript.primeInt = 39;
+		   } else {shopScript.primeInt = 0;}
       }
 
       public void Button_CloseShop() {
@@ -66,6 +75,8 @@ public class ShopMenu : MonoBehaviour{
             GameHandler.gotitem1 = true;
 			haveInvisibilityIcon.SetActive(true);
             KaChingSFX.Play();
+			shopScript.startExplain = true; 
+			shopScript.primeInt = 9;
       }
 
       public void Button_BuyItem2(){
@@ -73,6 +84,8 @@ public class ShopMenu : MonoBehaviour{
             GameHandler.gotitem2 = true;
 			haveShieldIcon.SetActive(true);
             KaChingSFX.Play();
+			shopScript.startExplain = true; 
+			shopScript.primeInt = 19;
       }
 
       public void Button_BuyItem3(){
@@ -80,5 +93,7 @@ public class ShopMenu : MonoBehaviour{
             GameHandler.gotitem3 = true;
 			haveSpeedIcon.SetActive(true);
             KaChingSFX.Play();
+			shopScript.startExplain = true; 
+			shopScript.primeInt = 29;
       }
 }

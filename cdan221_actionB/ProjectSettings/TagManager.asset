@@ -8,6 +8,7 @@ TagManager:
   - Blood
   - PauseMenuSlider
   - CheckPoint
+  - ShopExplain
   layers:
   - Default
   - TransparentFX

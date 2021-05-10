@@ -27298,6 +27298,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUp_Blood
       objectReference: {fileID: 0}
+    - target: {fileID: 4658442961350517950, guid: 19c15f9f294e307469f9d3207a54fb79,
+        type: 3}
+      propertyPath: bloodValue
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4658442961350517951, guid: 19c15f9f294e307469f9d3207a54fb79,
         type: 3}
       propertyPath: m_LocalPosition.x
