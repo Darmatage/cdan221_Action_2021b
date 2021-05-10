@@ -17,6 +17,10 @@ public class NPC_PatrolSequencePoints : MonoBehaviour {
 	private int nextSpot; 
 	public int startSpot = 0;
 	public bool moveForward = true; 
+	
+	private bool FaceRight = true;
+	private bool ableToTurn = true;
+	private Vector3 startScale;
 
 	void Start(){
 		waitTime = startWaitTime;
@@ -24,6 +28,8 @@ public class NPC_PatrolSequencePoints : MonoBehaviour {
 		rb = GetComponent<Rigidbody2D>();
 		animator = gameObject.GetComponentInChildren<Animator>();
 		gameHandler = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
+		
+		startScale = transform.localScale;
 	}
 
 	void Update(){
@@ -41,10 +47,15 @@ public class NPC_PatrolSequencePoints : MonoBehaviour {
 
 		if (nextSpot == 0) {
 			moveForward = true;
+			playerTurn();
+			
 		}
 		else if (nextSpot == (moveSpots.Length -1)) {
 			moveForward = false;
+			playerTurn();
 		}
+		else {ableToTurn=true;}
+		
 	}
 	
 		public void OnCollisionEnter2D(Collision2D other){
@@ -53,5 +64,22 @@ public class NPC_PatrolSequencePoints : MonoBehaviour {
 			animator.SetTrigger ("Attack");
 		}
 	}
+	
+	
+	
+      private void playerTurn(){
+            
+		if (ableToTurn == true){
+			// NOTE: Switch player facing label
+            FaceRight = !FaceRight;
+
+            // NOTE: Multiply player's x local scale by -1.
+            Vector3 theScale = transform.localScale;
+            theScale.x *= -1;
+            transform.localScale = theScale;
+			ableToTurn = false;
+		}
+      }
+	
 	
 }

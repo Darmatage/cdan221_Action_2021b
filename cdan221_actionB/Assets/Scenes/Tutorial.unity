@@ -523,7 +523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 1}
+  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 0.7058824}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -668,7 +668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 1}
+  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 0.7058824}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1051,7 +1051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 1}
+  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 0.7058824}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1344,7 +1344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 1}
+  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 0.7058824}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1498,6 +1498,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505374663}
   m_CullTransparentMesh: 0
+--- !u!1 &537527754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7553000299090276459, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1058397436}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &552279734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1955,6 +1961,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 739190740}
   m_CullTransparentMesh: 0
+--- !u!1 &758812026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6824271137671264448, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1058397436}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &767905809 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3924225658802532261, guid: 0e5f100bbecc7d54c9ce640e7ef8a781,
@@ -10806,6 +10818,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000304041}
   m_CullTransparentMesh: 0
+--- !u!1 &1038658782 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5040177640849132792, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1058397436}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1049661421 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3924225658802532261, guid: 0e5f100bbecc7d54c9ce640e7ef8a781,
@@ -11324,7 +11342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 1}
+  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 0.7058824}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -12499,6 +12517,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9209452798223661857, guid: 323c57f83f7455244ac3bbc4a4782f21,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 323c57f83f7455244ac3bbc4a4782f21, type: 3}
 --- !u!1001 &1351652485
@@ -12706,7 +12729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 1}
+  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 0.7058824}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -12956,7 +12979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 1}
+  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 0.7058824}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -13013,6 +13036,31 @@ PrefabInstance:
       propertyPath: bloodText
       value: 
       objectReference: {fileID: 1058397447}
+    - target: {fileID: 1718947302136617446, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: lifeHeart5
+      value: 
+      objectReference: {fileID: 1922096838}
+    - target: {fileID: 1718947302136617446, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: lifeHeart4
+      value: 
+      objectReference: {fileID: 537527754}
+    - target: {fileID: 1718947302136617446, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: lifeHeart3
+      value: 
+      objectReference: {fileID: 758812026}
+    - target: {fileID: 1718947302136617446, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: lifeHeart2
+      value: 
+      objectReference: {fileID: 1038658782}
+    - target: {fileID: 1718947302136617446, guid: ecf5eb482e2e0b948a03080765adc765,
+        type: 3}
+      propertyPath: lifeHeart1
+      value: 
+      objectReference: {fileID: 1560432272}
     - target: {fileID: 2198315722019222903, guid: ecf5eb482e2e0b948a03080765adc765,
         type: 3}
       propertyPath: m_Enabled
@@ -13574,6 +13622,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509052044}
   m_CullTransparentMesh: 0
+--- !u!1 &1560432272 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2535185222189346566, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1058397436}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1565726482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14018,7 +14072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 1}
+  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 0.7058824}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -14613,7 +14667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 1}
+  m_Color: {r: 0.9622642, g: 0.5684424, b: 0.5492168, a: 0.7058824}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -14637,6 +14691,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870812691}
   m_CullTransparentMesh: 0
+--- !u!1 &1922096838 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4706930976364144628, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1058397436}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1964514106 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3924225658802532261, guid: 0e5f100bbecc7d54c9ce640e7ef8a781,

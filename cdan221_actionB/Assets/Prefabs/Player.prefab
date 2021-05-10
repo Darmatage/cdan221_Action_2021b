@@ -375,7 +375,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba98978cbbab194798face6af55d68f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animMain: {fileID: 1762363240801230274}
+  animInvisible: {fileID: 2760521870562084201}
   rb2D: {fileID: 0}
   startSpeed: 10
   boostSpeed: 20
@@ -394,7 +395,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08dca7435fa48cb41b7f2ead1bc6fb14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animMain: {fileID: 1762363240801230274}
+  animInvisible: {fileID: 2760521870562084201}
   rb: {fileID: 0}
   jumpForce: 10
   feet: {fileID: 4322602366731717278}
@@ -431,7 +433,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1bc57b12a6fe7a4e908f4569aeeadcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animMain: {fileID: 1762363240801230274}
+  animInvisible: {fileID: 2760521870562084201}
   rb2D: {fileID: 0}
   torso: {fileID: 2767682887254651107}
   feet: {fileID: 4322602366731717278}
@@ -551,7 +554,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d03fc359bd6911349a190deedcacb3d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animMain: {fileID: 1762363240801230274}
+  animInvisible: {fileID: 2760521870562084201}
   rb2D: {fileID: 0}
 --- !u!114 &8501507891316661107
 MonoBehaviour:
