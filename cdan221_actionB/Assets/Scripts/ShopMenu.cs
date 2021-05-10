@@ -26,7 +26,9 @@ public class ShopMenu : MonoBehaviour{
       public AudioSource KaChingSFX;
 
 	void Awake(){
-		shopScript = GameObject.FindWithTag("ShopExplain").GetComponent<NPC_Dialogue_Shop>();
+		if (GameObject.FindWithTag("ShopExplain") != null){
+			shopScript = GameObject.FindWithTag("ShopExplain").GetComponent<NPC_Dialogue_Shop>();
+		}
 	}
 
       void Start (){

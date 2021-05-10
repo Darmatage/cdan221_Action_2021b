@@ -9,6 +9,7 @@ TagManager:
   - PauseMenuSlider
   - CheckPoint
   - ShopExplain
+  - CameraShake
   layers:
   - Default
   - TransparentFX

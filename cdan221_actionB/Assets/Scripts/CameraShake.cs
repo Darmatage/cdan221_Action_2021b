@@ -7,28 +7,33 @@ public class CameraShake : MonoBehaviour{
 //to have other in0-game interactions cause the shake, comment out the update function below and 
 //add this line to the other interation script:     
 	
+	public float shakeDuration=2f;
+	public float shakeMagnitude=2f;
+	
+	public Vector3 origPos;
 	
 	void Update(){
 		if (Input.GetKeyDown(KeyCode.P)){
-		StartCoroutine(ShakeMe(2f, 2f));	
+			StartCoroutine(ShakeMe(shakeDuration, shakeMagnitude));	
 		}
 	}
 	
 	
 	
+	
 	public IEnumerator ShakeMe(float durationTime, float magnitude){
-        Vector3 originalPos = transform.localPosition;
+        origPos = transform.localPosition;
 		float elapsedTime = 0.0f;
 		
 		while (elapsedTime < durationTime){
-			float x = Random.Range(-1f, 1f) * magnitude;
-			float y = Random.Range(-1f, 1f) * magnitude;		
+			float shkX = Random.Range(-1f, 1f) * magnitude;
+			float shkY = Random.Range(-1f, 1f) * magnitude;		
 		
-			transform.localPosition = new Vector3(x,y,originalPos.z);
+			transform.localPosition = new Vector3((origPos.x + shkX),(origPos.y + shkY),origPos.z);
 			elapsedTime += Time.deltaTime;
 			yield return null;
 		}
-		transform.localPosition = originalPos;
+		transform.localPosition = origPos;
     }
 
 }
