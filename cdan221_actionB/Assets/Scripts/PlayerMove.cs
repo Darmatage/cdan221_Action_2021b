@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour {
 
-    public Animator animator;
+    public Animator animMain;
+    public Animator animInvisible;
     public Rigidbody2D rb2D;
     private bool FaceRight = true; // determine which way player is facing.
     public static float runSpeed;
@@ -20,7 +21,6 @@ public class PlayerMove : MonoBehaviour {
 	private bool isSpeedChange = false;
 
     void Start(){
-           animator = gameObject.GetComponentInChildren<Animator>();
            rb2D = transform.GetComponent<Rigidbody2D>();
 		   myRend = gameObject.GetComponentInChildren<Renderer>();
 		   defaultColor = myRend.material.color;
@@ -40,12 +40,14 @@ public class PlayerMove : MonoBehaviour {
 		}
 
 		if (Input.GetAxis("Horizontal") != 0){
-			animator.SetBool ("Walk", true);
+			animMain.SetBool ("Walk", true);
+			animInvisible.SetBool ("Walk", true);
 			if (!walkSFX.isPlaying){
 				walkSFX.Play();
 			}
 		} else {
-			animator.SetBool ("Walk", false);
+			animMain.SetBool ("Walk", false);
+			animInvisible.SetBool ("Walk", false);
 			walkSFX.Stop();
 		}
 
