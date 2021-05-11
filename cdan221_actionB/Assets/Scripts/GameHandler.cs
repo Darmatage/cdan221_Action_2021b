@@ -160,16 +160,21 @@ public class GameHandler : MonoBehaviour {
 
 	public void StartGame() {
 		SceneManager.LoadScene("Tutorial");
+		Lives = maxLives;
+		playerHealth = StartPlayerHealth;
 	}
 
 	public void ReplayGame(){
 		SceneManager.LoadScene(SceneDied);
-		
+		Lives = maxLives;	
+		playerHealth = StartPlayerHealth;
 	}
 
 
 	public void RestartGame() {
 		SceneManager.LoadScene("MainMenu");
+		Lives = maxLives;
+		playerHealth = StartPlayerHealth;
 	}
 
 	public void QuitGame() {
