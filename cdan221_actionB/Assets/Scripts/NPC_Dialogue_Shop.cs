@@ -33,27 +33,27 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		
 		//Dialogue #1: Intro to shop
 		if (primeInt == 1){
-            dialogueText.text = "Welcome to the shop, demon scum!";
+            dialogueText.text = "Honestly, it took you long enough to figure out how to get here, but whatever.";
         }
 
         if (primeInt == 2){
-            dialogueText.text = "Here you can purchase abilities to survive the trials ahead.";
+            dialogueText.text = "This is my shop, where you can come and buy useful tombs for your quest out of Hell.";
         }
 
         if (primeInt == 3){
-            dialogueText.text = "The cheapest ability is invisibility. It costs 10 blood to buy.";
+            dialogueText.text = "Though, because you're a minor demon, I can only give you three at the moment.";
         }
 
         if (primeInt == 4){
-            dialogueText.text = "Once you have an ability, it costs a blood to activate.";
+            dialogueText.text = "But, they'll be useful to you in the long run.";
         }
 
         if (primeInt == 5){
-            dialogueText.text = "Blood runs out quickly, so spend wisely!";
+            dialogueText.text = "Just remember, though, blood runs out quickly and I'm not going to give you anything for free.";
         }
 
         if (primeInt == 6){
-            dialogueText.text = "You demon scum.";
+            dialogueText.text = "Even in Hell you gotta work for what you want.";
         }
 
         if (primeInt == 7){
@@ -65,27 +65,27 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		//Dialogue #2: have invisibility
 		
 		if (primeInt == 10){
-            dialogueText.text = "You have purchased Invisibility! You fool!";
+            dialogueText.text = "So, the haples soul decided to spend their blood on an invisiblity tomb.";
         }
 
         if (primeInt == 11){
-            dialogueText.text = "Well, I guess it's not too bad.";
+            dialogueText.text = "Well, I guess that isn't too bad.";
         }
 
         if (primeInt == 12){
-            dialogueText.text = "Spend a blood to be briefly invisible to some monsters.";
+            dialogueText.text = "With invisiblity, you can briefly become invisible to some monsters.";
         }
 
         if (primeInt == 13){
-            dialogueText.text = "But clumsy demons like yourself will likely run into them anyway.";
+            dialogueText.text = "Allowing for a rather easy escape and to the next platform.";
         }
 
         if (primeInt == 14){
-            dialogueText.text = "Blood runs out quickly, so spend wisely!";
+            dialogueText.text = "But, with clumbsy souls like you, you'll probably end up getting caught by them anyways.";
         }
 
         if (primeInt == 15){
-            dialogueText.text = "You demon scum.";
+            dialogueText.text = "Also, no refunds if you do happen to get caught. That's not my problem.";
         }
 
         if (primeInt == 16){
@@ -100,27 +100,27 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		
 		//Dialogue #3: have speed
 		if (primeInt == 20){
-            dialogueText.text = "You have purchased Speed! You fool!";
+            dialogueText.text = "Oh, so you decided to give yourself a boost and purchased a Speed tomb.";
         }
 
         if (primeInt == 21){
-            dialogueText.text = "Well, I guerss it's not too bad.";
+            dialogueText.text = "Well, I guess it's a pretty smart buy.";
         }
 
         if (primeInt == 22){
-            dialogueText.text = "Spend a blood to be briefly speedy.";
+            dialogueText.text = "Some monsters here are quick enough that they'll catch you in a blink of an eye,";
         }
 
         if (primeInt == 23){
-            dialogueText.text = "But clumsy demons like yourself will likely run into them anyway.";
+            dialogueText.text = "So, a speed tomb will allow you to speed up and avoid those monsters.";
         }
 
         if (primeInt == 24){
-            dialogueText.text = "Blood runs out quickly, so spend wisely!";
+            dialogueText.text = "Though, that still won't help you if your dumb enough to happen to run into them.";
         }
 
         if (primeInt == 25){
-            dialogueText.text = "You demon scum.";
+            dialogueText.text = "So, don't come demanding your blood back when you accidentally rocket into one of them.";
         }
 
         if (primeInt == 26){
@@ -136,27 +136,27 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		//Dialogue #4: have defense
 		
 		if (primeInt == 30){
-            dialogueText.text = "You have purchased Defense! You fool!";
+            dialogueText.text = "Ah, so you've decided on defense.";
         }
 
         if (primeInt == 31){
-            dialogueText.text = "Well, I guess it's not too bad.";
+            dialogueText.text = "Guess that's kinda a smart move, in my opinion.";
         }
 
         if (primeInt == 32){
-            dialogueText.text = "Spend a blood to be briefly defended to some monsters.";
+            dialogueText.text = "Some monsters are tough and deal a lot of damage to you.";
         }
 
         if (primeInt == 33){
-            dialogueText.text = "But silly demons like yourself will likely forget to use it.";
+            dialogueText.text = "So a defense tomb will briefly allow you to keep from getting injuried should you face off against one.";
         }
 
         if (primeInt == 34){
-            dialogueText.text = "Blood runs out quickly, so spend wisely!";
+            dialogueText.text = "Though, it's also my most expensive tomb, so even if you're able avoid a couple of monsters' hits, you've probably already been smacked around by a dozen beforehand.";
         }
 
         if (primeInt == 35){
-            dialogueText.text = "You demon scum.";
+            dialogueText.text = "Honestly, that's just hilarious to think about.";
         }
 
         if (primeInt == 36){
@@ -169,27 +169,27 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		
 		//Dialogue #5: you have it all
 		if (primeInt == 40){
-            dialogueText.text = "You bought eveything.";
+            dialogueText.text = "Oh, so you bought out everything.";
         }
 
         if (primeInt == 41){
-            dialogueText.text = "That's it. There's nothing else.";
+            dialogueText.text = "Good for you, I guess.";
         }
 
         if (primeInt == 42){
-            dialogueText.text = "Go play the game.";
+            dialogueText.text = "What? Did you expect me to congradulate you on buying everything.";
         }
 
         if (primeInt == 43){
-            dialogueText.text = "Why are you still here?";
+            dialogueText.text = "I don't care, that's just more blood in my pocket to spend.";
         }
 
         if (primeInt == 44){
-            dialogueText.text = "Go.";
+            dialogueText.text = "Why are you still here? I have nothing else for you.";
         }
 
         if (primeInt == 45){
-            dialogueText.text = "You demon scum.";
+            dialogueText.text = "Go run along and play your game or something.";
         }
 
         if (primeInt == 46){
