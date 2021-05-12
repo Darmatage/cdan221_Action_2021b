@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2421637730607271816}
   - component: {fileID: 2421637730607271819}
   - component: {fileID: 9159389123445725565}
-  - component: {fileID: 2421637730607271812}
   m_Layer: 0
   m_Name: Enemy_MoveHit
   m_TagString: Untagged
@@ -154,24 +153,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   groundCheck: {fileID: 5314031551444638069}
---- !u!114 &2421637730607271812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2421637730607271813}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9aade5bf318849d4fb3a4a743b419923, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 2421637730845409191}
-  speed: 4
-  damage: 2
-  isAlive: 1
-  EnemyLives: 3
-  attackRange: 10
 --- !u!1 &2421637730845409184
 GameObject:
   m_ObjectHideFlags: 0
