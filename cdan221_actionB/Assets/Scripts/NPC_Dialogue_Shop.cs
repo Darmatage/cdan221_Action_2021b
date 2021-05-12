@@ -8,19 +8,25 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 
 	public int primeInt = 0;
 	public GameObject dialogueBox;
-	public GameObject demonGuide;
+	public GameObject sallyWelcome;
+	public GameObject sallyExplain;
+	public GameObject sallyDone;
     public Text dialogueText;
 	private bool dialogueFinished = false;
 
 	public bool startExplain = true;
 
+	void Start(){
+		sallyWelcome.SetActive(false);
+		sallyExplain.SetActive(false);
+		sallyDone.SetActive(false);
+	}
+
     void Update(){
 		if (startExplain == true){
 			dialogueBox.SetActive(true);
-			demonGuide.SetActive(true);
 		} else if (startExplain == false){
 			dialogueBox.SetActive(false);
-			demonGuide.SetActive(false);
 		}
 		
         if (Input.GetKeyDown(KeyCode.Space)){
@@ -33,6 +39,9 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		
 		//Dialogue #1: Intro to shop
 		if (primeInt == 1){
+		sallyWelcome.SetActive(true);
+		sallyExplain.SetActive(false);
+		sallyDone.SetActive(false);
             dialogueText.text = "Honestly, it took you long enough to figure out how to get here, but whatever.";
         }
 
@@ -65,6 +74,9 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		//Dialogue #2: have invisibility
 		
 		if (primeInt == 10){
+		sallyWelcome.SetActive(false);
+		sallyExplain.SetActive(true);
+		sallyDone.SetActive(false);
             dialogueText.text = "So, the haples soul decided to spend their blood on an invisiblity tomb.";
         }
 
@@ -85,6 +97,8 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 15){
+		sallyWelcome.SetActive(true);
+		sallyExplain.SetActive(false);
             dialogueText.text = "Also, no refunds if you do happen to get caught. That's not my problem.";
         }
 
@@ -100,6 +114,9 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		
 		//Dialogue #3: have speed
 		if (primeInt == 20){
+		sallyWelcome.SetActive(false);
+		sallyExplain.SetActive(true);
+		sallyDone.SetActive(false);
             dialogueText.text = "Oh, so you decided to give yourself a boost and purchased a Speed tomb.";
         }
 
@@ -120,6 +137,8 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 25){
+		sallyWelcome.SetActive(true);
+		sallyExplain.SetActive(false);
             dialogueText.text = "So, don't come demanding your blood back when you accidentally rocket into one of them.";
         }
 
@@ -136,6 +155,9 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		//Dialogue #4: have defense
 		
 		if (primeInt == 30){
+		sallyWelcome.SetActive(false);
+		sallyExplain.SetActive(true);
+		sallyDone.SetActive(false);
             dialogueText.text = "Ah, so you've decided on defense.";
         }
 
@@ -156,6 +178,8 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 35){
+		sallyWelcome.SetActive(true);
+		sallyExplain.SetActive(false);
             dialogueText.text = "Honestly, that's just hilarious to think about.";
         }
 
@@ -169,6 +193,9 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		
 		//Dialogue #5: you have it all
 		if (primeInt == 40){
+		sallyWelcome.SetActive(false);
+		sallyExplain.SetActive(false);
+		sallyDone.SetActive(true);
             dialogueText.text = "Oh, so you bought out everything.";
         }
 
