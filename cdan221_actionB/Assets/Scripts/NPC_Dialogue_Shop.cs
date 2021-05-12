@@ -46,26 +46,30 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 2){
-            dialogueText.text = "This is my shop, where you can come and buy useful tombs for your quest out of Hell.";
+            dialogueText.text = "This is my shop, where you can come and buy useful tombs for your quest.";
         }
 
         if (primeInt == 3){
-            dialogueText.text = "Though, because you're a minor demon, I can only give you three at the moment.";
+            dialogueText.text = "Since you're a minor demon,";
         }
+		
+		if (primeInt == 4){
+			dialogueText.text = "I can only offer you three at the moment.";
+		}
 
-        if (primeInt == 4){
+        if (primeInt == 5){
             dialogueText.text = "But, they'll be useful to you in the long run.";
         }
 
-        if (primeInt == 5){
-            dialogueText.text = "Just remember, though, blood runs out quickly and I'm not going to give you anything for free.";
-        }
-
         if (primeInt == 6){
-            dialogueText.text = "Even in Hell you gotta work for what you want.";
+            dialogueText.text = "Blood runs out quickly and I'm not going to give you anything for free.";
         }
 
         if (primeInt == 7){
+            dialogueText.text = "Even in Hell you gotta work for what you want.";
+        }
+
+        if (primeInt == 8){
             startExplain = false;
 			dialogueFinished = true;
 			dialogueText.text = "...";
@@ -125,24 +129,28 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 22){
-            dialogueText.text = "Some monsters here are quick enough that they'll catch you in a blink of an eye,";
+            dialogueText.text = "Some monsters here are quick enough";
         }
-
-        if (primeInt == 23){
-            dialogueText.text = "So, a speed tomb will allow you to speed up and avoid those monsters.";
+		
+		if (primeInt == 23){
+            dialogueText.text = "that they'll catch you in a blink of an eye.";
         }
 
         if (primeInt == 24){
-            dialogueText.text = "Though, that still won't help you if your dumb enough to happen to run into them.";
+            dialogueText.text = "So, a speed tomb will allow you to speed up and avoid those monsters.";
         }
 
         if (primeInt == 25){
-		sallyWelcome.SetActive(true);
-		sallyExplain.SetActive(false);
-            dialogueText.text = "So, don't come demanding your blood back when you accidentally rocket into one of them.";
+            dialogueText.text = "That still won't help you if your dumb enough to happen to run into them.";
         }
 
         if (primeInt == 26){
+		sallyWelcome.SetActive(true);
+		sallyExplain.SetActive(false);
+            dialogueText.text = "So, don't come demanding your blood back when you accidentally rocket into one.";
+        }
+
+        if (primeInt == 27){
             startExplain = false;
 			dialogueFinished = true;
 			dialogueText.text = "...";
@@ -170,20 +178,32 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 33){
-            dialogueText.text = "So a defense tomb will briefly allow you to keep from getting injuried should you face off against one.";
+            dialogueText.text = "So a defense tomb will briefly allow you to keep from";
         }
-
-        if (primeInt == 34){
-            dialogueText.text = "Though, it's also my most expensive tomb, so even if you're able avoid a couple of monsters' hits, you've probably already been smacked around by a dozen beforehand.";
+		
+		if (primeInt == 34){
+            dialogueText.text = "getting injuried should you face off against one.";
         }
 
         if (primeInt == 35){
+            dialogueText.text = "Though, it's also my most expensive tomb,";
+        }
+		
+		if (primeInt == 36){
+            dialogueText.text = "so even if you're able avoid a couple of monsters' hits,";
+        }
+		
+		if (primeInt == 37){
+            dialogueText.text = "you've probably already been smacked around by a dozen beforehand.";
+        }
+
+        if (primeInt == 38){
 		sallyWelcome.SetActive(true);
 		sallyExplain.SetActive(false);
             dialogueText.text = "Honestly, that's just hilarious to think about.";
         }
 
-        if (primeInt == 36){
+        if (primeInt == 39){
             startExplain = false;
 			dialogueFinished = true;
 			dialogueText.text = "...";
