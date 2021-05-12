@@ -122,6 +122,198 @@ TextureImporter:
   - first:
       213: -2198057717822219675
     second: Anger_tilemap_39
+  - first:
+      213: 5499378124687823475
+    second: Anger_tilemap_0
+  - first:
+      213: 1693485561784135527
+    second: Anger_tilemap_1
+  - first:
+      213: 8244277084675577915
+    second: Anger_tilemap_2
+  - first:
+      213: 3049905380550017484
+    second: Anger_tilemap_3
+  - first:
+      213: -4801938366660259911
+    second: Anger_tilemap_4
+  - first:
+      213: -6332478077144906918
+    second: Anger_tilemap_5
+  - first:
+      213: -2515482262237003674
+    second: Anger_tilemap_6
+  - first:
+      213: 3410392622355313071
+    second: Anger_tilemap_7
+  - first:
+      213: -3703676511546628302
+    second: Anger_tilemap_8
+  - first:
+      213: -5522028429347440046
+    second: Anger_tilemap_9
+  - first:
+      213: 6692128879491913559
+    second: Anger_tilemap_10
+  - first:
+      213: -1488695993640064517
+    second: Anger_tilemap_11
+  - first:
+      213: 8015371972203863275
+    second: Anger_tilemap_12
+  - first:
+      213: -721387461512404022
+    second: Anger_tilemap_13
+  - first:
+      213: -5293491573555857458
+    second: Anger_tilemap_14
+  - first:
+      213: 6924111386597604437
+    second: Anger_tilemap_15
+  - first:
+      213: -6458661172955865346
+    second: Anger_tilemap_16
+  - first:
+      213: -2615945079963136923
+    second: Anger_tilemap_17
+  - first:
+      213: -1014881921387671507
+    second: Anger_tilemap_18
+  - first:
+      213: -5305292625909519970
+    second: Anger_tilemap_19
+  - first:
+      213: -1606516384644634834
+    second: Anger_tilemap_20
+  - first:
+      213: -1434769952041102249
+    second: Anger_tilemap_21
+  - first:
+      213: 2994251889592359020
+    second: Anger_tilemap_22
+  - first:
+      213: -460031147200956437
+    second: Anger_tilemap_23
+  - first:
+      213: -4712766654398869350
+    second: Anger_tilemap_24
+  - first:
+      213: -1823804481722382425
+    second: Anger_tilemap_25
+  - first:
+      213: 6671548692572542584
+    second: Anger_tilemap_26
+  - first:
+      213: -4233457453995115560
+    second: Anger_tilemap_27
+  - first:
+      213: -457619550813724019
+    second: Anger_tilemap_28
+  - first:
+      213: -8455786805063032583
+    second: Anger_tilemap_29
+  - first:
+      213: -6995609958146097971
+    second: Anger_tilemap_30
+  - first:
+      213: 3601073661206841735
+    second: Anger_tilemap_31
+  - first:
+      213: 1087730093157083090
+    second: Anger_tilemap_32
+  - first:
+      213: 4923408732643825468
+    second: Anger_tilemap_33
+  - first:
+      213: 771858121221473582
+    second: Anger_tilemap_34
+  - first:
+      213: 6504136708293316698
+    second: Anger_tilemap_35
+  - first:
+      213: 4003275849625613740
+    second: Anger_tilemap_36
+  - first:
+      213: 8506075270652798881
+    second: Anger_tilemap_37
+  - first:
+      213: -3084173435700761254
+    second: Anger_tilemap_38
+  - first:
+      213: 3252516385302558286
+    second: Anger_tilemap_39
+  - first:
+      213: 5878642659612301586
+    second: Anger_tilemap_40
+  - first:
+      213: -4144156546408574789
+    second: Anger_tilemap_41
+  - first:
+      213: -6588282268132809414
+    second: Anger_tilemap_42
+  - first:
+      213: -5618074504876661299
+    second: Anger_tilemap_43
+  - first:
+      213: 8625822947037397091
+    second: Anger_tilemap_44
+  - first:
+      213: -8275442383393131440
+    second: Anger_tilemap_45
+  - first:
+      213: 2324866483934898070
+    second: Anger_tilemap_46
+  - first:
+      213: -453577122435489311
+    second: Anger_tilemap_47
+  - first:
+      213: 3130830080801771696
+    second: Anger_tilemap_48
+  - first:
+      213: -3689455475028307832
+    second: Anger_tilemap_49
+  - first:
+      213: -6399186501305405610
+    second: Anger_tilemap_50
+  - first:
+      213: 2349573664414749263
+    second: Anger_tilemap_51
+  - first:
+      213: 3359442811640662156
+    second: Anger_tilemap_52
+  - first:
+      213: 8863938998842503324
+    second: Anger_tilemap_53
+  - first:
+      213: -6256894147477012052
+    second: Anger_tilemap_54
+  - first:
+      213: -6022861787198878266
+    second: Anger_tilemap_55
+  - first:
+      213: -5937421982586658194
+    second: Anger_tilemap_56
+  - first:
+      213: 1812982001259198806
+    second: Anger_tilemap_57
+  - first:
+      213: -8669915139334868764
+    second: Anger_tilemap_58
+  - first:
+      213: -4074185503244450958
+    second: Anger_tilemap_59
+  - first:
+      213: 7121016964763948551
+    second: Anger_tilemap_60
+  - first:
+      213: -6718892697634755036
+    second: Anger_tilemap_61
+  - first:
+      213: 7846604294626888281
+    second: Anger_tilemap_62
+  - first:
+      213: -6873389209317279016
+    second: Anger_tilemap_63
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -165,7 +357,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -283,9 +475,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 240
-        width: 16
-        height: 16
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,8 +485,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e736ec4671bc09d0800000000000000
-      internalID: -2806673346104248345
+      spriteID: 37252977447b15c40800000000000000
+      internalID: 5499378124687823475
       vertices: []
       indices: 
       edges: []
@@ -303,10 +495,10 @@ TextureImporter:
       name: Anger_tilemap_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 240
-        width: 16
-        height: 16
+        x: 32
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,8 +506,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29a6130849bbf04b0800000000000000
-      internalID: -5471948775751587182
+      spriteID: 76f656e5528708710800000000000000
+      internalID: 1693485561784135527
       vertices: []
       indices: 
       edges: []
@@ -324,10 +516,10 @@ TextureImporter:
       name: Anger_tilemap_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 240
-        width: 16
-        height: 16
+        x: 64
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,8 +527,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d7bdb3870a97d400800000000000000
-      internalID: 348916853210200025
+      spriteID: b381bf5145e896270800000000000000
+      internalID: 8244277084675577915
       vertices: []
       indices: 
       edges: []
@@ -345,10 +537,10 @@ TextureImporter:
       name: Anger_tilemap_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 240
-        width: 16
-        height: 16
+        x: 96
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,8 +548,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 658a844bbae8874f0800000000000000
-      internalID: -830757263134644138
+      spriteID: cc18c36d8c0735a20800000000000000
+      internalID: 3049905380550017484
       vertices: []
       indices: 
       edges: []
@@ -366,10 +558,10 @@ TextureImporter:
       name: Anger_tilemap_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 240
-        width: 16
-        height: 16
+        x: 128
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -377,8 +569,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d2e3ac39f47d26f0800000000000000
-      internalID: -707780952614247726
+      spriteID: 9bf45ed4f761c5db0800000000000000
+      internalID: -4801938366660259911
       vertices: []
       indices: 
       edges: []
@@ -387,10 +579,10 @@ TextureImporter:
       name: Anger_tilemap_5
       rect:
         serializedVersion: 2
-        x: 80
-        y: 240
-        width: 16
-        height: 16
+        x: 160
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -398,8 +590,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df5e68220090d0750800000000000000
-      internalID: 6272679752180884989
+      spriteID: a5344df5db48e18a0800000000000000
+      internalID: -6332478077144906918
       vertices: []
       indices: 
       edges: []
@@ -408,10 +600,10 @@ TextureImporter:
       name: Anger_tilemap_6
       rect:
         serializedVersion: 2
-        x: 96
-        y: 240
-        width: 16
-        height: 16
+        x: 192
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,8 +611,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95a79da8306f12020800000000000000
-      internalID: 2315402178519988825
+      spriteID: 6604198c536371dd0800000000000000
+      internalID: -2515482262237003674
       vertices: []
       indices: 
       edges: []
@@ -429,10 +621,10 @@ TextureImporter:
       name: Anger_tilemap_7
       rect:
         serializedVersion: 2
-        x: 112
-        y: 240
-        width: 16
-        height: 16
+        x: 224
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,8 +632,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d66567d766815df0800000000000000
-      internalID: -193225528446720301
+      spriteID: fa1f9106506245f20800000000000000
+      internalID: 3410392622355313071
       vertices: []
       indices: 
       edges: []
@@ -450,10 +642,10 @@ TextureImporter:
       name: Anger_tilemap_8
       rect:
         serializedVersion: 2
-        x: 128
-        y: 240
-        width: 16
-        height: 16
+        x: 0
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -461,8 +653,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af0d88b748ee9bb50800000000000000
-      internalID: 6609576180918571258
+      spriteID: 2372e4ee5d5e99cc0800000000000000
+      internalID: -3703676511546628302
       vertices: []
       indices: 
       edges: []
@@ -471,10 +663,10 @@ TextureImporter:
       name: Anger_tilemap_9
       rect:
         serializedVersion: 2
-        x: 144
-        y: 240
-        width: 16
-        height: 16
+        x: 32
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -482,8 +674,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d09874a3dc7a83b40800000000000000
-      internalID: 5420266651428292877
+      spriteID: 25a33258660dd53b0800000000000000
+      internalID: -5522028429347440046
       vertices: []
       indices: 
       edges: []
@@ -492,10 +684,10 @@ TextureImporter:
       name: Anger_tilemap_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 224
-        width: 16
-        height: 16
+        x: 64
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,8 +695,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cf952b2bbd829fe0800000000000000
-      internalID: -1183727917022732349
+      spriteID: 7579f3d62c73fdc50800000000000000
+      internalID: 6692128879491913559
       vertices: []
       indices: 
       edges: []
@@ -513,10 +705,10 @@ TextureImporter:
       name: Anger_tilemap_11
       rect:
         serializedVersion: 2
-        x: 16
-        y: 224
-        width: 16
-        height: 16
+        x: 96
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,8 +716,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c42ede2c8e0234d60800000000000000
-      internalID: 7873172757648630348
+      spriteID: bf9698891e6175be0800000000000000
+      internalID: -1488695993640064517
       vertices: []
       indices: 
       edges: []
@@ -534,10 +726,10 @@ TextureImporter:
       name: Anger_tilemap_12
       rect:
         serializedVersion: 2
-        x: 32
-        y: 224
-        width: 16
-        height: 16
+        x: 128
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -545,8 +737,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 687155764118a9330800000000000000
-      internalID: 3718426366980724614
+      spriteID: bec55d967525c3f60800000000000000
+      internalID: 8015371972203863275
       vertices: []
       indices: 
       edges: []
@@ -555,10 +747,10 @@ TextureImporter:
       name: Anger_tilemap_13
       rect:
         serializedVersion: 2
-        x: 48
-        y: 224
-        width: 16
-        height: 16
+        x: 160
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -566,8 +758,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40243f59cf8714050800000000000000
-      internalID: 5783036422763266564
+      spriteID: ac3e1230ded1df5f0800000000000000
+      internalID: -721387461512404022
       vertices: []
       indices: 
       edges: []
@@ -576,10 +768,10 @@ TextureImporter:
       name: Anger_tilemap_14
       rect:
         serializedVersion: 2
-        x: 64
-        y: 224
-        width: 16
-        height: 16
+        x: 192
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -587,8 +779,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39ccebfe0ad5c7570800000000000000
-      internalID: 8465744345348099219
+      spriteID: ec7fda0c57db986b0800000000000000
+      internalID: -5293491573555857458
       vertices: []
       indices: 
       edges: []
@@ -597,10 +789,10 @@ TextureImporter:
       name: Anger_tilemap_15
       rect:
         serializedVersion: 2
-        x: 80
-        y: 224
-        width: 16
-        height: 16
+        x: 224
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -608,8 +800,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c4233e39a3219740800000000000000
-      internalID: 5156942258115912904
+      spriteID: 55c336fde92671060800000000000000
+      internalID: 6924111386597604437
       vertices: []
       indices: 
       edges: []
@@ -618,10 +810,10 @@ TextureImporter:
       name: Anger_tilemap_16
       rect:
         serializedVersion: 2
-        x: 96
-        y: 224
-        width: 16
-        height: 16
+        x: 0
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -629,8 +821,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 633a20b70b93bfbd0800000000000000
-      internalID: -2595417330108161226
+      spriteID: efe9b55f1e93e56a0800000000000000
+      internalID: -6458661172955865346
       vertices: []
       indices: 
       edges: []
@@ -639,10 +831,10 @@ TextureImporter:
       name: Anger_tilemap_17
       rect:
         serializedVersion: 2
-        x: 112
-        y: 224
-        width: 16
-        height: 16
+        x: 32
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -650,8 +842,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 617c0e02a3d4f22a0800000000000000
-      internalID: -6760099603604781290
+      spriteID: 56ccdd44fcb42bbd0800000000000000
+      internalID: -2615945079963136923
       vertices: []
       indices: 
       edges: []
@@ -660,10 +852,10 @@ TextureImporter:
       name: Anger_tilemap_18
       rect:
         serializedVersion: 2
-        x: 128
-        y: 224
-        width: 16
-        height: 16
+        x: 64
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -671,8 +863,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4248320182ce0eaa0800000000000000
-      internalID: -6133643035665005532
+      spriteID: d20d8b2054a6ae1f0800000000000000
+      internalID: -1014881921387671507
       vertices: []
       indices: 
       edges: []
@@ -681,10 +873,10 @@ TextureImporter:
       name: Anger_tilemap_19
       rect:
         serializedVersion: 2
-        x: 144
-        y: 224
-        width: 16
-        height: 16
+        x: 96
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -692,8 +884,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8eb370ff8f30b9f50800000000000000
-      internalID: 6889104422958742504
+      spriteID: e99e9232770df56b0800000000000000
+      internalID: -5305292625909519970
       vertices: []
       indices: 
       edges: []
@@ -702,10 +894,10 @@ TextureImporter:
       name: Anger_tilemap_20
       rect:
         serializedVersion: 2
-        x: 32
-        y: 176
-        width: 16
-        height: 16
+        x: 128
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -713,8 +905,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d6335e929f507240800000000000000
-      internalID: 4787431487220954840
+      spriteID: e27696f1cd184b9e0800000000000000
+      internalID: -1606516384644634834
       vertices: []
       indices: 
       edges: []
@@ -723,10 +915,10 @@ TextureImporter:
       name: Anger_tilemap_21
       rect:
         serializedVersion: 2
-        x: 48
-        y: 176
-        width: 16
-        height: 16
+        x: 160
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,8 +926,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79dbf8e2f307d9f20800000000000000
-      internalID: 3431021907792608663
+      spriteID: 7549f22945ca61ce0800000000000000
+      internalID: -1434769952041102249
       vertices: []
       indices: 
       edges: []
@@ -744,10 +936,10 @@ TextureImporter:
       name: Anger_tilemap_22
       rect:
         serializedVersion: 2
-        x: 64
-        y: 176
-        width: 16
-        height: 16
+        x: 192
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -755,8 +947,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad7245ccb41cb1b40800000000000000
-      internalID: 5412131908510558170
+      spriteID: c68d137ba38bd8920800000000000000
+      internalID: 2994251889592359020
       vertices: []
       indices: 
       edges: []
@@ -765,10 +957,10 @@ TextureImporter:
       name: Anger_tilemap_23
       rect:
         serializedVersion: 2
-        x: 80
-        y: 176
-        width: 16
-        height: 16
+        x: 224
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -776,8 +968,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fe50fe69c2f53510800000000000000
-      internalID: 1528394595525746417
+      spriteID: be7b875eb14ad99f0800000000000000
+      internalID: -460031147200956437
       vertices: []
       indices: 
       edges: []
@@ -786,10 +978,10 @@ TextureImporter:
       name: Anger_tilemap_24
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
-        width: 16
-        height: 16
+        x: 0
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -797,8 +989,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1d436177684e9510800000000000000
-      internalID: 1557762130237934879
+      spriteID: a90df3772b3e89eb0800000000000000
+      internalID: -4712766654398869350
       vertices: []
       indices: 
       edges: []
@@ -807,10 +999,10 @@ TextureImporter:
       name: Anger_tilemap_25
       rect:
         serializedVersion: 2
-        x: 48
-        y: 160
-        width: 16
-        height: 16
+        x: 32
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -818,8 +1010,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66722311463ca43f0800000000000000
-      internalID: -915704739663829146
+      spriteID: 7a70c2f9c7b80b6e0800000000000000
+      internalID: -1823804481722382425
       vertices: []
       indices: 
       edges: []
@@ -829,9 +1021,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 160
-        width: 16
-        height: 16
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -839,8 +1031,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15b1a7b35612937a0800000000000000
-      internalID: -6397045077029807279
+      spriteID: 8761282403a169c50800000000000000
+      internalID: 6671548692572542584
       vertices: []
       indices: 
       edges: []
@@ -849,10 +1041,10 @@ TextureImporter:
       name: Anger_tilemap_27
       rect:
         serializedVersion: 2
-        x: 80
-        y: 160
-        width: 16
-        height: 16
+        x: 96
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -860,8 +1052,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9604d561013a7c410800000000000000
-      internalID: 1497344690613993577
+      spriteID: 8db34ea10ecbf35c0800000000000000
+      internalID: -4233457453995115560
       vertices: []
       indices: 
       edges: []
@@ -870,10 +1062,10 @@ TextureImporter:
       name: Anger_tilemap_28
       rect:
         serializedVersion: 2
-        x: 96
-        y: 160
-        width: 16
-        height: 16
+        x: 128
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -881,8 +1073,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fd00a52d2feb4370800000000000000
-      internalID: 8307996914798824951
+      spriteID: d82697f617536a9f0800000000000000
+      internalID: -457619550813724019
       vertices: []
       indices: 
       edges: []
@@ -891,10 +1083,10 @@ TextureImporter:
       name: Anger_tilemap_29
       rect:
         serializedVersion: 2
-        x: 112
-        y: 160
-        width: 16
-        height: 16
+        x: 160
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -902,8 +1094,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 958ecddd7459a7d50800000000000000
-      internalID: 6735860328583456857
+      spriteID: 9f068c393b207aa80800000000000000
+      internalID: -8455786805063032583
       vertices: []
       indices: 
       edges: []
@@ -912,10 +1104,10 @@ TextureImporter:
       name: Anger_tilemap_30
       rect:
         serializedVersion: 2
-        x: 64
-        y: 144
-        width: 16
-        height: 16
+        x: 192
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -923,8 +1115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6670503454d0c8c50800000000000000
-      internalID: 6668719739357169510
+      spriteID: dcc3481bec99aee90800000000000000
+      internalID: -6995609958146097971
       vertices: []
       indices: 
       edges: []
@@ -933,10 +1125,10 @@ TextureImporter:
       name: Anger_tilemap_31
       rect:
         serializedVersion: 2
-        x: 80
-        y: 144
-        width: 16
-        height: 16
+        x: 224
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -944,8 +1136,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e242f952d0f5d310800000000000000
-      internalID: 1429313243002847974
+      spriteID: 789cf326a6599f130800000000000000
+      internalID: 3601073661206841735
       vertices: []
       indices: 
       edges: []
@@ -954,10 +1146,10 @@ TextureImporter:
       name: Anger_tilemap_32
       rect:
         serializedVersion: 2
-        x: 96
-        y: 144
-        width: 16
-        height: 16
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,8 +1157,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e62fcbc5edfc9c40800000000000000
-      internalID: 5520566406658074337
+      spriteID: 2d76126b1c4681f00800000000000000
+      internalID: 1087730093157083090
       vertices: []
       indices: 
       edges: []
@@ -975,10 +1167,10 @@ TextureImporter:
       name: Anger_tilemap_33
       rect:
         serializedVersion: 2
-        x: 112
-        y: 144
-        width: 16
-        height: 16
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -986,8 +1178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d9bf923e178bc8a0800000000000000
-      internalID: -6283780291297297963
+      spriteID: c379a413826735440800000000000000
+      internalID: 4923408732643825468
       vertices: []
       indices: 
       edges: []
@@ -996,10 +1188,10 @@ TextureImporter:
       name: Anger_tilemap_34
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
-        width: 16
-        height: 16
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1007,8 +1199,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 113c8cad06400f180800000000000000
-      internalID: -9083755634372328687
+      spriteID: e25086c2fd036ba00800000000000000
+      internalID: 771858121221473582
       vertices: []
       indices: 
       edges: []
@@ -1017,10 +1209,10 @@ TextureImporter:
       name: Anger_tilemap_35
       rect:
         serializedVersion: 2
-        x: 48
-        y: 128
-        width: 16
-        height: 16
+        x: 96
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1028,8 +1220,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c80ac195989b232f0800000000000000
-      internalID: -994528568138751860
+      spriteID: a50d66430e5534a50800000000000000
+      internalID: 6504136708293316698
       vertices: []
       indices: 
       edges: []
@@ -1038,10 +1230,10 @@ TextureImporter:
       name: Anger_tilemap_36
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 16
-        height: 16
+        x: 128
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1049,8 +1241,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a774c75d6d2552ed0800000000000000
-      internalID: -2439452540493084806
+      spriteID: ca5b5dacc2e7e8730800000000000000
+      internalID: 4003275849625613740
       vertices: []
       indices: 
       edges: []
@@ -1059,10 +1251,10 @@ TextureImporter:
       name: Anger_tilemap_37
       rect:
         serializedVersion: 2
-        x: 80
-        y: 128
-        width: 16
-        height: 16
+        x: 160
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1070,8 +1262,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0bcacd482138ca40800000000000000
-      internalID: 5388611003322387213
+      spriteID: 1a7aefb3466ab0670800000000000000
+      internalID: 8506075270652798881
       vertices: []
       indices: 
       edges: []
@@ -1080,10 +1272,10 @@ TextureImporter:
       name: Anger_tilemap_38
       rect:
         serializedVersion: 2
-        x: 96
-        y: 128
-        width: 16
-        height: 16
+        x: 192
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1091,8 +1283,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb9e7be3ccb253a10800000000000000
-      internalID: 1888463774977354175
+      spriteID: a5d2c53d990d235d0800000000000000
+      internalID: -3084173435700761254
       vertices: []
       indices: 
       edges: []
@@ -1101,10 +1293,10 @@ TextureImporter:
       name: Anger_tilemap_39
       rect:
         serializedVersion: 2
-        x: 112
-        y: 128
-        width: 16
-        height: 16
+        x: 224
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1112,8 +1304,512 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56a9665c62eee71e0800000000000000
-      internalID: -2198057717822219675
+      spriteID: e46b81c7b62432d20800000000000000
+      internalID: 3252516385302558286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21916af3a52259150800000000000000
+      internalID: 5878642659612301586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb015b5e39ffc76c0800000000000000
+      internalID: -4144156546408574789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3560ffee28b194a0800000000000000
+      internalID: -6588282268132809414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5e52fe0079802b0800000000000000
+      internalID: -5618074504876661299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360c39dc44415b770800000000000000
+      internalID: 8625822947037397091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054f3aa5ff8b72d80800000000000000
+      internalID: -8275442383393131440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697a62ddfb5934020800000000000000
+      internalID: 2324866483934898070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e12df2a20294b9f0800000000000000
+      internalID: -453577122435489311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b01c42ee51f27b20800000000000000
+      internalID: 3130830080801771696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88051540bcb6cccc0800000000000000
+      internalID: -3689455475028307832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f673a08c58137a0800000000000000
+      internalID: -6399186501305405610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42dd099ccc5b9020800000000000000
+      internalID: 2349573664414749263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88c41720732f9e20800000000000000
+      internalID: 3359442811640662156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c903db86e89030b70800000000000000
+      internalID: 8863938998842503324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1896e5ceb0b29a0800000000000000
+      internalID: -6256894147477012052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd8cb27d1f7a6ca0800000000000000
+      internalID: -6022861787198878266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62a3562a2a0a9da0800000000000000
+      internalID: -5937421982586658194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6593b394681092910800000000000000
+      internalID: 1812982001259198806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0f92fad164ea780800000000000000
+      internalID: -8669915139334868764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273811aeed59577c0800000000000000
+      internalID: -4074185503244450958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7061940633fe2d260800000000000000
+      internalID: 7121016964763948551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ea38190b2b1c2a0800000000000000
+      internalID: -6718892697634755036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a4a4a680db4ec60800000000000000
+      internalID: 7846604294626888281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anger_tilemap_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8daf3af4ee0dc90a0800000000000000
+      internalID: -6873389209317279016
       vertices: []
       indices: 
       edges: []
