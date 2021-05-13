@@ -84,7 +84,7 @@ public class ShopMenu : MonoBehaviour{
       public void Button_BuyItem2(){
             gameHandler.playerGetBlood((item2Cost * -1));
             GameHandler.gotitem2 = true;
-			haveShieldIcon.SetActive(true);
+			haveSpeedIcon.SetActive(true);
             KaChingSFX.Play();
 			shopScript.startExplain = true; 
 			shopScript.primeInt = 19;
@@ -93,7 +93,7 @@ public class ShopMenu : MonoBehaviour{
       public void Button_BuyItem3(){
             gameHandler.playerGetBlood((item3Cost * -1));
             GameHandler.gotitem3 = true;
-			haveSpeedIcon.SetActive(true);
+			haveShieldIcon.SetActive(true);
             KaChingSFX.Play();
 			shopScript.startExplain = true; 
 			shopScript.primeInt = 29;
