@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 2421637730607271819}
-  damage: 10
+  damage: 6
   speed: 4
   attackRange: 5
   groundLayers:
