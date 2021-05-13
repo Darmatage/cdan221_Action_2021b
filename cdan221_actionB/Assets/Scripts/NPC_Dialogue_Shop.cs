@@ -237,8 +237,9 @@ public class NPC_Dialogue_Shop : MonoBehaviour
             dialogueText.text = "Why are you still here? I have nothing else for you.";
         }
 
+        sallyWelcome.SetActive(true);
         sallyExplain.SetActive(false);
-        sallyDone.SetActive(true);
+        sallyDone.SetActive(false);
         if (primeInt == 45){
             dialogueText.text = "Go run along and play your game or something.";
         }
