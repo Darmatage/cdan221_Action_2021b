@@ -33,10 +33,8 @@ public class ShopMenu : MonoBehaviour{
 
       void Start (){
             shopMenuUI.SetActive(false);
-			haveInvisibilityIcon.SetActive(false);
-			haveShieldIcon.SetActive(false);
-			haveSpeedIcon.SetActive(false);
             gameHandler = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
+			DisplayPowerUpIcons();
       }
 
       void Update (){
@@ -52,6 +50,22 @@ public class ShopMenu : MonoBehaviour{
                         item3BuyButton.SetActive(true);}
             else { item3BuyButton.SetActive(false);}
       }
+
+
+	public void	DisplayPowerUpIcons(){
+		if (GameHandler.gotitem1 == true){
+			haveInvisibilityIcon.SetActive(true);
+		} else {haveInvisibilityIcon.SetActive(false);}
+		
+		if (GameHandler.gotitem2 == true){
+			haveSpeedIcon.SetActive(true);
+		} else {haveSpeedIcon.SetActive(false);}
+		
+		if (GameHandler.gotitem3 == true){
+			haveShieldIcon.SetActive(true);
+		} else {haveShieldIcon.SetActive(false);}
+	}
+
 
       //Button Functions:
       public void Button_OpenShop(){
