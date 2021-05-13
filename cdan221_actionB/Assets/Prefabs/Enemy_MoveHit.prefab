@@ -148,7 +148,7 @@ MonoBehaviour:
   rb: {fileID: 2421637730607271819}
   damage: 10
   speed: 4
-  attackRange: 10
+  attackRange: 5
   groundLayers:
     serializedVersion: 2
     m_Bits: 256
