@@ -72,7 +72,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         if (primeInt == 8){
             startExplain = false;
 			dialogueFinished = true;
-			dialogueText.text = "...";
+			dialogueText.text = ". . .";
         }
         
 		//Dialogue #2: have invisibility
@@ -89,7 +89,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 12){
-            dialogueText.text = "With invisiblity, you can briefly become invisible to some monsters.";
+            dialogueText.text = "With invisiblity, you can briefly become invisible to some monsters when you press 1.";
         }
 
         if (primeInt == 13){
@@ -109,7 +109,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         if (primeInt == 16){
             startExplain = false;
 			dialogueFinished = true;
-			dialogueText.text = "...";
+			dialogueText.text = "Oh-ho-ho!";
         }
 		
 		
@@ -121,7 +121,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		sallyWelcome.SetActive(false);
 		sallyExplain.SetActive(true);
 		sallyDone.SetActive(false);
-            dialogueText.text = "Oh, so you decided to give yourself a boost and purchased a Speed tome.";
+            dialogueText.text = "So you decided to give yourself a boost and purchased a Speed tome.";
         }
 
         if (primeInt == 21){
@@ -129,15 +129,15 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 22){
-            dialogueText.text = "Some monsters here are quick enough";
+            dialogueText.text = "Some monsters here are really quick and can catch you easily.";
         }
 		
 		if (primeInt == 23){
-            dialogueText.text = "that they'll catch you in a blink of an eye.";
+            dialogueText.text = "So, a speed tome will allow you to speed up and avoid those monsters.";
         }
 
         if (primeInt == 24){
-            dialogueText.text = "So, a speed tome will allow you to speed up and avoid those monsters.";
+            dialogueText.text = "You can activate this tome buy pressing 2.";
         }
 
         if (primeInt == 25){
@@ -153,7 +153,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         if (primeInt == 27){
             startExplain = false;
 			dialogueFinished = true;
-			dialogueText.text = "...";
+			dialogueText.text = "Funny!";
         }
 		
 		
@@ -166,7 +166,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		sallyWelcome.SetActive(false);
 		sallyExplain.SetActive(true);
 		sallyDone.SetActive(false);
-            dialogueText.text = "Ah, so you've decided on defense.";
+            dialogueText.text = "So you've decided on defense.";
         }
 
         if (primeInt == 31){
@@ -178,23 +178,23 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 33){
-            dialogueText.text = "So a defense tome will briefly allow you to keep from";
+            dialogueText.text = "So a defense tome will briefly allow you to keep from getting injured.";
         }
 		
 		if (primeInt == 34){
-            dialogueText.text = "getting injuried should you face off against one.";
+            dialogueText.text = "And you activate it by pressing 3.";
         }
 
         if (primeInt == 35){
-            dialogueText.text = "Though, it's also my most expensive tome,";
+            dialogueText.text = "Though, it's also my most expensive tome that I have.";
         }
 		
 		if (primeInt == 36){
-            dialogueText.text = "so even if you're able avoid a couple of monsters' hits,";
+            dialogueText.text = "So even if you're able to avoid a couple of monsters' hits,";
         }
 		
 		if (primeInt == 37){
-            dialogueText.text = "you've probably already been smacked around by a dozen beforehand.";
+            dialogueText.text = "You've probably been smacked around by a dozen beforehand.";
         }
 
         if (primeInt == 38){
@@ -206,7 +206,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         if (primeInt == 39){
             startExplain = false;
 			dialogueFinished = true;
-			dialogueText.text = "...";
+			dialogueText.text = "Interesting.";
         }
 		
 		
@@ -216,15 +216,17 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		sallyWelcome.SetActive(false);
 		sallyExplain.SetActive(false);
 		sallyDone.SetActive(true);
-            dialogueText.text = "Oh, so you bought out everything.";
+            dialogueText.text = "You bought everything out.";
         }
 
         if (primeInt == 41){
-            dialogueText.text = "Good for you, I guess.";
+            dialogueText.text = "Well, good for you, I guess.";
         }
 
+        sallyExplain.SetActive(true);
+        sallyDone.SetActive(false);
         if (primeInt == 42){
-            dialogueText.text = "What? Did you expect me to congradulate you on buying everything.";
+            dialogueText.text = "What? Did you expect me to congradulate you on buying everything?";
         }
 
         if (primeInt == 43){
@@ -235,6 +237,8 @@ public class NPC_Dialogue_Shop : MonoBehaviour
             dialogueText.text = "Why are you still here? I have nothing else for you.";
         }
 
+        sallyExplain.SetActive(false);
+        sallyDone.SetActive(true);
         if (primeInt == 45){
             dialogueText.text = "Go run along and play your game or something.";
         }
@@ -242,7 +246,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         if (primeInt == 46){
             startExplain = false;
 			dialogueFinished = true;
-			dialogueText.text = "...";
+			dialogueText.text = "Oh, wow.";
         }
 		
 		
