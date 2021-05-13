@@ -106,11 +106,13 @@ public class GameHandler : MonoBehaviour {
 				  playerHealth = StartPlayerHealth;
 			}
 
-		   if ((playerHealth <= 0) && (sceneName != "EndLose") && (Lives <= 0)){
-				  playerHealth = 0;
+		   if ((playerHealth <= 0) && (sceneName != "EndLose")){ 
+				playerHealth = 0;
+				if (Lives <= 0){
 				  playerDies();
+				}
+				else { UpdateLives(-1, "down"); }
 			}
-			else if (playerHealth <= 0){ UpdateLives(-1, "down"); }
 	}
 
  public void UpdateLives(int lifeChange, string changeDir){
@@ -130,11 +132,8 @@ public class GameHandler : MonoBehaviour {
        }
 
 	public void playerRespawnHealth(){
-		  
 				  playerHealth = StartPlayerHealth;
 				  updateStatsDisplay();
-				
-			
 	}
 
 	public void updateStatsDisplay(){
