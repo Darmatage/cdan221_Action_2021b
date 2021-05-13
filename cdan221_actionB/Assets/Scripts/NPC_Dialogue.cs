@@ -2,6 +2,8 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
+
 
 public class NPC_Dialogue : MonoBehaviour
 {
@@ -9,6 +11,7 @@ public class NPC_Dialogue : MonoBehaviour
     public GameObject dialogueBox;
     public Text dialogueText;
     public bool playerInRange = false;
+	public AudioSource SallyLaugh;
     public int primeInt = 0;
     public string dialogue0;
     public string dialogue1;
@@ -32,7 +35,7 @@ public class NPC_Dialogue : MonoBehaviour
 			if (Input.GetKeyDown(KeyCode.Space)){
 				NPCdialogue();
 			}
-        } else {dialogueBox.SetActive(false);}
+		}
     }
 
     public void NPCdialogue(){
@@ -41,6 +44,7 @@ public class NPC_Dialogue : MonoBehaviour
         if (primeInt == 1)
         {
             dialogueText.text = dialogue0;
+			SallyLaugh.Play();
         }
 
         if (primeInt == 2)
