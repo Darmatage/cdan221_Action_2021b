@@ -15,12 +15,18 @@ public class BackgroundBossBehavior : MonoBehaviour
 	
 	public Vector3 BigScale = new Vector3(50,50,1);
 	public Vector3 SmallScale = new Vector3(1,1,1);
+	public Vector3 BigScaleNeg = new Vector3(-50,50,1);
+	public Vector3 SmallScaleNeg = new Vector3(-1,1,1);
+	
+	private CameraShake camShake;
+	private bool canShakeMe = true; 
 	
     // Start is called before the first frame update
     void Start(){
         startScale = transform.localScale;
 		transform.localScale = SmallScale;
 		anim = gameObject.GetComponentInChildren<Animator>();
+		camShake = GameObject.FindWithTag("CameraShake").GetComponent<CameraShake>();
     }
 
     // Update is called once per frame
@@ -46,6 +52,14 @@ public class BackgroundBossBehavior : MonoBehaviour
 				StartCoroutine(ScaleDownTheBeast());
 			}
 		}
+		
+		if ((transform.localScale == BigScale)&&(canShakeMe==true)){
+			canShakeMe = false;
+			StartCoroutine(camShake.ShakeMe(1.5f, 0.3f));
+		} else if ((transform.localScale == SmallScale)&&(canShakeMe==false)){
+			canShakeMe = true;
+		}
+		
     }
 	
 
@@ -67,7 +81,7 @@ public class BackgroundBossBehavior : MonoBehaviour
         float progress = 0;
          
         while(progress <= 1){
-             transform.localScale = Vector3.Lerp(BigScale, SmallScale, progress);
+             transform.localScale = Vector3.Lerp(BigScaleNeg, SmallScaleNeg, progress);
              progress += Time.deltaTime * scaleTimeMult;
 			 //anim.SetBool("Walk", true);
              yield return null;
@@ -76,4 +90,6 @@ public class BackgroundBossBehavior : MonoBehaviour
 		goingBig = true;
 		isScalingDown = false;
      }
+	 
+	 
 }
