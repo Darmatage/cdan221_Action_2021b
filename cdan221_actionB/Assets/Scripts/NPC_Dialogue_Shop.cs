@@ -46,7 +46,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 2){
-            dialogueText.text = "This is my shop, where you can come and buy useful tombs for your quest.";
+            dialogueText.text = "This is my shop, where you can come and buy useful tomes for your quest.";
         }
 
         if (primeInt == 3){
@@ -81,7 +81,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		sallyWelcome.SetActive(false);
 		sallyExplain.SetActive(true);
 		sallyDone.SetActive(false);
-            dialogueText.text = "So, the haples soul decided to spend their blood on an invisiblity tomb.";
+            dialogueText.text = "So, the haples soul decided to spend their blood on an invisiblity tome.";
         }
 
         if (primeInt == 11){
@@ -121,7 +121,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		sallyWelcome.SetActive(false);
 		sallyExplain.SetActive(true);
 		sallyDone.SetActive(false);
-            dialogueText.text = "Oh, so you decided to give yourself a boost and purchased a Speed tomb.";
+            dialogueText.text = "Oh, so you decided to give yourself a boost and purchased a Speed tome.";
         }
 
         if (primeInt == 21){
@@ -137,7 +137,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 24){
-            dialogueText.text = "So, a speed tomb will allow you to speed up and avoid those monsters.";
+            dialogueText.text = "So, a speed tome will allow you to speed up and avoid those monsters.";
         }
 
         if (primeInt == 25){
@@ -178,7 +178,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 33){
-            dialogueText.text = "So a defense tomb will briefly allow you to keep from";
+            dialogueText.text = "So a defense tome will briefly allow you to keep from";
         }
 		
 		if (primeInt == 34){
@@ -186,7 +186,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 35){
-            dialogueText.text = "Though, it's also my most expensive tomb,";
+            dialogueText.text = "Though, it's also my most expensive tome,";
         }
 		
 		if (primeInt == 36){
