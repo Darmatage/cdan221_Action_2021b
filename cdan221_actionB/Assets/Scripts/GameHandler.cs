@@ -73,11 +73,11 @@ public class GameHandler : MonoBehaviour {
 			canInvisible = true;}
 		else {canInvisible = false;}
 
-		if ((myBlood >= costShield)&&(gotitem2==true)){
+		if ((myBlood >= costSpeed)&&(gotitem2==true)){
 			canDefend = true;}
 		else {canDefend = false;}
 
-		if ((myBlood >= costSpeed)&&(gotitem3==true)){
+		if ((myBlood >= costShield)&&(gotitem3==true)){
 			canSpeed = true;}
 		else {canSpeed = false;}
 
