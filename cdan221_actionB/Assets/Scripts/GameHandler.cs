@@ -74,12 +74,12 @@ public class GameHandler : MonoBehaviour {
 		else {canInvisible = false;}
 
 		if ((myBlood >= costSpeed)&&(gotitem2==true)){
-			canDefend = true;}
-		else {canDefend = false;}
-
-		if ((myBlood >= costShield)&&(gotitem3==true)){
 			canSpeed = true;}
 		else {canSpeed = false;}
+
+		if ((myBlood >= costShield)&&(gotitem3==true)){
+			canDefend = true;}
+		else {canDefend = false;}
 
 
         // if (Input.GetKeyDown(KeyCode.P))
