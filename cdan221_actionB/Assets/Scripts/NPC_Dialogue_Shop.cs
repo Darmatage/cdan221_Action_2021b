@@ -17,7 +17,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 	public bool startExplain = true;
 
 	void Start(){
-		sallyWelcome.SetActive(false);
+		sallyWelcome.SetActive(true);
 		sallyExplain.SetActive(false);
 		sallyDone.SetActive(false);
 	}
