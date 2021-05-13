@@ -972,7 +972,7 @@ PrefabInstance:
     - target: {fileID: 8329158602126105697, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8329158602126105697, guid: 3b4032cbb8ad26844a7df0e6043fefc0,
         type: 3}
@@ -1480,7 +1480,7 @@ PrefabInstance:
     - target: {fileID: 8759822758548118583, guid: e28caa113d9a9474096ada688f154d75,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8759822758548118583, guid: e28caa113d9a9474096ada688f154d75,
         type: 3}
@@ -2709,7 +2709,7 @@ PrefabInstance:
     - target: {fileID: 4322602367061065105, guid: 08d80a357524ffc469d3ef57f148645a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4322602367061065105, guid: 08d80a357524ffc469d3ef57f148645a,
         type: 3}
@@ -3043,7 +3043,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &704408254
 PrefabInstance:
@@ -18243,7 +18243,7 @@ Transform:
   - {fileID: 1474181144}
   - {fileID: 4658442961019742828}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &971178001
 GameObject:
@@ -18295,7 +18295,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Here''s a new challenge! '
+  m_Text: Alright, here's a fun little challenge for you, hapless soul!
 --- !u!222 &971178003
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19031,7 +19031,7 @@ Transform:
   - {fileID: 1491349531}
   - {fileID: 56020742}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1175030563
 PrefabInstance:
@@ -20746,7 +20746,7 @@ PrefabInstance:
     - target: {fileID: 2005973141429241049, guid: ad79507ae6126ee4389f0a45a54f117c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2005973141429241049, guid: ad79507ae6126ee4389f0a45a54f117c,
         type: 3}
@@ -21022,7 +21022,7 @@ PrefabInstance:
     - target: {fileID: 5854180345112355239, guid: ecf5eb482e2e0b948a03080765adc765,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5854180345112355239, guid: ecf5eb482e2e0b948a03080765adc765,
         type: 3}
@@ -21225,32 +21225,34 @@ PrefabInstance:
     - target: {fileID: 3924225658802532262, guid: 0e5f100bbecc7d54c9ce640e7ef8a781,
         type: 3}
       propertyPath: dialogue0
-      value: Watch out for sticky and slippery platforms.
+      value: Behind me are some sticky and slippery platforms and some spikes.
       objectReference: {fileID: 0}
     - target: {fileID: 3924225658802532262, guid: 0e5f100bbecc7d54c9ce640e7ef8a781,
         type: 3}
       propertyPath: dialogue1
-      value: Crouch to aviod the spikes
+      value: Don't asks how it got slippery or sticky, cause I dunno either.
       objectReference: {fileID: 0}
     - target: {fileID: 3924225658802532262, guid: 0e5f100bbecc7d54c9ce640e7ef8a781,
         type: 3}
       propertyPath: dialogue2
-      value: 
+      value: Obveiously, the sticky floors will make you stick to them and the slippery
+        floors makes you slide.
       objectReference: {fileID: 0}
     - target: {fileID: 3924225658802532262, guid: 0e5f100bbecc7d54c9ce640e7ef8a781,
         type: 3}
       propertyPath: dialogue3
-      value: 
+      value: So, you should avoid them if you can. Or try to manuver them.
       objectReference: {fileID: 0}
     - target: {fileID: 3924225658802532262, guid: 0e5f100bbecc7d54c9ce640e7ef8a781,
         type: 3}
       propertyPath: dialogue4
-      value: 
+      value: As for those wonderful spikes?
       objectReference: {fileID: 0}
     - target: {fileID: 3924225658802532262, guid: 0e5f100bbecc7d54c9ce640e7ef8a781,
         type: 3}
       propertyPath: dialogue5
-      value: 
+      value: Just crouch to avoid them. So simple even a mindless baby like yourself
+        could do it.
       objectReference: {fileID: 0}
     - target: {fileID: 3924225658802532262, guid: 0e5f100bbecc7d54c9ce640e7ef8a781,
         type: 3}
@@ -22135,7 +22137,7 @@ PrefabInstance:
     - target: {fileID: 4194657022384684996, guid: 219916f29d52de44e9dc9c25c52d4283,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4194657022384684996, guid: 219916f29d52de44e9dc9c25c52d4283,
         type: 3}
@@ -22906,7 +22908,7 @@ Transform:
   - {fileID: 1852612919}
   - {fileID: 1478067200}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1841409819
 PrefabInstance:
@@ -23970,7 +23972,7 @@ Transform:
   - {fileID: 1589196760}
   - {fileID: 1475254590}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2132850461
 PrefabInstance:
