@@ -46,7 +46,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 2){
-            dialogueText.text = "This is my shop, where you can come and buy useful tomes for your quest.";
+            dialogueText.text = "This is my shop, where you can come and buy useful spells for your quest.";
         }
 
         if (primeInt == 3){
@@ -81,7 +81,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		sallyWelcome.SetActive(false);
 		sallyExplain.SetActive(true);
 		sallyDone.SetActive(false);
-            dialogueText.text = "So, the haples soul decided to spend their blood on an invisiblity tome.";
+            dialogueText.text = "So, the haples soul decided to spend their blood on an invisiblity spell.";
         }
 
         if (primeInt == 11){
@@ -89,7 +89,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 12){
-            dialogueText.text = "With invisiblity, you can briefly become invisible to some monsters when you press 1.";
+            dialogueText.text = "You can briefly become invisible to some monsters when you press 1.";
         }
 
         if (primeInt == 13){
@@ -121,7 +121,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
 		sallyWelcome.SetActive(false);
 		sallyExplain.SetActive(true);
 		sallyDone.SetActive(false);
-            dialogueText.text = "So you decided to give yourself a boost and purchased a Speed tome.";
+            dialogueText.text = "So you decided to give yourself a boost and purchased a Speed spell.";
         }
 
         if (primeInt == 21){
@@ -133,11 +133,11 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 		
 		if (primeInt == 23){
-            dialogueText.text = "So, a speed tome will allow you to speed up and avoid those monsters.";
+            dialogueText.text = "So, a speed spell will allow you to speed up and avoid those monsters.";
         }
 
         if (primeInt == 24){
-            dialogueText.text = "You can activate this tome buy pressing 2.";
+            dialogueText.text = "You can activate this spell buy pressing 2.";
         }
 
         if (primeInt == 25){
@@ -178,7 +178,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 33){
-            dialogueText.text = "So a defense tome will briefly allow you to keep from getting injured.";
+            dialogueText.text = "So a defense spell will briefly allow you to keep from getting injured.";
         }
 		
 		if (primeInt == 34){
@@ -186,7 +186,7 @@ public class NPC_Dialogue_Shop : MonoBehaviour
         }
 
         if (primeInt == 35){
-            dialogueText.text = "Though, it's also my most expensive tome that I have.";
+            dialogueText.text = "Though, it's also my most expensive spell that I have.";
         }
 		
 		if (primeInt == 36){
