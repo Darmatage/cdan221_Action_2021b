@@ -10,7 +10,7 @@ public class GameHandler : MonoBehaviour {
 
 	private GameObject player;
 	public static int playerHealth;
-	public int StartPlayerHealth = 100;
+	public int StartPlayerHealth = 10;
 	public GameObject healthText;
 
 	public static int myBlood = 0;
@@ -57,9 +57,8 @@ public class GameHandler : MonoBehaviour {
 
 
 	public void playerGetBlood(int newBlood){
-			myBlood += newBlood;
-            updateStatsDisplay();
-		
+		myBlood += newBlood;
+        updateStatsDisplay();
 	}
 
 	public int CurrentHealth(){
@@ -95,24 +94,29 @@ public class GameHandler : MonoBehaviour {
 
 
 	public void playerGetHit(int damage){
-          string sceneName = SceneManager.GetActiveScene().name;		  
-		  if (isDefending == false){
-				  playerHealth -= damage;
-				  updateStatsDisplay();
-				  player.GetComponent<PlayerHurt>().playerHit();
-			}
-
-		   if (playerHealth >= StartPlayerHealth){
-				  playerHealth = StartPlayerHealth;
-			}
-
-		   if ((playerHealth <= 0) && (sceneName != "EndLose")){ 
+        string sceneName = SceneManager.GetActiveScene().name;		  
+		
+		if (isDefending == false){
+			playerHealth -= damage;
+			if (playerHealth <= 0){
 				playerHealth = 0;
-				if (Lives <= 0){
-				  playerDies();
+				if ((sceneName != "EndLose") && (sceneName != "SceneWin")){
+					if (Lives <= 0){
+						playerDies();
+						Debug.Log("Player Died. Lives = " + Lives + ", Health = " + playerHealth);
+					}else { 
+						UpdateLives(-1, "down"); 
+					}
 				}
-				else { UpdateLives(-1, "down"); }
 			}
+			updateStatsDisplay();
+			player.GetComponent<PlayerHurt>().playerHit();
+		}
+
+		if (playerHealth >= StartPlayerHealth){
+			playerHealth = StartPlayerHealth;
+		}
+		
 	}
 
  public void UpdateLives(int lifeChange, string changeDir){
@@ -132,6 +136,7 @@ public class GameHandler : MonoBehaviour {
        }
 
 	public void playerRespawnHealth(){
+		//this function is accessed solelly by the PlayerRespawn.cs script on the player
 				  playerHealth = StartPlayerHealth;
 				  updateStatsDisplay();
 	}
