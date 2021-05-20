@@ -10,7 +10,7 @@ public class DamageInstant : MonoBehaviour {
        //public Transform backToStart; //uncomment this line for "auto-death," to zap the Player back to start
 
        void Start(){
-            if (gameHandlerObj == null){
+            if (GameObject.FindWithTag("GameHandler") != null){
                gameHandlerObj = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
             }
        }

@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class PlayerRespawn : MonoBehaviour
 {
-
     public GameHandler gameHandler;
     public Transform pSpawn;       // current player spawn point
 
     void Start()
     {
-        gameHandler = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
+        if (GameObject.FindWithTag("GameHandler") != null){
+               gameHandler = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
+        }
     }
 
     void Update()
@@ -20,7 +21,7 @@ public class PlayerRespawn : MonoBehaviour
             if ((gameHandler.CurrentHealth() <= 0) && (GameHandler.Lives > 0))
             {
                 //comment out lines from GameHandler abotu EndLose screen
-                Debug.Log("I am going back to the last spawn point");
+                Debug.Log("I am going back to the last spawn point. Lives = " + GameHandler.Lives);
                 Vector3 pSpn2 = new Vector3(pSpawn.position.x, pSpawn.position.y, transform.position.z);
                 gameObject.transform.position = pSpn2;
 				gameHandler.playerRespawnHealth();
